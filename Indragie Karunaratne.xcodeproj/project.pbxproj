@@ -17,23 +17,10 @@
 		035A9E0718F2F6C2007D9FEC /* INDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E0618F2F6C2007D9FEC /* INDMainViewController.m */; };
 		035A9E0A18F2F6C2007D9FEC /* INDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E0918F2F6C2007D9FEC /* INDDetailViewController.m */; };
 		035A9E0C18F2F6C2007D9FEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035A9E0B18F2F6C2007D9FEC /* Images.xcassets */; };
-		035A9E1318F2F6C2007D9FEC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9E1218F2F6C2007D9FEC /* XCTest.framework */; };
-		035A9E1418F2F6C2007D9FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF018F2F6C2007D9FEC /* Foundation.framework */; };
-		035A9E1518F2F6C2007D9FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF418F2F6C2007D9FEC /* UIKit.framework */; };
-		035A9E1D18F2F6C2007D9FEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035A9E1B18F2F6C2007D9FEC /* InfoPlist.strings */; };
-		035A9E1F18F2F6C2007D9FEC /* Indragie_KarunaratneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E1E18F2F6C2007D9FEC /* Indragie_KarunaratneTests.m */; };
 		035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E2A18F2FB33007D9FEC /* INDNavigationController.m */; };
+		035A9E3018F2FEC8007D9FEC /* INDMainViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E2F18F2FEC8007D9FEC /* INDMainViewItem.m */; };
+		1044CA4DFD3B45B99DCFAA62 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 369CB26F1E824679AA2C7D00 /* libPods.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		035A9E1618F2F6C2007D9FEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 035A9DE518F2F6C2007D9FEC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 035A9DEC18F2F6C2007D9FEC;
-			remoteInfo = "Indragie Karunaratne";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		035A9DED18F2F6C2007D9FEC /* Indragie Karunaratne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indragie Karunaratne.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,14 +39,14 @@
 		035A9E0818F2F6C2007D9FEC /* INDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INDDetailViewController.h; sourceTree = "<group>"; };
 		035A9E0918F2F6C2007D9FEC /* INDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INDDetailViewController.m; sourceTree = "<group>"; };
 		035A9E0B18F2F6C2007D9FEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		035A9E1118F2F6C2007D9FEC /* Indragie KarunaratneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Indragie KarunaratneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		035A9E1218F2F6C2007D9FEC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		035A9E1A18F2F6C2007D9FEC /* Indragie KarunaratneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Indragie KarunaratneTests-Info.plist"; sourceTree = "<group>"; };
-		035A9E1C18F2F6C2007D9FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		035A9E1E18F2F6C2007D9FEC /* Indragie_KarunaratneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Indragie_KarunaratneTests.m; sourceTree = "<group>"; };
 		035A9E2818F2F7FC007D9FEC /* INDUserInterfaceDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDUserInterfaceDefinitions.h; path = Classes/INDUserInterfaceDefinitions.h; sourceTree = "<group>"; };
 		035A9E2918F2FB33007D9FEC /* INDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDNavigationController.h; path = Classes/INDNavigationController.h; sourceTree = "<group>"; };
 		035A9E2A18F2FB33007D9FEC /* INDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDNavigationController.m; path = Classes/INDNavigationController.m; sourceTree = "<group>"; };
+		035A9E2E18F2FEC8007D9FEC /* INDMainViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDMainViewItem.h; path = Classes/INDMainViewItem.h; sourceTree = "<group>"; };
+		035A9E2F18F2FEC8007D9FEC /* INDMainViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDMainViewItem.m; path = Classes/INDMainViewItem.m; sourceTree = "<group>"; };
+		369CB26F1E824679AA2C7D00 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		972ED58FEA524DAA9C972757 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,16 +57,7 @@
 				035A9DF318F2F6C2007D9FEC /* CoreGraphics.framework in Frameworks */,
 				035A9DF518F2F6C2007D9FEC /* UIKit.framework in Frameworks */,
 				035A9DF118F2F6C2007D9FEC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		035A9E0E18F2F6C2007D9FEC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				035A9E1318F2F6C2007D9FEC /* XCTest.framework in Frameworks */,
-				035A9E1518F2F6C2007D9FEC /* UIKit.framework in Frameworks */,
-				035A9E1418F2F6C2007D9FEC /* Foundation.framework in Frameworks */,
+				1044CA4DFD3B45B99DCFAA62 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,9 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				035A9DF618F2F6C2007D9FEC /* Indragie Karunaratne */,
-				035A9E1818F2F6C2007D9FEC /* Indragie KarunaratneTests */,
 				035A9DEF18F2F6C2007D9FEC /* Frameworks */,
 				035A9DEE18F2F6C2007D9FEC /* Products */,
+				972ED58FEA524DAA9C972757 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				035A9DED18F2F6C2007D9FEC /* Indragie Karunaratne.app */,
-				035A9E1118F2F6C2007D9FEC /* Indragie KarunaratneTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +89,7 @@
 				035A9DF218F2F6C2007D9FEC /* CoreGraphics.framework */,
 				035A9DF418F2F6C2007D9FEC /* UIKit.framework */,
 				035A9E1218F2F6C2007D9FEC /* XCTest.framework */,
+				369CB26F1E824679AA2C7D00 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +97,7 @@
 		035A9DF618F2F6C2007D9FEC /* Indragie Karunaratne */ = {
 			isa = PBXGroup;
 			children = (
+				035A9E3118F2FED7007D9FEC /* Shared */,
 				035A9E2C18F2FB84007D9FEC /* Main */,
 				035A9DFF18F2F6C2007D9FEC /* INDAppDelegate.h */,
 				035A9E0018F2F6C2007D9FEC /* INDAppDelegate.m */,
@@ -143,24 +122,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		035A9E1818F2F6C2007D9FEC /* Indragie KarunaratneTests */ = {
-			isa = PBXGroup;
-			children = (
-				035A9E1E18F2F6C2007D9FEC /* Indragie_KarunaratneTests.m */,
-				035A9E1918F2F6C2007D9FEC /* Supporting Files */,
-			);
-			path = "Indragie KarunaratneTests";
-			sourceTree = "<group>";
-		};
-		035A9E1918F2F6C2007D9FEC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				035A9E1A18F2F6C2007D9FEC /* Indragie KarunaratneTests-Info.plist */,
-				035A9E1B18F2F6C2007D9FEC /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		035A9E2C18F2FB84007D9FEC /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,8 +137,17 @@
 		035A9E2D18F2FB96007D9FEC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				035A9E2E18F2FEC8007D9FEC /* INDMainViewItem.h */,
+				035A9E2F18F2FEC8007D9FEC /* INDMainViewItem.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		035A9E3118F2FED7007D9FEC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 035A9E2218F2F6C2007D9FEC /* Build configuration list for PBXNativeTarget "Indragie Karunaratne" */;
 			buildPhases = (
+				C8C372D63FF5459C9848C40C /* Check Pods Manifest.lock */,
 				035A9DE918F2F6C2007D9FEC /* Sources */,
 				035A9DEA18F2F6C2007D9FEC /* Frameworks */,
 				035A9DEB18F2F6C2007D9FEC /* Resources */,
+				BDA06C22ECE24DBF9197B7A8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,24 +172,6 @@
 			productReference = 035A9DED18F2F6C2007D9FEC /* Indragie Karunaratne.app */;
 			productType = "com.apple.product-type.application";
 		};
-		035A9E1018F2F6C2007D9FEC /* Indragie KarunaratneTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 035A9E2518F2F6C2007D9FEC /* Build configuration list for PBXNativeTarget "Indragie KarunaratneTests" */;
-			buildPhases = (
-				035A9E0D18F2F6C2007D9FEC /* Sources */,
-				035A9E0E18F2F6C2007D9FEC /* Frameworks */,
-				035A9E0F18F2F6C2007D9FEC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				035A9E1718F2F6C2007D9FEC /* PBXTargetDependency */,
-			);
-			name = "Indragie KarunaratneTests";
-			productName = "Indragie KarunaratneTests";
-			productReference = 035A9E1118F2F6C2007D9FEC /* Indragie KarunaratneTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,11 +181,6 @@
 				CLASSPREFIX = IND;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Indragie Karunaratne";
-				TargetAttributes = {
-					035A9E1018F2F6C2007D9FEC = {
-						TestTargetID = 035A9DEC18F2F6C2007D9FEC;
-					};
-				};
 			};
 			buildConfigurationList = 035A9DE818F2F6C2007D9FEC /* Build configuration list for PBXProject "Indragie Karunaratne" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -247,7 +196,6 @@
 			projectRoot = "";
 			targets = (
 				035A9DEC18F2F6C2007D9FEC /* Indragie Karunaratne */,
-				035A9E1018F2F6C2007D9FEC /* Indragie KarunaratneTests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,21 +211,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		035A9E0F18F2F6C2007D9FEC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BDA06C22ECE24DBF9197B7A8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				035A9E1D18F2F6C2007D9FEC /* InfoPlist.strings in Resources */,
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		C8C372D63FF5459C9848C40C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		035A9DE918F2F6C2007D9FEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035A9E3018F2FEC8007D9FEC /* INDMainViewItem.m in Sources */,
 				035A9E0718F2F6C2007D9FEC /* INDMainViewController.m in Sources */,
 				035A9E0A18F2F6C2007D9FEC /* INDDetailViewController.m in Sources */,
 				035A9E0118F2F6C2007D9FEC /* INDAppDelegate.m in Sources */,
@@ -286,23 +260,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		035A9E0D18F2F6C2007D9FEC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				035A9E1F18F2F6C2007D9FEC /* Indragie_KarunaratneTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		035A9E1718F2F6C2007D9FEC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 035A9DEC18F2F6C2007D9FEC /* Indragie Karunaratne */;
-			targetProxy = 035A9E1618F2F6C2007D9FEC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		035A9DF918F2F6C2007D9FEC /* InfoPlist.strings */ = {
@@ -319,14 +277,6 @@
 				035A9E0318F2F6C2007D9FEC /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		035A9E1B18F2F6C2007D9FEC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				035A9E1C18F2F6C2007D9FEC /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -404,6 +354,7 @@
 		};
 		035A9E2318F2F6C2007D9FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972ED58FEA524DAA9C972757 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -417,6 +368,7 @@
 		};
 		035A9E2418F2F6C2007D9FEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972ED58FEA524DAA9C972757 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -425,46 +377,6 @@
 				INFOPLIST_FILE = "Indragie Karunaratne/Indragie Karunaratne-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		035A9E2618F2F6C2007D9FEC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Indragie Karunaratne.app/Indragie Karunaratne";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Indragie Karunaratne/Indragie Karunaratne-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Indragie KarunaratneTests/Indragie KarunaratneTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		035A9E2718F2F6C2007D9FEC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Indragie Karunaratne.app/Indragie Karunaratne";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Indragie Karunaratne/Indragie Karunaratne-Prefix.pch";
-				INFOPLIST_FILE = "Indragie KarunaratneTests/Indragie KarunaratneTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -487,14 +399,7 @@
 				035A9E2418F2F6C2007D9FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		035A9E2518F2F6C2007D9FEC /* Build configuration list for PBXNativeTarget "Indragie KarunaratneTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				035A9E2618F2F6C2007D9FEC /* Debug */,
-				035A9E2718F2F6C2007D9FEC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
