@@ -14,7 +14,7 @@
 		035A9DFD18F2F6C2007D9FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9DFC18F2F6C2007D9FEC /* main.m */; };
 		035A9E0118F2F6C2007D9FEC /* INDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E0018F2F6C2007D9FEC /* INDAppDelegate.m */; };
 		035A9E0418F2F6C2007D9FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035A9E0218F2F6C2007D9FEC /* Main.storyboard */; };
-		035A9E0718F2F6C2007D9FEC /* INDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E0618F2F6C2007D9FEC /* INDMasterViewController.m */; };
+		035A9E0718F2F6C2007D9FEC /* INDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E0618F2F6C2007D9FEC /* INDMainViewController.m */; };
 		035A9E0A18F2F6C2007D9FEC /* INDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E0918F2F6C2007D9FEC /* INDDetailViewController.m */; };
 		035A9E0C18F2F6C2007D9FEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035A9E0B18F2F6C2007D9FEC /* Images.xcassets */; };
 		035A9E1318F2F6C2007D9FEC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9E1218F2F6C2007D9FEC /* XCTest.framework */; };
@@ -22,6 +22,7 @@
 		035A9E1518F2F6C2007D9FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF418F2F6C2007D9FEC /* UIKit.framework */; };
 		035A9E1D18F2F6C2007D9FEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035A9E1B18F2F6C2007D9FEC /* InfoPlist.strings */; };
 		035A9E1F18F2F6C2007D9FEC /* Indragie_KarunaratneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E1E18F2F6C2007D9FEC /* Indragie_KarunaratneTests.m */; };
+		035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E2A18F2FB33007D9FEC /* INDNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +47,8 @@
 		035A9DFF18F2F6C2007D9FEC /* INDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INDAppDelegate.h; sourceTree = "<group>"; };
 		035A9E0018F2F6C2007D9FEC /* INDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INDAppDelegate.m; sourceTree = "<group>"; };
 		035A9E0318F2F6C2007D9FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		035A9E0518F2F6C2007D9FEC /* INDMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INDMasterViewController.h; sourceTree = "<group>"; };
-		035A9E0618F2F6C2007D9FEC /* INDMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INDMasterViewController.m; sourceTree = "<group>"; };
+		035A9E0518F2F6C2007D9FEC /* INDMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INDMainViewController.h; sourceTree = "<group>"; };
+		035A9E0618F2F6C2007D9FEC /* INDMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INDMainViewController.m; sourceTree = "<group>"; };
 		035A9E0818F2F6C2007D9FEC /* INDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INDDetailViewController.h; sourceTree = "<group>"; };
 		035A9E0918F2F6C2007D9FEC /* INDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INDDetailViewController.m; sourceTree = "<group>"; };
 		035A9E0B18F2F6C2007D9FEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -56,6 +57,9 @@
 		035A9E1A18F2F6C2007D9FEC /* Indragie KarunaratneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Indragie KarunaratneTests-Info.plist"; sourceTree = "<group>"; };
 		035A9E1C18F2F6C2007D9FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		035A9E1E18F2F6C2007D9FEC /* Indragie_KarunaratneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Indragie_KarunaratneTests.m; sourceTree = "<group>"; };
+		035A9E2818F2F7FC007D9FEC /* INDUserInterfaceDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDUserInterfaceDefinitions.h; path = Classes/INDUserInterfaceDefinitions.h; sourceTree = "<group>"; };
+		035A9E2918F2FB33007D9FEC /* INDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDNavigationController.h; path = Classes/INDNavigationController.h; sourceTree = "<group>"; };
+		035A9E2A18F2FB33007D9FEC /* INDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDNavigationController.m; path = Classes/INDNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,12 +122,15 @@
 				035A9DFF18F2F6C2007D9FEC /* INDAppDelegate.h */,
 				035A9E0018F2F6C2007D9FEC /* INDAppDelegate.m */,
 				035A9E0218F2F6C2007D9FEC /* Main.storyboard */,
-				035A9E0518F2F6C2007D9FEC /* INDMasterViewController.h */,
-				035A9E0618F2F6C2007D9FEC /* INDMasterViewController.m */,
+				035A9E0518F2F6C2007D9FEC /* INDMainViewController.h */,
+				035A9E0618F2F6C2007D9FEC /* INDMainViewController.m */,
 				035A9E0818F2F6C2007D9FEC /* INDDetailViewController.h */,
 				035A9E0918F2F6C2007D9FEC /* INDDetailViewController.m */,
 				035A9E0B18F2F6C2007D9FEC /* Images.xcassets */,
 				035A9DF718F2F6C2007D9FEC /* Supporting Files */,
+				035A9E2818F2F7FC007D9FEC /* INDUserInterfaceDefinitions.h */,
+				035A9E2918F2FB33007D9FEC /* INDNavigationController.h */,
+				035A9E2A18F2FB33007D9FEC /* INDNavigationController.m */,
 			);
 			path = "Indragie Karunaratne";
 			sourceTree = "<group>";
@@ -255,10 +262,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				035A9E0718F2F6C2007D9FEC /* INDMasterViewController.m in Sources */,
+				035A9E0718F2F6C2007D9FEC /* INDMainViewController.m in Sources */,
 				035A9E0A18F2F6C2007D9FEC /* INDDetailViewController.m in Sources */,
 				035A9E0118F2F6C2007D9FEC /* INDAppDelegate.m in Sources */,
 				035A9DFD18F2F6C2007D9FEC /* main.m in Sources */,
+				035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
