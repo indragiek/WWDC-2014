@@ -1,0 +1,1 @@
+../../Mensa/Mensa/Mensa/MNSHostingCollectionViewCell.h

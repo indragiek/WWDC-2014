@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Mensa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>740F4B3BA6D94CCF8A3A8998</key>
+		<key>48E72A217E394C918F4C7701</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F139237B6C974D3692D5032A</key>
+		<key>4B7BAA6694E54B6A8E318984</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62685516C39E4808B609EF65</key>
 		<dict>
 			<key>primary</key>
 			<true/>

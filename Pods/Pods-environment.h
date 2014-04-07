@@ -18,3 +18,9 @@
 #define COCOAPODS_VERSION_MINOR_Mantle_extobjc 4
 #define COCOAPODS_VERSION_PATCH_Mantle_extobjc 1
 
+// Mensa
+#define COCOAPODS_POD_AVAILABLE_Mensa
+#define COCOAPODS_VERSION_MAJOR_Mensa 0
+#define COCOAPODS_VERSION_MINOR_Mensa 8
+#define COCOAPODS_VERSION_PATCH_Mensa 2
+
