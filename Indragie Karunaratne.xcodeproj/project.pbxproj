@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035A9DF118F2F6C2007D9FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF018F2F6C2007D9FEC /* Foundation.framework */; };
+		035A9DF318F2F6C2007D9FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF218F2F6C2007D9FEC /* CoreGraphics.framework */; };
+		035A9DF518F2F6C2007D9FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF418F2F6C2007D9FEC /* UIKit.framework */; };
+		035A9DFB18F2F6C2007D9FEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035A9DF918F2F6C2007D9FEC /* InfoPlist.strings */; };
+		035A9DFD18F2F6C2007D9FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9DFC18F2F6C2007D9FEC /* main.m */; };
+		035A9E0118F2F6C2007D9FEC /* INDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E0018F2F6C2007D9FEC /* INDAppDelegate.m */; };
+		035A9E0418F2F6C2007D9FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035A9E0218F2F6C2007D9FEC /* Main.storyboard */; };
+		035A9E0718F2F6C2007D9FEC /* INDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E0618F2F6C2007D9FEC /* INDMasterViewController.m */; };
+		035A9E0A18F2F6C2007D9FEC /* INDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E0918F2F6C2007D9FEC /* INDDetailViewController.m */; };
+		035A9E0C18F2F6C2007D9FEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035A9E0B18F2F6C2007D9FEC /* Images.xcassets */; };
+		035A9E1318F2F6C2007D9FEC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9E1218F2F6C2007D9FEC /* XCTest.framework */; };
+		035A9E1418F2F6C2007D9FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF018F2F6C2007D9FEC /* Foundation.framework */; };
+		035A9E1518F2F6C2007D9FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF418F2F6C2007D9FEC /* UIKit.framework */; };
+		035A9E1D18F2F6C2007D9FEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035A9E1B18F2F6C2007D9FEC /* InfoPlist.strings */; };
+		035A9E1F18F2F6C2007D9FEC /* Indragie_KarunaratneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E1E18F2F6C2007D9FEC /* Indragie_KarunaratneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		035A9E1618F2F6C2007D9FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035A9DE518F2F6C2007D9FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035A9DEC18F2F6C2007D9FEC;
+			remoteInfo = "Indragie Karunaratne";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035A9DED18F2F6C2007D9FEC /* Indragie Karunaratne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indragie Karunaratne.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035A9DF018F2F6C2007D9FEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		035A9DF218F2F6C2007D9FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		035A9DF418F2F6C2007D9FEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		035A9DF818F2F6C2007D9FEC /* Indragie Karunaratne-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Indragie Karunaratne-Info.plist"; sourceTree = "<group>"; };
+		035A9DFA18F2F6C2007D9FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		035A9DFC18F2F6C2007D9FEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		035A9DFE18F2F6C2007D9FEC /* Indragie Karunaratne-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Indragie Karunaratne-Prefix.pch"; sourceTree = "<group>"; };
+		035A9DFF18F2F6C2007D9FEC /* INDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INDAppDelegate.h; sourceTree = "<group>"; };
+		035A9E0018F2F6C2007D9FEC /* INDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INDAppDelegate.m; sourceTree = "<group>"; };
+		035A9E0318F2F6C2007D9FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		035A9E0518F2F6C2007D9FEC /* INDMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INDMasterViewController.h; sourceTree = "<group>"; };
+		035A9E0618F2F6C2007D9FEC /* INDMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INDMasterViewController.m; sourceTree = "<group>"; };
+		035A9E0818F2F6C2007D9FEC /* INDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INDDetailViewController.h; sourceTree = "<group>"; };
+		035A9E0918F2F6C2007D9FEC /* INDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INDDetailViewController.m; sourceTree = "<group>"; };
+		035A9E0B18F2F6C2007D9FEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		035A9E1118F2F6C2007D9FEC /* Indragie KarunaratneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Indragie KarunaratneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035A9E1218F2F6C2007D9FEC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		035A9E1A18F2F6C2007D9FEC /* Indragie KarunaratneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Indragie KarunaratneTests-Info.plist"; sourceTree = "<group>"; };
+		035A9E1C18F2F6C2007D9FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		035A9E1E18F2F6C2007D9FEC /* Indragie_KarunaratneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Indragie_KarunaratneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035A9DEA18F2F6C2007D9FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035A9DF318F2F6C2007D9FEC /* CoreGraphics.framework in Frameworks */,
+				035A9DF518F2F6C2007D9FEC /* UIKit.framework in Frameworks */,
+				035A9DF118F2F6C2007D9FEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035A9E0E18F2F6C2007D9FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035A9E1318F2F6C2007D9FEC /* XCTest.framework in Frameworks */,
+				035A9E1518F2F6C2007D9FEC /* UIKit.framework in Frameworks */,
+				035A9E1418F2F6C2007D9FEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035A9DE418F2F6C2007D9FEC = {
+			isa = PBXGroup;
+			children = (
+				035A9DF618F2F6C2007D9FEC /* Indragie Karunaratne */,
+				035A9E1818F2F6C2007D9FEC /* Indragie KarunaratneTests */,
+				035A9DEF18F2F6C2007D9FEC /* Frameworks */,
+				035A9DEE18F2F6C2007D9FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		035A9DEE18F2F6C2007D9FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				035A9DED18F2F6C2007D9FEC /* Indragie Karunaratne.app */,
+				035A9E1118F2F6C2007D9FEC /* Indragie KarunaratneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		035A9DEF18F2F6C2007D9FEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				035A9DF018F2F6C2007D9FEC /* Foundation.framework */,
+				035A9DF218F2F6C2007D9FEC /* CoreGraphics.framework */,
+				035A9DF418F2F6C2007D9FEC /* UIKit.framework */,
+				035A9E1218F2F6C2007D9FEC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		035A9DF618F2F6C2007D9FEC /* Indragie Karunaratne */ = {
+			isa = PBXGroup;
+			children = (
+				035A9DFF18F2F6C2007D9FEC /* INDAppDelegate.h */,
+				035A9E0018F2F6C2007D9FEC /* INDAppDelegate.m */,
+				035A9E0218F2F6C2007D9FEC /* Main.storyboard */,
+				035A9E0518F2F6C2007D9FEC /* INDMasterViewController.h */,
+				035A9E0618F2F6C2007D9FEC /* INDMasterViewController.m */,
+				035A9E0818F2F6C2007D9FEC /* INDDetailViewController.h */,
+				035A9E0918F2F6C2007D9FEC /* INDDetailViewController.m */,
+				035A9E0B18F2F6C2007D9FEC /* Images.xcassets */,
+				035A9DF718F2F6C2007D9FEC /* Supporting Files */,
+			);
+			path = "Indragie Karunaratne";
+			sourceTree = "<group>";
+		};
+		035A9DF718F2F6C2007D9FEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				035A9DF818F2F6C2007D9FEC /* Indragie Karunaratne-Info.plist */,
+				035A9DF918F2F6C2007D9FEC /* InfoPlist.strings */,
+				035A9DFC18F2F6C2007D9FEC /* main.m */,
+				035A9DFE18F2F6C2007D9FEC /* Indragie Karunaratne-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		035A9E1818F2F6C2007D9FEC /* Indragie KarunaratneTests */ = {
+			isa = PBXGroup;
+			children = (
+				035A9E1E18F2F6C2007D9FEC /* Indragie_KarunaratneTests.m */,
+				035A9E1918F2F6C2007D9FEC /* Supporting Files */,
+			);
+			path = "Indragie KarunaratneTests";
+			sourceTree = "<group>";
+		};
+		035A9E1918F2F6C2007D9FEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				035A9E1A18F2F6C2007D9FEC /* Indragie KarunaratneTests-Info.plist */,
+				035A9E1B18F2F6C2007D9FEC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		035A9DEC18F2F6C2007D9FEC /* Indragie Karunaratne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035A9E2218F2F6C2007D9FEC /* Build configuration list for PBXNativeTarget "Indragie Karunaratne" */;
+			buildPhases = (
+				035A9DE918F2F6C2007D9FEC /* Sources */,
+				035A9DEA18F2F6C2007D9FEC /* Frameworks */,
+				035A9DEB18F2F6C2007D9FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Indragie Karunaratne";
+			productName = "Indragie Karunaratne";
+			productReference = 035A9DED18F2F6C2007D9FEC /* Indragie Karunaratne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		035A9E1018F2F6C2007D9FEC /* Indragie KarunaratneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035A9E2518F2F6C2007D9FEC /* Build configuration list for PBXNativeTarget "Indragie KarunaratneTests" */;
+			buildPhases = (
+				035A9E0D18F2F6C2007D9FEC /* Sources */,
+				035A9E0E18F2F6C2007D9FEC /* Frameworks */,
+				035A9E0F18F2F6C2007D9FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035A9E1718F2F6C2007D9FEC /* PBXTargetDependency */,
+			);
+			name = "Indragie KarunaratneTests";
+			productName = "Indragie KarunaratneTests";
+			productReference = 035A9E1118F2F6C2007D9FEC /* Indragie KarunaratneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		035A9DE518F2F6C2007D9FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IND;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Indragie Karunaratne";
+				TargetAttributes = {
+					035A9E1018F2F6C2007D9FEC = {
+						TestTargetID = 035A9DEC18F2F6C2007D9FEC;
+					};
+				};
+			};
+			buildConfigurationList = 035A9DE818F2F6C2007D9FEC /* Build configuration list for PBXProject "Indragie Karunaratne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 035A9DE418F2F6C2007D9FEC;
+			productRefGroup = 035A9DEE18F2F6C2007D9FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				035A9DEC18F2F6C2007D9FEC /* Indragie Karunaratne */,
+				035A9E1018F2F6C2007D9FEC /* Indragie KarunaratneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035A9DEB18F2F6C2007D9FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035A9E0C18F2F6C2007D9FEC /* Images.xcassets in Resources */,
+				035A9DFB18F2F6C2007D9FEC /* InfoPlist.strings in Resources */,
+				035A9E0418F2F6C2007D9FEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035A9E0F18F2F6C2007D9FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035A9E1D18F2F6C2007D9FEC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		035A9DE918F2F6C2007D9FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035A9E0718F2F6C2007D9FEC /* INDMasterViewController.m in Sources */,
+				035A9E0A18F2F6C2007D9FEC /* INDDetailViewController.m in Sources */,
+				035A9E0118F2F6C2007D9FEC /* INDAppDelegate.m in Sources */,
+				035A9DFD18F2F6C2007D9FEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035A9E0D18F2F6C2007D9FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035A9E1F18F2F6C2007D9FEC /* Indragie_KarunaratneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		035A9E1718F2F6C2007D9FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035A9DEC18F2F6C2007D9FEC /* Indragie Karunaratne */;
+			targetProxy = 035A9E1618F2F6C2007D9FEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		035A9DF918F2F6C2007D9FEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035A9DFA18F2F6C2007D9FEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		035A9E0218F2F6C2007D9FEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035A9E0318F2F6C2007D9FEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		035A9E1B18F2F6C2007D9FEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035A9E1C18F2F6C2007D9FEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		035A9E2018F2F6C2007D9FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		035A9E2118F2F6C2007D9FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		035A9E2318F2F6C2007D9FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Indragie Karunaratne/Indragie Karunaratne-Prefix.pch";
+				INFOPLIST_FILE = "Indragie Karunaratne/Indragie Karunaratne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		035A9E2418F2F6C2007D9FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Indragie Karunaratne/Indragie Karunaratne-Prefix.pch";
+				INFOPLIST_FILE = "Indragie Karunaratne/Indragie Karunaratne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		035A9E2618F2F6C2007D9FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Indragie Karunaratne.app/Indragie Karunaratne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Indragie Karunaratne/Indragie Karunaratne-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Indragie KarunaratneTests/Indragie KarunaratneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		035A9E2718F2F6C2007D9FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Indragie Karunaratne.app/Indragie Karunaratne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Indragie Karunaratne/Indragie Karunaratne-Prefix.pch";
+				INFOPLIST_FILE = "Indragie KarunaratneTests/Indragie KarunaratneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		035A9DE818F2F6C2007D9FEC /* Build configuration list for PBXProject "Indragie Karunaratne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035A9E2018F2F6C2007D9FEC /* Debug */,
+				035A9E2118F2F6C2007D9FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035A9E2218F2F6C2007D9FEC /* Build configuration list for PBXNativeTarget "Indragie Karunaratne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035A9E2318F2F6C2007D9FEC /* Debug */,
+				035A9E2418F2F6C2007D9FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		035A9E2518F2F6C2007D9FEC /* Build configuration list for PBXNativeTarget "Indragie KarunaratneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035A9E2618F2F6C2007D9FEC /* Debug */,
+				035A9E2718F2F6C2007D9FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 035A9DE518F2F6C2007D9FEC /* Project object */;
+}
