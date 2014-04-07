@@ -40,7 +40,7 @@ static NSString * const INDJSONClassNameJSONKey = @"class_name";
 		if (modelObject != nil) {
 			[modelObjects addObject:modelObject];
 		} else {
-			NSLog(@"Error insantiating model object from JSON dictionary %@: %@", dictionary, error);
+			NSLog(@"Error instantiating model object from JSON dictionary %@: %@", dictionary, error);
 		}
 	}
 	return modelObjects;
