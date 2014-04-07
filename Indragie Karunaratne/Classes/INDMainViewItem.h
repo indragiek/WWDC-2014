@@ -6,8 +6,36 @@
 //  Copyright (c) 2014 Indragie Karunaratne. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <Mantle/Mantle.h>
 
-@interface INDMainViewItem : NSObject
+/**
+ *  Model object class for the table view items on the main view.
+ */
+@interface INDMainViewItem : MTLModel <MTLJSONSerializing>
+
+/**
+ *  Title of the project.
+ */
+@property (nonatomic, copy, readonly) NSString *title;
+
+/**
+ *  My role in the project.
+ */
+@property (nonatomic, copy, readonly) NSString *role;
+
+/**
+ *  Short description of the project.
+ */
+@property (nonatomic, copy, readonly) NSString *projectDescription;
+
+/**
+ *  Project icon.
+ */
+@property (nonatomic, strong, readonly) UIImage *iconImage;
+
+/**
+ *  Background image for the project.
+ */
+@property (nonatomic, strong, readonly) UIImage *backgroundImage;
 
 @end
