@@ -119,18 +119,15 @@
 		035A9DF618F2F6C2007D9FEC /* Indragie Karunaratne */ = {
 			isa = PBXGroup;
 			children = (
+				035A9E2C18F2FB84007D9FEC /* Main */,
 				035A9DFF18F2F6C2007D9FEC /* INDAppDelegate.h */,
 				035A9E0018F2F6C2007D9FEC /* INDAppDelegate.m */,
 				035A9E0218F2F6C2007D9FEC /* Main.storyboard */,
-				035A9E0518F2F6C2007D9FEC /* INDMainViewController.h */,
-				035A9E0618F2F6C2007D9FEC /* INDMainViewController.m */,
 				035A9E0818F2F6C2007D9FEC /* INDDetailViewController.h */,
 				035A9E0918F2F6C2007D9FEC /* INDDetailViewController.m */,
 				035A9E0B18F2F6C2007D9FEC /* Images.xcassets */,
 				035A9DF718F2F6C2007D9FEC /* Supporting Files */,
 				035A9E2818F2F7FC007D9FEC /* INDUserInterfaceDefinitions.h */,
-				035A9E2918F2FB33007D9FEC /* INDNavigationController.h */,
-				035A9E2A18F2FB33007D9FEC /* INDNavigationController.m */,
 			);
 			path = "Indragie Karunaratne";
 			sourceTree = "<group>";
@@ -162,6 +159,25 @@
 				035A9E1B18F2F6C2007D9FEC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		035A9E2C18F2FB84007D9FEC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				035A9E2D18F2FB96007D9FEC /* Model */,
+				035A9E2918F2FB33007D9FEC /* INDNavigationController.h */,
+				035A9E2A18F2FB33007D9FEC /* INDNavigationController.m */,
+				035A9E0518F2F6C2007D9FEC /* INDMainViewController.h */,
+				035A9E0618F2F6C2007D9FEC /* INDMainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		035A9E2D18F2FB96007D9FEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
