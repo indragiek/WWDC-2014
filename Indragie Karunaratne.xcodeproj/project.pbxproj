@@ -19,6 +19,7 @@
 		035A9E0C18F2F6C2007D9FEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035A9E0B18F2F6C2007D9FEC /* Images.xcassets */; };
 		035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E2A18F2FB33007D9FEC /* INDNavigationController.m */; };
 		035A9E3018F2FEC8007D9FEC /* INDMainViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E2F18F2FEC8007D9FEC /* INDMainViewItem.m */; };
+		035A9E3B18F3021E007D9FEC /* INDJSONModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E3A18F3021E007D9FEC /* INDJSONModelAdapter.m */; };
 		1044CA4DFD3B45B99DCFAA62 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 369CB26F1E824679AA2C7D00 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,8 @@
 		035A9E2A18F2FB33007D9FEC /* INDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDNavigationController.m; path = Classes/INDNavigationController.m; sourceTree = "<group>"; };
 		035A9E2E18F2FEC8007D9FEC /* INDMainViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDMainViewItem.h; path = Classes/INDMainViewItem.h; sourceTree = "<group>"; };
 		035A9E2F18F2FEC8007D9FEC /* INDMainViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDMainViewItem.m; path = Classes/INDMainViewItem.m; sourceTree = "<group>"; };
+		035A9E3918F3021E007D9FEC /* INDJSONModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDJSONModelAdapter.h; path = Classes/INDJSONModelAdapter.h; sourceTree = "<group>"; };
+		035A9E3A18F3021E007D9FEC /* INDJSONModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDJSONModelAdapter.m; path = Classes/INDJSONModelAdapter.m; sourceTree = "<group>"; };
 		369CB26F1E824679AA2C7D00 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		972ED58FEA524DAA9C972757 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,7 +100,7 @@
 		035A9DF618F2F6C2007D9FEC /* Indragie Karunaratne */ = {
 			isa = PBXGroup;
 			children = (
-				035A9E3118F2FED7007D9FEC /* Shared */,
+				035A9E3118F2FED7007D9FEC /* JSON */,
 				035A9E2C18F2FB84007D9FEC /* Main */,
 				035A9DFF18F2F6C2007D9FEC /* INDAppDelegate.h */,
 				035A9E0018F2F6C2007D9FEC /* INDAppDelegate.m */,
@@ -143,11 +146,13 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		035A9E3118F2FED7007D9FEC /* Shared */ = {
+		035A9E3118F2FED7007D9FEC /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				035A9E3918F3021E007D9FEC /* INDJSONModelAdapter.h */,
+				035A9E3A18F3021E007D9FEC /* INDJSONModelAdapter.m */,
 			);
-			name = Shared;
+			name = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +262,7 @@
 				035A9E0118F2F6C2007D9FEC /* INDAppDelegate.m in Sources */,
 				035A9DFD18F2F6C2007D9FEC /* main.m in Sources */,
 				035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */,
+				035A9E3B18F3021E007D9FEC /* INDJSONModelAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
