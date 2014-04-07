@@ -20,6 +20,7 @@
 		035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E2A18F2FB33007D9FEC /* INDNavigationController.m */; };
 		035A9E3018F2FEC8007D9FEC /* INDMainViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E2F18F2FEC8007D9FEC /* INDMainViewItem.m */; };
 		035A9E3B18F3021E007D9FEC /* INDJSONModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E3A18F3021E007D9FEC /* INDJSONModelAdapter.m */; };
+		03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */; };
 		1044CA4DFD3B45B99DCFAA62 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 369CB26F1E824679AA2C7D00 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,8 @@
 		035A9E2F18F2FEC8007D9FEC /* INDMainViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDMainViewItem.m; path = Classes/INDMainViewItem.m; sourceTree = "<group>"; };
 		035A9E3918F3021E007D9FEC /* INDJSONModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDJSONModelAdapter.h; path = Classes/INDJSONModelAdapter.h; sourceTree = "<group>"; };
 		035A9E3A18F3021E007D9FEC /* INDJSONModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDJSONModelAdapter.m; path = Classes/INDJSONModelAdapter.m; sourceTree = "<group>"; };
+		03F7EC0618F3068A00964BF0 /* INDImageNameToImageValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDImageNameToImageValueTransformer.h; path = Classes/INDImageNameToImageValueTransformer.h; sourceTree = "<group>"; };
+		03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDImageNameToImageValueTransformer.m; path = Classes/INDImageNameToImageValueTransformer.m; sourceTree = "<group>"; };
 		369CB26F1E824679AA2C7D00 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		972ED58FEA524DAA9C972757 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,8 +103,9 @@
 		035A9DF618F2F6C2007D9FEC /* Indragie Karunaratne */ = {
 			isa = PBXGroup;
 			children = (
+				03F7EC0518F3067600964BF0 /* Value Transformers */,
 				035A9E3118F2FED7007D9FEC /* JSON */,
-				035A9E2C18F2FB84007D9FEC /* Main */,
+				035A9E2C18F2FB84007D9FEC /* Main View */,
 				035A9DFF18F2F6C2007D9FEC /* INDAppDelegate.h */,
 				035A9E0018F2F6C2007D9FEC /* INDAppDelegate.m */,
 				035A9E0218F2F6C2007D9FEC /* Main.storyboard */,
@@ -125,7 +129,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		035A9E2C18F2FB84007D9FEC /* Main */ = {
+		035A9E2C18F2FB84007D9FEC /* Main View */ = {
 			isa = PBXGroup;
 			children = (
 				035A9E2D18F2FB96007D9FEC /* Model */,
@@ -134,7 +138,7 @@
 				035A9E0518F2F6C2007D9FEC /* INDMainViewController.h */,
 				035A9E0618F2F6C2007D9FEC /* INDMainViewController.m */,
 			);
-			name = Main;
+			name = "Main View";
 			sourceTree = "<group>";
 		};
 		035A9E2D18F2FB96007D9FEC /* Model */ = {
@@ -153,6 +157,15 @@
 				035A9E3A18F3021E007D9FEC /* INDJSONModelAdapter.m */,
 			);
 			name = JSON;
+			sourceTree = "<group>";
+		};
+		03F7EC0518F3067600964BF0 /* Value Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				03F7EC0618F3068A00964BF0 /* INDImageNameToImageValueTransformer.h */,
+				03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */,
+			);
+			name = "Value Transformers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +274,7 @@
 				035A9E0A18F2F6C2007D9FEC /* INDDetailViewController.m in Sources */,
 				035A9E0118F2F6C2007D9FEC /* INDAppDelegate.m in Sources */,
 				035A9DFD18F2F6C2007D9FEC /* main.m in Sources */,
+				03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */,
 				035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */,
 				035A9E3B18F3021E007D9FEC /* INDJSONModelAdapter.m in Sources */,
 			);
