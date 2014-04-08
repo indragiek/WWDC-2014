@@ -13,7 +13,7 @@
 - (void)awakeFromNib
 {
 	[super awakeFromNib];
-	self.descriptionLabel.ind_lineSpacing = 2.f;
+	self.descriptionLabel.ind_lineSpacing = IND_MAIN_DESCRIPTION_LINE_SPACING;
 }
 
 @end

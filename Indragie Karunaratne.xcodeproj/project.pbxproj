@@ -12,10 +12,7 @@
 		035A9DF518F2F6C2007D9FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF418F2F6C2007D9FEC /* UIKit.framework */; };
 		035A9DFB18F2F6C2007D9FEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035A9DF918F2F6C2007D9FEC /* InfoPlist.strings */; };
 		035A9DFD18F2F6C2007D9FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9DFC18F2F6C2007D9FEC /* main.m */; };
-		035A9E0118F2F6C2007D9FEC /* INDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E0018F2F6C2007D9FEC /* INDAppDelegate.m */; };
 		035A9E0418F2F6C2007D9FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035A9E0218F2F6C2007D9FEC /* Main.storyboard */; };
-		035A9E0718F2F6C2007D9FEC /* INDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E0618F2F6C2007D9FEC /* INDMainViewController.m */; };
-		035A9E0A18F2F6C2007D9FEC /* INDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E0918F2F6C2007D9FEC /* INDDetailViewController.m */; };
 		035A9E0C18F2F6C2007D9FEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035A9E0B18F2F6C2007D9FEC /* Images.xcassets */; };
 		035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E2A18F2FB33007D9FEC /* INDNavigationController.m */; };
 		035A9E3018F2FEC8007D9FEC /* INDMainViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E2F18F2FEC8007D9FEC /* INDMainViewItem.m */; };
@@ -27,6 +24,8 @@
 		03F7EC1A18F3195800964BF0 /* INDMainCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03F7EC1818F3195800964BF0 /* INDMainCellViewController.xib */; };
 		03F7EC2F18F377D500964BF0 /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = 03F7EC2918F377D500964BF0 /* main.json */; };
 		03F7EC3518F37CAD00964BF0 /* INDLineSpacingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC3418F37CAD00964BF0 /* INDLineSpacingLabel.m */; };
+		03F7EC3818F380A800964BF0 /* INDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC3718F380A800964BF0 /* INDMainViewController.m */; };
+		03F7EC3B18F380B300964BF0 /* INDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC3A18F380B300964BF0 /* INDAppDelegate.m */; };
 		1044CA4DFD3B45B99DCFAA62 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 369CB26F1E824679AA2C7D00 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -39,13 +38,7 @@
 		035A9DFA18F2F6C2007D9FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		035A9DFC18F2F6C2007D9FEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		035A9DFE18F2F6C2007D9FEC /* Indragie Karunaratne-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Indragie Karunaratne-Prefix.pch"; sourceTree = "<group>"; };
-		035A9DFF18F2F6C2007D9FEC /* INDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INDAppDelegate.h; sourceTree = "<group>"; };
-		035A9E0018F2F6C2007D9FEC /* INDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INDAppDelegate.m; sourceTree = "<group>"; };
 		035A9E0318F2F6C2007D9FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		035A9E0518F2F6C2007D9FEC /* INDMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INDMainViewController.h; sourceTree = "<group>"; };
-		035A9E0618F2F6C2007D9FEC /* INDMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INDMainViewController.m; sourceTree = "<group>"; };
-		035A9E0818F2F6C2007D9FEC /* INDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INDDetailViewController.h; sourceTree = "<group>"; };
-		035A9E0918F2F6C2007D9FEC /* INDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INDDetailViewController.m; sourceTree = "<group>"; };
 		035A9E0B18F2F6C2007D9FEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		035A9E2818F2F7FC007D9FEC /* INDUserInterfaceDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDUserInterfaceDefinitions.h; path = Classes/INDUserInterfaceDefinitions.h; sourceTree = "<group>"; };
 		035A9E2918F2FB33007D9FEC /* INDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDNavigationController.h; path = Classes/INDNavigationController.h; sourceTree = "<group>"; };
@@ -66,6 +59,10 @@
 		03F7EC2918F377D500964BF0 /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
 		03F7EC3318F37CAD00964BF0 /* INDLineSpacingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDLineSpacingLabel.h; path = Classes/INDLineSpacingLabel.h; sourceTree = "<group>"; };
 		03F7EC3418F37CAD00964BF0 /* INDLineSpacingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDLineSpacingLabel.m; path = Classes/INDLineSpacingLabel.m; sourceTree = "<group>"; };
+		03F7EC3618F380A800964BF0 /* INDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDMainViewController.h; path = Classes/INDMainViewController.h; sourceTree = "<group>"; };
+		03F7EC3718F380A800964BF0 /* INDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDMainViewController.m; path = Classes/INDMainViewController.m; sourceTree = "<group>"; };
+		03F7EC3918F380B300964BF0 /* INDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDAppDelegate.h; path = Classes/INDAppDelegate.h; sourceTree = "<group>"; };
+		03F7EC3A18F380B300964BF0 /* INDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDAppDelegate.m; path = Classes/INDAppDelegate.m; sourceTree = "<group>"; };
 		369CB26F1E824679AA2C7D00 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		972ED58FEA524DAA9C972757 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,11 +120,9 @@
 				03F7EC0518F3067600964BF0 /* Value Transformers */,
 				035A9E3118F2FED7007D9FEC /* Adapters */,
 				035A9E2C18F2FB84007D9FEC /* Main View */,
-				035A9DFF18F2F6C2007D9FEC /* INDAppDelegate.h */,
-				035A9E0018F2F6C2007D9FEC /* INDAppDelegate.m */,
+				03F7EC3918F380B300964BF0 /* INDAppDelegate.h */,
+				03F7EC3A18F380B300964BF0 /* INDAppDelegate.m */,
 				035A9E0218F2F6C2007D9FEC /* Main.storyboard */,
-				035A9E0818F2F6C2007D9FEC /* INDDetailViewController.h */,
-				035A9E0918F2F6C2007D9FEC /* INDDetailViewController.m */,
 				035A9E0B18F2F6C2007D9FEC /* Images.xcassets */,
 				035A9DF718F2F6C2007D9FEC /* Supporting Files */,
 				035A9E2818F2F7FC007D9FEC /* INDUserInterfaceDefinitions.h */,
@@ -197,8 +192,8 @@
 			children = (
 				035A9E2918F2FB33007D9FEC /* INDNavigationController.h */,
 				035A9E2A18F2FB33007D9FEC /* INDNavigationController.m */,
-				035A9E0518F2F6C2007D9FEC /* INDMainViewController.h */,
-				035A9E0618F2F6C2007D9FEC /* INDMainViewController.m */,
+				03F7EC3618F380A800964BF0 /* INDMainViewController.h */,
+				03F7EC3718F380A800964BF0 /* INDMainViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -345,13 +340,12 @@
 			files = (
 				03F7EC1718F3194400964BF0 /* INDMainCellView.m in Sources */,
 				035A9E3018F2FEC8007D9FEC /* INDMainViewItem.m in Sources */,
-				035A9E0718F2F6C2007D9FEC /* INDMainViewController.m in Sources */,
 				03F7EC0F18F30B4300964BF0 /* INDJSONTableViewController.m in Sources */,
-				035A9E0A18F2F6C2007D9FEC /* INDDetailViewController.m in Sources */,
-				035A9E0118F2F6C2007D9FEC /* INDAppDelegate.m in Sources */,
+				03F7EC3B18F380B300964BF0 /* INDAppDelegate.m in Sources */,
 				035A9DFD18F2F6C2007D9FEC /* main.m in Sources */,
 				03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */,
 				03F7EC3518F37CAD00964BF0 /* INDLineSpacingLabel.m in Sources */,
+				03F7EC3818F380A800964BF0 /* INDMainViewController.m in Sources */,
 				035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */,
 				035A9E3B18F3021E007D9FEC /* INDJSONModelAdapter.m in Sources */,
 				03F7EC1418F3192A00964BF0 /* INDMainCellViewController.m in Sources */,
