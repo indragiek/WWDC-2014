@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Indragie Karunaratne. All rights reserved.
 //
 
-#import <Mensa/MNSHostedViewController.h>
+#import "MNSHostedViewController.h"
 
 @interface INDMainCellViewController : MNSHostedViewController
 

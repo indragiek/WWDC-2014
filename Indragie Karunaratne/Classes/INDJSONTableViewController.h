@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Indragie Karunaratne. All rights reserved.
 //
 
-#import <Mensa/MNSTableViewController.h>
-#import <Mensa/MNSViewControllerRegistrar.h>
+#import "MNSTableViewController.h"
+#import "MNSViewControllerRegistrar.h"
 
 /**
  *  Table view controller driven by JSON files as the data source.

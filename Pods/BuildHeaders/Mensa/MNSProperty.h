@@ -1,1 +1,0 @@
-../../Mensa/Mensa/Mensa/MNSProperty.h

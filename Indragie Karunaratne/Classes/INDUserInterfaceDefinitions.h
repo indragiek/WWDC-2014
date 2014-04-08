@@ -13,8 +13,8 @@
 // Main view controller //
 //////////////////////////
 
-#define IND_MAIN_BAR_TINT_COLOR					[UIColor colorWithRed:0.29 green:0.29 blue:0.29 alpha:1.0]
-#define IND_MAIN_TINT_COLOR						[UIColor whiteColor]
-#define IND_MAIN_DESCRIPTION_LINE_SPACING		2.f
+#define IND_MAIN_BAR_TINT_COLOR                 [UIColor colorWithRed:0.29 green:0.29 blue:0.29 alpha:1.0]
+#define IND_MAIN_TINT_COLOR                     [UIColor whiteColor]
+#define IND_MAIN_DESCRIPTION_LINE_SPACING       2.f
 
 #endif

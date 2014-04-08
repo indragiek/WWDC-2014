@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Indragie Karunaratne. All rights reserved.
 //
 
-#import <Mensa/MNSMultilineLabel.h>
+#import "MNSMultilineLabel.h"
 /**
  *  UILabel subclass with adjustable line spacing.
  */

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0312368518F3936B00D13900 /* libMantle-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F7EC7018F3931800964BF0 /* libMantle-iOS.a */; };
 		035A9DF118F2F6C2007D9FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF018F2F6C2007D9FEC /* Foundation.framework */; };
 		035A9DF318F2F6C2007D9FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF218F2F6C2007D9FEC /* CoreGraphics.framework */; };
 		035A9DF518F2F6C2007D9FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF418F2F6C2007D9FEC /* UIKit.framework */; };
@@ -26,8 +27,64 @@
 		03F7EC3518F37CAD00964BF0 /* INDLineSpacingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC3418F37CAD00964BF0 /* INDLineSpacingLabel.m */; };
 		03F7EC3818F380A800964BF0 /* INDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC3718F380A800964BF0 /* INDMainViewController.m */; };
 		03F7EC3B18F380B300964BF0 /* INDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC3A18F380B300964BF0 /* INDAppDelegate.m */; };
-		1044CA4DFD3B45B99DCFAA62 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 369CB26F1E824679AA2C7D00 /* libPods.a */; };
+		03F7EC3E18F3846E00964BF0 /* INDSocialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC3D18F3846E00964BF0 /* INDSocialButton.m */; };
+		03F7EC5518F3928500964BF0 /* MNSCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC4218F3928500964BF0 /* MNSCollectionViewController.m */; };
+		03F7EC5618F3928500964BF0 /* MNSDataMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC4418F3928500964BF0 /* MNSDataMediator.m */; };
+		03F7EC5718F3928500964BF0 /* MNSHostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC4618F3928500964BF0 /* MNSHostedViewController.m */; };
+		03F7EC5818F3928500964BF0 /* MNSHostingCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC4818F3928500964BF0 /* MNSHostingCollectionViewCell.m */; };
+		03F7EC5918F3928500964BF0 /* MNSHostingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC4A18F3928500964BF0 /* MNSHostingTableViewCell.m */; };
+		03F7EC5A18F3928500964BF0 /* MNSMultilineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC4C18F3928500964BF0 /* MNSMultilineLabel.m */; };
+		03F7EC5B18F3928500964BF0 /* MNSSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC4E18F3928500964BF0 /* MNSSection.m */; };
+		03F7EC5C18F3928500964BF0 /* MNSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC5018F3928500964BF0 /* MNSTableViewController.m */; };
+		03F7EC5D18F3928500964BF0 /* MNSViewControllerRegistrar.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC5218F3928500964BF0 /* MNSViewControllerRegistrar.m */; };
+		03F7EC5E18F3928500964BF0 /* MNSViewHosting.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC5418F3928500964BF0 /* MNSViewHosting.m */; };
+		03F7EC6218F392F800964BF0 /* AutoLayoutShorthand.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC6118F392F800964BF0 /* AutoLayoutShorthand.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0312367E18F3935F00D13900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F7EC6318F3931800964BF0 /* Mantle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D042FC7815F72BC7004E8054;
+			remoteInfo = "Mantle-iOS";
+		};
+		03F7EC6B18F3931800964BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F7EC6318F3931800964BF0 /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC3C15F72B23004E8054;
+			remoteInfo = Mantle;
+		};
+		03F7EC6D18F3931800964BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F7EC6318F3931800964BF0 /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC5415F72B23004E8054;
+			remoteInfo = "Mantle Tests";
+		};
+		03F7EC6F18F3931800964BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F7EC6318F3931800964BF0 /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC7915F72BC7004E8054;
+			remoteInfo = "Mantle-iOS";
+		};
+		03F7EC7118F3931800964BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F7EC6318F3931800964BF0 /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC8715F72BC7004E8054;
+			remoteInfo = "Mantle-iOS Tests";
+		};
+		03F7EC7318F3931800964BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F7EC6318F3931800964BF0 /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0A56B461804B04900A84EDC;
+			remoteInfo = "Mantle-Mac";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		035A9DED18F2F6C2007D9FEC /* Indragie Karunaratne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indragie Karunaratne.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,8 +120,32 @@
 		03F7EC3718F380A800964BF0 /* INDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDMainViewController.m; path = Classes/INDMainViewController.m; sourceTree = "<group>"; };
 		03F7EC3918F380B300964BF0 /* INDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDAppDelegate.h; path = Classes/INDAppDelegate.h; sourceTree = "<group>"; };
 		03F7EC3A18F380B300964BF0 /* INDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDAppDelegate.m; path = Classes/INDAppDelegate.m; sourceTree = "<group>"; };
+		03F7EC3C18F3846E00964BF0 /* INDSocialButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDSocialButton.h; path = Classes/INDSocialButton.h; sourceTree = "<group>"; };
+		03F7EC3D18F3846E00964BF0 /* INDSocialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDSocialButton.m; path = Classes/INDSocialButton.m; sourceTree = "<group>"; };
+		03F7EC4118F3928500964BF0 /* MNSCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNSCollectionViewController.h; path = External/Mensa/Mensa/Mensa/MNSCollectionViewController.h; sourceTree = "<group>"; };
+		03F7EC4218F3928500964BF0 /* MNSCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNSCollectionViewController.m; path = External/Mensa/Mensa/Mensa/MNSCollectionViewController.m; sourceTree = "<group>"; };
+		03F7EC4318F3928500964BF0 /* MNSDataMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNSDataMediator.h; path = External/Mensa/Mensa/Mensa/MNSDataMediator.h; sourceTree = "<group>"; };
+		03F7EC4418F3928500964BF0 /* MNSDataMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNSDataMediator.m; path = External/Mensa/Mensa/Mensa/MNSDataMediator.m; sourceTree = "<group>"; };
+		03F7EC4518F3928500964BF0 /* MNSHostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNSHostedViewController.h; path = External/Mensa/Mensa/Mensa/MNSHostedViewController.h; sourceTree = "<group>"; };
+		03F7EC4618F3928500964BF0 /* MNSHostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNSHostedViewController.m; path = External/Mensa/Mensa/Mensa/MNSHostedViewController.m; sourceTree = "<group>"; };
+		03F7EC4718F3928500964BF0 /* MNSHostingCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNSHostingCollectionViewCell.h; path = External/Mensa/Mensa/Mensa/MNSHostingCollectionViewCell.h; sourceTree = "<group>"; };
+		03F7EC4818F3928500964BF0 /* MNSHostingCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNSHostingCollectionViewCell.m; path = External/Mensa/Mensa/Mensa/MNSHostingCollectionViewCell.m; sourceTree = "<group>"; };
+		03F7EC4918F3928500964BF0 /* MNSHostingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNSHostingTableViewCell.h; path = External/Mensa/Mensa/Mensa/MNSHostingTableViewCell.h; sourceTree = "<group>"; };
+		03F7EC4A18F3928500964BF0 /* MNSHostingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNSHostingTableViewCell.m; path = External/Mensa/Mensa/Mensa/MNSHostingTableViewCell.m; sourceTree = "<group>"; };
+		03F7EC4B18F3928500964BF0 /* MNSMultilineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNSMultilineLabel.h; path = External/Mensa/Mensa/Mensa/MNSMultilineLabel.h; sourceTree = "<group>"; };
+		03F7EC4C18F3928500964BF0 /* MNSMultilineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNSMultilineLabel.m; path = External/Mensa/Mensa/Mensa/MNSMultilineLabel.m; sourceTree = "<group>"; };
+		03F7EC4D18F3928500964BF0 /* MNSSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNSSection.h; path = External/Mensa/Mensa/Mensa/MNSSection.h; sourceTree = "<group>"; };
+		03F7EC4E18F3928500964BF0 /* MNSSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNSSection.m; path = External/Mensa/Mensa/Mensa/MNSSection.m; sourceTree = "<group>"; };
+		03F7EC4F18F3928500964BF0 /* MNSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNSTableViewController.h; path = External/Mensa/Mensa/Mensa/MNSTableViewController.h; sourceTree = "<group>"; };
+		03F7EC5018F3928500964BF0 /* MNSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNSTableViewController.m; path = External/Mensa/Mensa/Mensa/MNSTableViewController.m; sourceTree = "<group>"; };
+		03F7EC5118F3928500964BF0 /* MNSViewControllerRegistrar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNSViewControllerRegistrar.h; path = External/Mensa/Mensa/Mensa/MNSViewControllerRegistrar.h; sourceTree = "<group>"; };
+		03F7EC5218F3928500964BF0 /* MNSViewControllerRegistrar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNSViewControllerRegistrar.m; path = External/Mensa/Mensa/Mensa/MNSViewControllerRegistrar.m; sourceTree = "<group>"; };
+		03F7EC5318F3928500964BF0 /* MNSViewHosting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNSViewHosting.h; path = External/Mensa/Mensa/Mensa/MNSViewHosting.h; sourceTree = "<group>"; };
+		03F7EC5418F3928500964BF0 /* MNSViewHosting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNSViewHosting.m; path = External/Mensa/Mensa/Mensa/MNSViewHosting.m; sourceTree = "<group>"; };
+		03F7EC6018F392F800964BF0 /* AutoLayoutShorthand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoLayoutShorthand.h; path = External/AutoLayoutShorthand/AutoLayoutShorthand.h; sourceTree = "<group>"; };
+		03F7EC6118F392F800964BF0 /* AutoLayoutShorthand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutoLayoutShorthand.m; path = External/AutoLayoutShorthand/AutoLayoutShorthand.m; sourceTree = "<group>"; };
+		03F7EC6318F3931800964BF0 /* Mantle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mantle.xcodeproj; path = External/Mantle/Mantle.xcodeproj; sourceTree = "<group>"; };
 		369CB26F1E824679AA2C7D00 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		972ED58FEA524DAA9C972757 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +153,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0312368518F3936B00D13900 /* libMantle-iOS.a in Frameworks */,
 				035A9DF318F2F6C2007D9FEC /* CoreGraphics.framework in Frameworks */,
 				035A9DF518F2F6C2007D9FEC /* UIKit.framework in Frameworks */,
 				035A9DF118F2F6C2007D9FEC /* Foundation.framework in Frameworks */,
-				1044CA4DFD3B45B99DCFAA62 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,10 +166,10 @@
 		035A9DE418F2F6C2007D9FEC = {
 			isa = PBXGroup;
 			children = (
+				03F7EC3F18F3926000964BF0 /* External */,
 				035A9DF618F2F6C2007D9FEC /* Indragie Karunaratne */,
 				035A9DEF18F2F6C2007D9FEC /* Frameworks */,
 				035A9DEE18F2F6C2007D9FEC /* Products */,
-				972ED58FEA524DAA9C972757 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,6 +287,8 @@
 				03F7EC1518F3194400964BF0 /* INDMainCellView.h */,
 				03F7EC1618F3194400964BF0 /* INDMainCellView.m */,
 				03F7EC1818F3195800964BF0 /* INDMainCellViewController.xib */,
+				03F7EC3C18F3846E00964BF0 /* INDSocialButton.h */,
+				03F7EC3D18F3846E00964BF0 /* INDSocialButton.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -235,6 +318,64 @@
 			path = JSON;
 			sourceTree = "<group>";
 		};
+		03F7EC3F18F3926000964BF0 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				03F7EC6318F3931800964BF0 /* Mantle.xcodeproj */,
+				03F7EC5F18F392AC00964BF0 /* AutoLayoutShorthand */,
+				03F7EC4018F3926C00964BF0 /* Mensa */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		03F7EC4018F3926C00964BF0 /* Mensa */ = {
+			isa = PBXGroup;
+			children = (
+				03F7EC4118F3928500964BF0 /* MNSCollectionViewController.h */,
+				03F7EC4218F3928500964BF0 /* MNSCollectionViewController.m */,
+				03F7EC4318F3928500964BF0 /* MNSDataMediator.h */,
+				03F7EC4418F3928500964BF0 /* MNSDataMediator.m */,
+				03F7EC4518F3928500964BF0 /* MNSHostedViewController.h */,
+				03F7EC4618F3928500964BF0 /* MNSHostedViewController.m */,
+				03F7EC4718F3928500964BF0 /* MNSHostingCollectionViewCell.h */,
+				03F7EC4818F3928500964BF0 /* MNSHostingCollectionViewCell.m */,
+				03F7EC4918F3928500964BF0 /* MNSHostingTableViewCell.h */,
+				03F7EC4A18F3928500964BF0 /* MNSHostingTableViewCell.m */,
+				03F7EC4B18F3928500964BF0 /* MNSMultilineLabel.h */,
+				03F7EC4C18F3928500964BF0 /* MNSMultilineLabel.m */,
+				03F7EC4D18F3928500964BF0 /* MNSSection.h */,
+				03F7EC4E18F3928500964BF0 /* MNSSection.m */,
+				03F7EC4F18F3928500964BF0 /* MNSTableViewController.h */,
+				03F7EC5018F3928500964BF0 /* MNSTableViewController.m */,
+				03F7EC5118F3928500964BF0 /* MNSViewControllerRegistrar.h */,
+				03F7EC5218F3928500964BF0 /* MNSViewControllerRegistrar.m */,
+				03F7EC5318F3928500964BF0 /* MNSViewHosting.h */,
+				03F7EC5418F3928500964BF0 /* MNSViewHosting.m */,
+			);
+			name = Mensa;
+			sourceTree = "<group>";
+		};
+		03F7EC5F18F392AC00964BF0 /* AutoLayoutShorthand */ = {
+			isa = PBXGroup;
+			children = (
+				03F7EC6018F392F800964BF0 /* AutoLayoutShorthand.h */,
+				03F7EC6118F392F800964BF0 /* AutoLayoutShorthand.m */,
+			);
+			name = AutoLayoutShorthand;
+			sourceTree = "<group>";
+		};
+		03F7EC6418F3931800964BF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F7EC6C18F3931800964BF0 /* Mantle.framework */,
+				03F7EC6E18F3931800964BF0 /* Mantle Tests.octest */,
+				03F7EC7018F3931800964BF0 /* libMantle-iOS.a */,
+				03F7EC7218F3931800964BF0 /* Mantle-iOS Tests.octest */,
+				03F7EC7418F3931800964BF0 /* libMantle-Mac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -242,15 +383,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 035A9E2218F2F6C2007D9FEC /* Build configuration list for PBXNativeTarget "Indragie Karunaratne" */;
 			buildPhases = (
-				C8C372D63FF5459C9848C40C /* Check Pods Manifest.lock */,
 				035A9DE918F2F6C2007D9FEC /* Sources */,
 				035A9DEA18F2F6C2007D9FEC /* Frameworks */,
 				035A9DEB18F2F6C2007D9FEC /* Resources */,
-				BDA06C22ECE24DBF9197B7A8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0312367F18F3935F00D13900 /* PBXTargetDependency */,
 			);
 			name = "Indragie Karunaratne";
 			productName = "Indragie Karunaratne";
@@ -278,12 +418,56 @@
 			mainGroup = 035A9DE418F2F6C2007D9FEC;
 			productRefGroup = 035A9DEE18F2F6C2007D9FEC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 03F7EC6418F3931800964BF0 /* Products */;
+					ProjectRef = 03F7EC6318F3931800964BF0 /* Mantle.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				035A9DEC18F2F6C2007D9FEC /* Indragie Karunaratne */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		03F7EC6C18F3931800964BF0 /* Mantle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Mantle.framework;
+			remoteRef = 03F7EC6B18F3931800964BF0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03F7EC6E18F3931800964BF0 /* Mantle Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mantle Tests.octest";
+			remoteRef = 03F7EC6D18F3931800964BF0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03F7EC7018F3931800964BF0 /* libMantle-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMantle-iOS.a";
+			remoteRef = 03F7EC6F18F3931800964BF0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03F7EC7218F3931800964BF0 /* Mantle-iOS Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mantle-iOS Tests.octest";
+			remoteRef = 03F7EC7118F3931800964BF0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03F7EC7418F3931800964BF0 /* libMantle-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMantle-Mac.a";
+			remoteRef = 03F7EC7318F3931800964BF0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		035A9DEB18F2F6C2007D9FEC /* Resources */ = {
@@ -300,59 +484,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		BDA06C22ECE24DBF9197B7A8 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C8C372D63FF5459C9848C40C /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		035A9DE918F2F6C2007D9FEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				03F7EC1718F3194400964BF0 /* INDMainCellView.m in Sources */,
+				03F7EC5918F3928500964BF0 /* MNSHostingTableViewCell.m in Sources */,
 				035A9E3018F2FEC8007D9FEC /* INDMainViewItem.m in Sources */,
+				03F7EC3E18F3846E00964BF0 /* INDSocialButton.m in Sources */,
+				03F7EC5C18F3928500964BF0 /* MNSTableViewController.m in Sources */,
 				03F7EC0F18F30B4300964BF0 /* INDJSONTableViewController.m in Sources */,
+				03F7EC5A18F3928500964BF0 /* MNSMultilineLabel.m in Sources */,
 				03F7EC3B18F380B300964BF0 /* INDAppDelegate.m in Sources */,
 				035A9DFD18F2F6C2007D9FEC /* main.m in Sources */,
+				03F7EC5518F3928500964BF0 /* MNSCollectionViewController.m in Sources */,
 				03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */,
 				03F7EC3518F37CAD00964BF0 /* INDLineSpacingLabel.m in Sources */,
+				03F7EC5618F3928500964BF0 /* MNSDataMediator.m in Sources */,
+				03F7EC5818F3928500964BF0 /* MNSHostingCollectionViewCell.m in Sources */,
+				03F7EC5E18F3928500964BF0 /* MNSViewHosting.m in Sources */,
+				03F7EC5B18F3928500964BF0 /* MNSSection.m in Sources */,
 				03F7EC3818F380A800964BF0 /* INDMainViewController.m in Sources */,
+				03F7EC5D18F3928500964BF0 /* MNSViewControllerRegistrar.m in Sources */,
+				03F7EC6218F392F800964BF0 /* AutoLayoutShorthand.m in Sources */,
 				035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */,
 				035A9E3B18F3021E007D9FEC /* INDJSONModelAdapter.m in Sources */,
 				03F7EC1418F3192A00964BF0 /* INDMainCellViewController.m in Sources */,
+				03F7EC5718F3928500964BF0 /* MNSHostedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0312367F18F3935F00D13900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mantle-iOS";
+			targetProxy = 0312367E18F3935F00D13900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		035A9DF918F2F6C2007D9FEC /* InfoPlist.strings */ = {
@@ -454,13 +625,18 @@
 		};
 		035A9E2318F2F6C2007D9FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 972ED58FEA524DAA9C972757 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Indragie Karunaratne/Indragie Karunaratne-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"",
+				);
 				INFOPLIST_FILE = "Indragie Karunaratne/Indragie Karunaratne-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -468,13 +644,18 @@
 		};
 		035A9E2418F2F6C2007D9FEC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 972ED58FEA524DAA9C972757 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Indragie Karunaratne/Indragie Karunaratne-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"",
+				);
 				INFOPLIST_FILE = "Indragie Karunaratne/Indragie Karunaratne-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
