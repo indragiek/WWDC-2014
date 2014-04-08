@@ -9,6 +9,8 @@
 #import "INDMainViewController.h"
 #import "INDMainCellViewController.h"
 #import "INDMainViewItem.h"
+#import "INDSocialButton.h"
+#import "AutoLayoutShorthand.h"
 
 @implementation INDMainViewController
 
@@ -36,6 +38,27 @@
 	navigationBar.translucent = NO;
 	navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : IND_MAIN_TINT_COLOR};
 	[self setNeedsStatusBarAppearanceUpdate];
+	
+	UIView *footerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.tableView.bounds), 39.0)];
+	INDSocialButton *twitter = [[INDSocialButton alloc] initWithFrame:CGRectZero];
+	INDSocialButton *github = [[INDSocialButton alloc] initWithFrame:CGRectZero];
+	[footerView addSubview:twitter];
+	[footerView addSubview:github];
+	
+	[twitter als_addConstraints:@{
+		@"left ==" : als_superview,
+		@"bottom ==" : als_superview,
+		@"top ==" : als_superview,
+		@"width ==" : @{als_view : footerView.als_width, als_multiplier : @(0.5)}
+	}];
+	[github als_addConstraints:@{
+		@"bottom ==" : als_superview,
+		@"top ==" : als_superview,
+		@"leading ==" : twitter.als_right,
+		@"width ==" : twitter.als_width
+	}];
+	
+	self.tableView.tableFooterView = footerView;
 }
 
 #pragma mark - UITableViewDelegate
