@@ -9,7 +9,6 @@
 	{
 		"class_name": "INDMainViewItem",
 		"title": "Flamingo",
-		"role": "Lead Developer",
 		"project_description": "A beautifully designed native instant messaging app for OS X with support for Google Hangouts, Facebook, and XMPP chat.",
 		"icon_name": "flamingo-icon",
 		"background_name": "flamingo-bg"
@@ -17,7 +16,6 @@
 	{
 		"class_name": "INDMainViewItem",
 		"title": "Sonora",
-		"role": "Lead Developer",
 		"project_description": "A minimal audio player for OS X with a strong focus on visual music browsing and a powerful centralized playback queue.",
 		"icon_name": "sonora-icon",
 		"background_name": "sonora-bg"

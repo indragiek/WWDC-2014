@@ -19,11 +19,6 @@
 @property (nonatomic, copy, readonly) NSString *title;
 
 /**
- *  My role in the project.
- */
-@property (nonatomic, copy, readonly) NSString *role;
-
-/**
  *  Short description of the project.
  */
 @property (nonatomic, copy, readonly) NSString *projectDescription;

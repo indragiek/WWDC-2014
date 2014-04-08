@@ -10,4 +10,10 @@
 
 @implementation INDMainCellView
 
+- (void)awakeFromNib
+{
+	[super awakeFromNib];
+	self.descriptionLabel.ind_lineSpacing = 2.f;
+}
+
 @end

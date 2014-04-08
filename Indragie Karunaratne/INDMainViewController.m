@@ -38,6 +38,14 @@
 	[self setNeedsStatusBarAppearanceUpdate];
 }
 
+#pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [super tableView:tableView didSelectRowAtIndexPath:indexPath];
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+}
+
 #pragma mark - Accessors
 
 - (UIStatusBarStyle)preferredStatusBarStyle
