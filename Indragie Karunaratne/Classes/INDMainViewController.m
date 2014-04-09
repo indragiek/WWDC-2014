@@ -66,6 +66,13 @@ static NSString * const INDMainViewTwitterURL = @"https://twitter.com/indragie";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [super tableView:tableView didSelectRowAtIndexPath:indexPath];
+	
+	INDMainViewItem *item = self.objects[indexPath.row];
+	Class vcClass = item.viewControllerClass;
+	if (vcClass != Nil) {
+		UIViewController *viewController = [[vcClass alloc] initWithNibName:NSStringFromClass(vcClass) bundle:nil];
+		[self.navigationController pushViewController:viewController animated:YES];
+	}
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
 }
 

@@ -33,4 +33,8 @@
  */
 @property (nonatomic, strong, readonly) UIImage *backgroundImage;
 
+/**
+ *  Class of the view controller that displays the content for this item.
+ */
+@property (nonatomic, readonly) Class viewControllerClass;
 @end

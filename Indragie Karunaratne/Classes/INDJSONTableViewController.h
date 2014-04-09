@@ -25,4 +25,9 @@
  */
 - (void)reloadDataWithJSONFileName:(NSString *)fileName;
 
+/**
+ *  Model objects displayed in the table view.
+ */
+@property (nonatomic, strong, readonly) NSArray *objects;
+
 @end

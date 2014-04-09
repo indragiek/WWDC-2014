@@ -4,7 +4,8 @@
 		"title": "About Me",
 		"project_description": "I develop software primarily for Mac and iOS, and like to experiment with other platforms. Below is a selection of my most significant work.",
 		"icon_name": "me-icon",
-		"background_name": "me-bg"
+		"background_name": "me-bg",
+		"vc_class_name": "INDAboutViewController"
 	},
 	{
 		"class_name": "INDMainViewItem",

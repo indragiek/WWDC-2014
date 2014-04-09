@@ -10,7 +10,7 @@
 #import "INDJSONModelAdapter.h"
 
 @interface INDJSONTableViewController ()
-@property (nonatomic, strong) NSArray *objects;
+@property (nonatomic, strong, readwrite) NSArray *objects;
 @end
 
 @implementation INDJSONTableViewController

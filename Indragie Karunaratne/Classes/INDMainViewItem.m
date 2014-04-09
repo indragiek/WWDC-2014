@@ -15,7 +15,8 @@
 {
 	return @{@"iconImage" : @"icon_name",
 			 @"backgroundImage" : @"background_name",
-			 @"projectDescription" : @"project_description"};
+			 @"projectDescription" : @"project_description",
+			 @"viewControllerClass" : @"vc_class_name"};
 }
 
 + (NSValueTransformer *)iconImageJSONTransformer
@@ -26,6 +27,15 @@
 + (NSValueTransformer *)backgroundImageJSONTransformer
 {
 	return [NSValueTransformer valueTransformerForName:INDImageNameToImageValueTransformerName];
+}
+
++ (NSValueTransformer *)viewControllerClassJSONTransformer
+{
+	return [MTLValueTransformer reversibleTransformerWithForwardBlock:^(NSString *name) {
+		return NSClassFromString(name);
+	} reverseBlock:^id(Class aClass) {
+		return NSStringFromClass(aClass);
+	}];
 }
 
 @end

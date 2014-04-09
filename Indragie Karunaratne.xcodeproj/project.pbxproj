@@ -19,6 +19,8 @@
 		035A9E3018F2FEC8007D9FEC /* INDMainViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E2F18F2FEC8007D9FEC /* INDMainViewItem.m */; };
 		035A9E3B18F3021E007D9FEC /* INDJSONModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E3A18F3021E007D9FEC /* INDJSONModelAdapter.m */; };
 		036FBDA218F5C3EB002DAAC7 /* INDMainViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDA118F5C3EB002DAAC7 /* INDMainViewFooterView.m */; };
+		036FBDAA18F5C89F002DAAC7 /* INDAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDA918F5C89F002DAAC7 /* INDAboutViewController.m */; };
+		036FBDAD18F5C8EB002DAAC7 /* INDAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036FBDAB18F5C8EB002DAAC7 /* INDAboutViewController.xib */; };
 		03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */; };
 		03F7EC0F18F30B4300964BF0 /* INDJSONTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0E18F30B4300964BF0 /* INDJSONTableViewController.m */; };
 		03F7EC1418F3192A00964BF0 /* INDMainCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC1318F3192A00964BF0 /* INDMainCellViewController.m */; };
@@ -107,6 +109,9 @@
 		035A9E3A18F3021E007D9FEC /* INDJSONModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDJSONModelAdapter.m; path = Classes/INDJSONModelAdapter.m; sourceTree = "<group>"; };
 		036FBDA018F5C3EB002DAAC7 /* INDMainViewFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDMainViewFooterView.h; path = Classes/INDMainViewFooterView.h; sourceTree = "<group>"; };
 		036FBDA118F5C3EB002DAAC7 /* INDMainViewFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDMainViewFooterView.m; path = Classes/INDMainViewFooterView.m; sourceTree = "<group>"; };
+		036FBDA818F5C89F002DAAC7 /* INDAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDAboutViewController.h; path = Classes/INDAboutViewController.h; sourceTree = "<group>"; };
+		036FBDA918F5C89F002DAAC7 /* INDAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDAboutViewController.m; path = Classes/INDAboutViewController.m; sourceTree = "<group>"; };
+		036FBDAC18F5C8EB002DAAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDAboutViewController.xib; sourceTree = "<group>"; };
 		03F7EC0618F3068A00964BF0 /* INDImageNameToImageValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDImageNameToImageValueTransformer.h; path = Classes/INDImageNameToImageValueTransformer.h; sourceTree = "<group>"; };
 		03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDImageNameToImageValueTransformer.m; path = Classes/INDImageNameToImageValueTransformer.m; sourceTree = "<group>"; };
 		03F7EC0D18F30B4300964BF0 /* INDJSONTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDJSONTableViewController.h; path = Classes/INDJSONTableViewController.h; sourceTree = "<group>"; };
@@ -204,6 +209,7 @@
 				03F7EC0518F3067600964BF0 /* Value Transformers */,
 				035A9E3118F2FED7007D9FEC /* Adapters */,
 				035A9E2C18F2FB84007D9FEC /* Main View */,
+				036FBDA718F5C878002DAAC7 /* About */,
 				03F7EC3918F380B300964BF0 /* INDAppDelegate.h */,
 				03F7EC3A18F380B300964BF0 /* INDAppDelegate.m */,
 				035A9E0218F2F6C2007D9FEC /* Main.storyboard */,
@@ -251,6 +257,16 @@
 				035A9E3A18F3021E007D9FEC /* INDJSONModelAdapter.m */,
 			);
 			name = Adapters;
+			sourceTree = "<group>";
+		};
+		036FBDA718F5C878002DAAC7 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				036FBDA818F5C89F002DAAC7 /* INDAboutViewController.h */,
+				036FBDA918F5C89F002DAAC7 /* INDAboutViewController.m */,
+				036FBDAB18F5C8EB002DAAC7 /* INDAboutViewController.xib */,
+			);
+			name = About;
 			sourceTree = "<group>";
 		};
 		03F7EC0518F3067600964BF0 /* Value Transformers */ = {
@@ -483,6 +499,7 @@
 				035A9E0C18F2F6C2007D9FEC /* Images.xcassets in Resources */,
 				03F7EC1A18F3195800964BF0 /* INDMainCellViewController.xib in Resources */,
 				035A9DFB18F2F6C2007D9FEC /* InfoPlist.strings in Resources */,
+				036FBDAD18F5C8EB002DAAC7 /* INDAboutViewController.xib in Resources */,
 				035A9E0418F2F6C2007D9FEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +522,7 @@
 				035A9DFD18F2F6C2007D9FEC /* main.m in Sources */,
 				03F7EC5518F3928500964BF0 /* MNSCollectionViewController.m in Sources */,
 				03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */,
+				036FBDAA18F5C89F002DAAC7 /* INDAboutViewController.m in Sources */,
 				03F7EC3518F37CAD00964BF0 /* INDLineSpacingLabel.m in Sources */,
 				03F7EC5618F3928500964BF0 /* MNSDataMediator.m in Sources */,
 				03F7EC5818F3928500964BF0 /* MNSHostingCollectionViewCell.m in Sources */,
@@ -546,6 +564,14 @@
 				035A9E0318F2F6C2007D9FEC /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		036FBDAB18F5C8EB002DAAC7 /* INDAboutViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036FBDAC18F5C8EB002DAAC7 /* Base */,
+			);
+			name = INDAboutViewController.xib;
 			sourceTree = "<group>";
 		};
 		03F7EC1818F3195800964BF0 /* INDMainCellViewController.xib */ = {
