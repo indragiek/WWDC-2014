@@ -1,24 +1,24 @@
 [
 	{
-		"class_name": "INDMainViewItem",
+		"className": "INDMainViewItem",
 		"title": "About Me",
-		"project_description": "I develop software primarily for Mac and iOS, and like to experiment with other platforms. Below is a selection of my most significant work.",
-		"icon_name": "me-icon",
-		"background_name": "me-bg",
-		"vc_class_name": "INDAboutViewController"
+		"projectDescription": "I develop software primarily for Mac and iOS, and like to experiment with other platforms. Below is a selection of my most significant work.",
+		"iconName": "me-icon",
+		"backgroundName": "me-bg",
+		"vcClassName": "INDAboutViewController"
 	},
 	{
-		"class_name": "INDMainViewItem",
+		"className": "INDMainViewItem",
 		"title": "Flamingo",
-		"project_description": "A beautifully designed native instant messaging app for OS X with support for Google Hangouts, Facebook, and XMPP chat.",
-		"icon_name": "flamingo-icon",
-		"background_name": "flamingo-bg"
+		"projectDescription": "A beautifully designed native instant messaging app for OS X with support for Google Hangouts, Facebook, and XMPP chat.",
+		"iconName": "flamingo-icon",
+		"backgroundName": "flamingo-bg"
 	},
 	{
-		"class_name": "INDMainViewItem",
+		"className": "INDMainViewItem",
 		"title": "Sonora",
-		"project_description": "A minimal audio player for OS X with a strong focus on visual music browsing and a powerful centralized playback queue.",
-		"icon_name": "sonora-icon",
-		"background_name": "sonora-bg"
+		"projectDescription": "A minimal audio player for OS X with a strong focus on visual music browsing and a powerful centralized playback queue.",
+		"iconName": "sonora-icon",
+		"backgroundName": "sonora-bg"
 	}
 ]

@@ -13,10 +13,9 @@
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey
 {
-	return @{@"iconImage" : @"icon_name",
-			 @"backgroundImage" : @"background_name",
-			 @"projectDescription" : @"project_description",
-			 @"viewControllerClass" : @"vc_class_name"};
+	return @{@"iconImage" : @"iconName",
+			 @"backgroundImage" : @"backgroundName",
+			 @"viewControllerClass" : @"vcClassName"};
 }
 
 + (NSValueTransformer *)iconImageJSONTransformer

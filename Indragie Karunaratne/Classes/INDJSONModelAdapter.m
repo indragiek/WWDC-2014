@@ -9,7 +9,7 @@
 #import "INDJSONModelAdapter.h"
 #import <Mantle/Mantle.h>
 
-static NSString * const INDJSONClassNameJSONKey = @"class_name";
+static NSString * const INDJSONClassNameJSONKey = @"className";
 
 @implementation INDJSONModelAdapter
 
