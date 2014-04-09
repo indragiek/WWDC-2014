@@ -18,7 +18,14 @@
 		navigationBar.tintColor = nil;
 		navigationBar.barTintColor = nil;
 		navigationBar.barStyle = UIBarStyleDefault;
+		navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : IND_ABOUT_TITLE_COLOR};
 	}];
+}
+
+- (void)viewDidLoad
+{
+	[super viewDidLoad];
+	self.navigationItem.title = @"About Me";
 }
 
 #pragma mark - Accessors

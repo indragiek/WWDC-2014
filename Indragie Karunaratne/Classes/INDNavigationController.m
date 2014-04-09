@@ -39,7 +39,7 @@ static void CommonInit(INDNavigationController *self)
 
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
-    return self.topViewController.preferredStatusBarStyle;
+	return self.topViewController.preferredStatusBarStyle;
 }
 
 @end

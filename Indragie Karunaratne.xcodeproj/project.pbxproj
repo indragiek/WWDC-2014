@@ -21,6 +21,9 @@
 		036FBDA218F5C3EB002DAAC7 /* INDMainViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDA118F5C3EB002DAAC7 /* INDMainViewFooterView.m */; };
 		036FBDAA18F5C89F002DAAC7 /* INDAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDA918F5C89F002DAAC7 /* INDAboutViewController.m */; };
 		036FBDAD18F5C8EB002DAAC7 /* INDAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036FBDAB18F5C8EB002DAAC7 /* INDAboutViewController.xib */; };
+		036FBDB218F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDB118F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.m */; };
+		036FBDB518F61012002DAAC7 /* INDJSONCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDB418F61012002DAAC7 /* INDJSONCollectionViewController.m */; };
+		036FBDB918F61049002DAAC7 /* INDCollectionImageElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDB818F61049002DAAC7 /* INDCollectionImageElement.m */; };
 		03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */; };
 		03F7EC0F18F30B4300964BF0 /* INDJSONTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0E18F30B4300964BF0 /* INDJSONTableViewController.m */; };
 		03F7EC1418F3192A00964BF0 /* INDMainCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC1318F3192A00964BF0 /* INDMainCellViewController.m */; };
@@ -112,6 +115,12 @@
 		036FBDA818F5C89F002DAAC7 /* INDAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDAboutViewController.h; path = Classes/INDAboutViewController.h; sourceTree = "<group>"; };
 		036FBDA918F5C89F002DAAC7 /* INDAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDAboutViewController.m; path = Classes/INDAboutViewController.m; sourceTree = "<group>"; };
 		036FBDAC18F5C8EB002DAAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDAboutViewController.xib; sourceTree = "<group>"; };
+		036FBDB018F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+INDAdditions.h"; path = "Categories/NSJSONSerialization+INDAdditions.h"; sourceTree = "<group>"; };
+		036FBDB118F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+INDAdditions.m"; path = "Categories/NSJSONSerialization+INDAdditions.m"; sourceTree = "<group>"; };
+		036FBDB318F61012002DAAC7 /* INDJSONCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDJSONCollectionViewController.h; path = Classes/INDJSONCollectionViewController.h; sourceTree = "<group>"; };
+		036FBDB418F61012002DAAC7 /* INDJSONCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDJSONCollectionViewController.m; path = Classes/INDJSONCollectionViewController.m; sourceTree = "<group>"; };
+		036FBDB718F61049002DAAC7 /* INDCollectionImageElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionImageElement.h; path = Classes/INDCollectionImageElement.h; sourceTree = "<group>"; };
+		036FBDB818F61049002DAAC7 /* INDCollectionImageElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionImageElement.m; path = Classes/INDCollectionImageElement.m; sourceTree = "<group>"; };
 		03F7EC0618F3068A00964BF0 /* INDImageNameToImageValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDImageNameToImageValueTransformer.h; path = Classes/INDImageNameToImageValueTransformer.h; sourceTree = "<group>"; };
 		03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDImageNameToImageValueTransformer.m; path = Classes/INDImageNameToImageValueTransformer.m; sourceTree = "<group>"; };
 		03F7EC0D18F30B4300964BF0 /* INDJSONTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDJSONTableViewController.h; path = Classes/INDJSONTableViewController.h; sourceTree = "<group>"; };
@@ -203,9 +212,11 @@
 		035A9DF618F2F6C2007D9FEC /* Indragie Karunaratne */ = {
 			isa = PBXGroup;
 			children = (
+				036FBDAF18F60ED6002DAAC7 /* Categories */,
 				03F7EC2018F377D500964BF0 /* Resources */,
 				03F7EC1B18F374EE00964BF0 /* Custom Views */,
-				03F7EC0C18F30B1500964BF0 /* Base View Controllers */,
+				036FBDAE18F60E5F002DAAC7 /* Collection VIews */,
+				03F7EC0C18F30B1500964BF0 /* Table Views */,
 				03F7EC0518F3067600964BF0 /* Value Transformers */,
 				035A9E3118F2FED7007D9FEC /* Adapters */,
 				035A9E2C18F2FB84007D9FEC /* Main View */,
@@ -269,6 +280,34 @@
 			name = About;
 			sourceTree = "<group>";
 		};
+		036FBDAE18F60E5F002DAAC7 /* Collection VIews */ = {
+			isa = PBXGroup;
+			children = (
+				036FBDB618F61037002DAAC7 /* Image Element */,
+				036FBDB318F61012002DAAC7 /* INDJSONCollectionViewController.h */,
+				036FBDB418F61012002DAAC7 /* INDJSONCollectionViewController.m */,
+			);
+			name = "Collection VIews";
+			sourceTree = "<group>";
+		};
+		036FBDAF18F60ED6002DAAC7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				036FBDB018F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.h */,
+				036FBDB118F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		036FBDB618F61037002DAAC7 /* Image Element */ = {
+			isa = PBXGroup;
+			children = (
+				036FBDB718F61049002DAAC7 /* INDCollectionImageElement.h */,
+				036FBDB818F61049002DAAC7 /* INDCollectionImageElement.m */,
+			);
+			name = "Image Element";
+			sourceTree = "<group>";
+		};
 		03F7EC0518F3067600964BF0 /* Value Transformers */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,13 +317,13 @@
 			name = "Value Transformers";
 			sourceTree = "<group>";
 		};
-		03F7EC0C18F30B1500964BF0 /* Base View Controllers */ = {
+		03F7EC0C18F30B1500964BF0 /* Table Views */ = {
 			isa = PBXGroup;
 			children = (
 				03F7EC0D18F30B4300964BF0 /* INDJSONTableViewController.h */,
 				03F7EC0E18F30B4300964BF0 /* INDJSONTableViewController.m */,
 			);
-			name = "Base View Controllers";
+			name = "Table Views";
 			sourceTree = "<group>";
 		};
 		03F7EC1018F3190300964BF0 /* Controller */ = {
@@ -518,8 +557,10 @@
 				03F7EC5C18F3928500964BF0 /* MNSTableViewController.m in Sources */,
 				03F7EC0F18F30B4300964BF0 /* INDJSONTableViewController.m in Sources */,
 				03F7EC5A18F3928500964BF0 /* MNSMultilineLabel.m in Sources */,
+				036FBDB518F61012002DAAC7 /* INDJSONCollectionViewController.m in Sources */,
 				03F7EC3B18F380B300964BF0 /* INDAppDelegate.m in Sources */,
 				035A9DFD18F2F6C2007D9FEC /* main.m in Sources */,
+				036FBDB218F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.m in Sources */,
 				03F7EC5518F3928500964BF0 /* MNSCollectionViewController.m in Sources */,
 				03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */,
 				036FBDAA18F5C89F002DAAC7 /* INDAboutViewController.m in Sources */,
@@ -531,6 +572,7 @@
 				03F7EC3818F380A800964BF0 /* INDMainViewController.m in Sources */,
 				03F7EC5D18F3928500964BF0 /* MNSViewControllerRegistrar.m in Sources */,
 				03F7EC6218F392F800964BF0 /* AutoLayoutShorthand.m in Sources */,
+				036FBDB918F61049002DAAC7 /* INDCollectionImageElement.m in Sources */,
 				035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */,
 				035A9E3B18F3021E007D9FEC /* INDJSONModelAdapter.m in Sources */,
 				03F7EC1418F3192A00964BF0 /* INDMainCellViewController.m in Sources */,

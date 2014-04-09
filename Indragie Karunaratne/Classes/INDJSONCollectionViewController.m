@@ -1,20 +1,20 @@
 //
-//  INDJSONTableViewController.m
+//  INDJSONCollectionViewController.m
 //  Indragie Karunaratne
 //
-//  Created by Indragie Karunaratne on 2014-04-07.
+//  Created by Indragie Karunaratne on 2014-04-09.
 //  Copyright (c) 2014 Indragie Karunaratne. All rights reserved.
 //
 
-#import "INDJSONTableViewController.h"
+#import "INDJSONCollectionViewController.h"
 #import "INDJSONModelAdapter.h"
 #import "NSJSONSerialization+INDAdditions.h"
 
-@interface INDJSONTableViewController ()
+@interface INDJSONCollectionViewController ()
 @property (nonatomic, strong, readwrite) NSArray *objects;
 @end
 
-@implementation INDJSONTableViewController
+@implementation INDJSONCollectionViewController
 
 #pragma mark - Initialization
 

@@ -27,6 +27,8 @@
 
 ///////////////////////////
 // About view controller //
-///////////////////////////				
+///////////////////////////
+
+#define IND_ABOUT_TITLE_COLOR					[UIColor blackColor]
 
 #endif
