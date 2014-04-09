@@ -8,13 +8,38 @@
 
 #import "INDNavigationController.h"
 
+@interface INDNavigationController () <UINavigationControllerDelegate>
+@end
+
 @implementation INDNavigationController
+
+#pragma mark - Initialization
+
+static void CommonInit(INDNavigationController *self)
+{
+	self.delegate = self;
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+	if ((self = [super initWithCoder:aDecoder])) {
+		CommonInit(self);
+	}
+	return self;
+}
+
+#pragma mark - UINavigationControllerDelegate
+
+- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated
+{
+	[self setNeedsStatusBarAppearanceUpdate];
+}
 
 #pragma mark - Accessors
 
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
-    return UIStatusBarStyleLightContent;
+    return self.topViewController.preferredStatusBarStyle;
 }
 
 @end

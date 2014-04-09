@@ -32,16 +32,21 @@ static NSString * const INDMainViewTwitterURL = @"https://twitter.com/indragie";
 	}
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+	[super viewWillAppear:animated];
+	UINavigationBar *navigationBar = self.navigationController.navigationBar;
+	[UIView animateWithDuration:IND_TRANSITION_ANIMATION_DURATION animations:^{
+		navigationBar.barTintColor = IND_MAIN_BAR_TINT_COLOR;
+		navigationBar.tintColor = IND_MAIN_TINT_COLOR;
+		navigationBar.translucent = NO;
+		navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : IND_MAIN_TINT_COLOR};
+	}];
+}
+
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	UINavigationBar *navigationBar = self.navigationController.navigationBar;
-	navigationBar.barTintColor = IND_MAIN_BAR_TINT_COLOR;
-	navigationBar.tintColor = IND_MAIN_TINT_COLOR;
-	navigationBar.translucent = NO;
-	navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : IND_MAIN_TINT_COLOR};
-	[self setNeedsStatusBarAppearanceUpdate];
-	
+	[super viewDidLoad];
 	INDMainViewFooterView *footerView = [[INDMainViewFooterView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.tableView.bounds), 39.0)];
 	[footerView.twitterButton addTarget:self action:@selector(twitter:) forControlEvents:UIControlEventTouchUpInside];
 	[footerView.githubButton addTarget:self action:@selector(github:) forControlEvents:UIControlEventTouchUpInside];
@@ -65,7 +70,7 @@ static NSString * const INDMainViewTwitterURL = @"https://twitter.com/indragie";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [super tableView:tableView didSelectRowAtIndexPath:indexPath];
+	[super tableView:tableView didSelectRowAtIndexPath:indexPath];
 	
 	INDMainViewItem *item = self.objects[indexPath.row];
 	Class vcClass = item.viewControllerClass;
@@ -73,7 +78,7 @@ static NSString * const INDMainViewTwitterURL = @"https://twitter.com/indragie";
 		UIViewController *viewController = [[vcClass alloc] initWithNibName:NSStringFromClass(vcClass) bundle:nil];
 		[self.navigationController pushViewController:viewController animated:YES];
 	}
-    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+	[tableView deselectRowAtIndexPath:indexPath animated:NO];
 }
 
 #pragma mark - Accessors

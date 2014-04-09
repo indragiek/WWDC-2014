@@ -8,42 +8,24 @@
 
 #import "INDAboutViewController.h"
 
-@interface INDAboutViewController ()
-
-@end
-
 @implementation INDAboutViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (void)viewWillAppear:(BOOL)animated
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+	[super viewWillAppear:animated];
+	UINavigationBar *navigationBar = self.navigationController.navigationBar;
+	[UIView animateWithDuration:IND_TRANSITION_ANIMATION_DURATION animations:^{
+		navigationBar.tintColor = nil;
+		navigationBar.barTintColor = nil;
+		navigationBar.barStyle = UIBarStyleDefault;
+	}];
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
+#pragma mark - Accessors
 
-- (void)didReceiveMemoryWarning
+- (UIStatusBarStyle)preferredStatusBarStyle
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    return UIStatusBarStyleDefault;
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
