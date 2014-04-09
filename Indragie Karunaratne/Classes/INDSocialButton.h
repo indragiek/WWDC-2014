@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  Custom button that shows a social service icon, name, and caret.
+ */
 @interface INDSocialButton : UIButton
 
 @end

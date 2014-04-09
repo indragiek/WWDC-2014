@@ -10,7 +10,10 @@
 #import "INDMainCellViewController.h"
 #import "INDMainViewItem.h"
 #import "INDSocialButton.h"
-#import "AutoLayoutShorthand.h"
+#import "INDMainViewFooterView.h"
+
+static NSString * const INDMainViewGithubURL = @"https://github.com/indragiek";
+static NSString * const INDMainViewTwitterURL = @"https://twitter.com/indragie";
 
 @implementation INDMainViewController
 
@@ -39,34 +42,23 @@
 	navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : IND_MAIN_TINT_COLOR};
 	[self setNeedsStatusBarAppearanceUpdate];
 	
-	UIView *footerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.tableView.bounds), 39.0)];
-	INDSocialButton *twitter = [INDSocialButton buttonWithType:UIButtonTypeCustom];
-	twitter.backgroundColor = IND_MAIN_TWITTER_BG_COLOR;
-	[twitter setImage:[UIImage imageNamed:@"twitter-icon"] forState:UIControlStateNormal];
-	[twitter setTitle:@"Twitter" forState:UIControlStateNormal];
-	
-	INDSocialButton *github = [INDSocialButton buttonWithType:UIButtonTypeCustom];
-	github.backgroundColor = IND_MAIN_GITHUB_BG_COLOR;
-	[github setImage:[UIImage imageNamed:@"github-icon"] forState:UIControlStateNormal];
-	[github setTitle:@"GitHub" forState:UIControlStateNormal];
-	
-	[footerView addSubview:twitter];
-	[footerView addSubview:github];
-	
-	[twitter als_addConstraints:@{
-		@"left ==" : als_superview,
-		@"bottom ==" : als_superview,
-		@"top ==" : als_superview,
-		@"width ==" : @{als_view : footerView.als_width, als_multiplier : @(0.5)}
-	}];
-	[github als_addConstraints:@{
-		@"bottom ==" : als_superview,
-		@"top ==" : als_superview,
-		@"leading ==" : twitter.als_right,
-		@"width ==" : twitter.als_width
-	}];
+	INDMainViewFooterView *footerView = [[INDMainViewFooterView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.tableView.bounds), 39.0)];
+	[footerView.twitterButton addTarget:self action:@selector(twitter:) forControlEvents:UIControlEventTouchUpInside];
+	[footerView.githubButton addTarget:self action:@selector(github:) forControlEvents:UIControlEventTouchUpInside];
 	
 	self.tableView.tableFooterView = footerView;
+}
+
+#pragma mark - Button Actions
+
+- (void)github:(id)sender
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:INDMainViewGithubURL]];
+}
+
+- (void)twitter:(id)sender
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:INDMainViewTwitterURL]];
 }
 
 #pragma mark - UITableViewDelegate
