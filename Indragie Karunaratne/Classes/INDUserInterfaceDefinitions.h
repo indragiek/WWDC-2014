@@ -16,5 +16,7 @@
 #define IND_MAIN_BAR_TINT_COLOR                 [UIColor colorWithRed:0.29 green:0.29 blue:0.29 alpha:1.0]
 #define IND_MAIN_TINT_COLOR                     [UIColor whiteColor]
 #define IND_MAIN_DESCRIPTION_LINE_SPACING       2.f
+#define IND_MAIN_TWITTER_BG_COLOR				[UIColor colorWithRed:0.00 green:0.69 blue:0.93 alpha:1.0]
+#define IND_MAIN_GITHUB_BG_COLOR				[UIColor blackColor]
 
 #endif

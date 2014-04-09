@@ -40,8 +40,16 @@
 	[self setNeedsStatusBarAppearanceUpdate];
 	
 	UIView *footerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.tableView.bounds), 39.0)];
-	INDSocialButton *twitter = [[INDSocialButton alloc] initWithFrame:CGRectZero];
-	INDSocialButton *github = [[INDSocialButton alloc] initWithFrame:CGRectZero];
+	INDSocialButton *twitter = [INDSocialButton buttonWithType:UIButtonTypeCustom];
+	twitter.backgroundColor = IND_MAIN_TWITTER_BG_COLOR;
+	[twitter setImage:[UIImage imageNamed:@"twitter-icon"] forState:UIControlStateNormal];
+	[twitter setTitle:@"Twitter" forState:UIControlStateNormal];
+	
+	INDSocialButton *github = [INDSocialButton buttonWithType:UIButtonTypeCustom];
+	github.backgroundColor = IND_MAIN_GITHUB_BG_COLOR;
+	[github setImage:[UIImage imageNamed:@"github-icon"] forState:UIControlStateNormal];
+	[github setTitle:@"GitHub" forState:UIControlStateNormal];
+	
 	[footerView addSubview:twitter];
 	[footerView addSubview:github];
 	
