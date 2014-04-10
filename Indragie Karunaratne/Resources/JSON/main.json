@@ -2,7 +2,7 @@
 	{
 		"className": "INDMainViewItem",
 		"title": "About Me",
-		"projectDescription": "I develop software primarily for Mac and iOS, and like to experiment with other platforms. Below is a selection of my most significant work.",
+		"projectDescription": "I'm a student and software developer from Edmonton, Canada. Below are my two most significant projects to date.",
 		"iconName": "me-icon",
 		"backgroundName": "me-bg",
 		"vcClassName": "INDAboutViewController"
