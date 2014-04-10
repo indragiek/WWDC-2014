@@ -45,6 +45,7 @@
 		036FBE4318F63C41002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE4218F63C41002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.m */; };
 		036FBE4618F63E41002DAAC7 /* INDCollectionTimelineMilestoneMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE4518F63E41002DAAC7 /* INDCollectionTimelineMilestoneMarker.m */; };
 		036FBE4918F63F7D002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036FBE4718F63F7D002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.xib */; };
+		036FBE4C18F647C9002DAAC7 /* INDHTMLToAttributedStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE4B18F647C9002DAAC7 /* INDHTMLToAttributedStringValueTransformer.m */; };
 		03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */; };
 		03F7EC0F18F30B4300964BF0 /* INDJSONTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0E18F30B4300964BF0 /* INDJSONTableViewController.m */; };
 		03F7EC1418F3192A00964BF0 /* INDMainCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC1318F3192A00964BF0 /* INDMainCellViewController.m */; };
@@ -175,6 +176,8 @@
 		036FBE4418F63E41002DAAC7 /* INDCollectionTimelineMilestoneMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionTimelineMilestoneMarker.h; path = Classes/INDCollectionTimelineMilestoneMarker.h; sourceTree = "<group>"; };
 		036FBE4518F63E41002DAAC7 /* INDCollectionTimelineMilestoneMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionTimelineMilestoneMarker.m; path = Classes/INDCollectionTimelineMilestoneMarker.m; sourceTree = "<group>"; };
 		036FBE4818F63F7D002DAAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDCollectionTimelineMilestoneCellViewController.xib; sourceTree = "<group>"; };
+		036FBE4A18F647C9002DAAC7 /* INDHTMLToAttributedStringValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDHTMLToAttributedStringValueTransformer.h; path = Classes/INDHTMLToAttributedStringValueTransformer.h; sourceTree = "<group>"; };
+		036FBE4B18F647C9002DAAC7 /* INDHTMLToAttributedStringValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDHTMLToAttributedStringValueTransformer.m; path = Classes/INDHTMLToAttributedStringValueTransformer.m; sourceTree = "<group>"; };
 		03F7EC0618F3068A00964BF0 /* INDImageNameToImageValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDImageNameToImageValueTransformer.h; path = Classes/INDImageNameToImageValueTransformer.h; sourceTree = "<group>"; };
 		03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDImageNameToImageValueTransformer.m; path = Classes/INDImageNameToImageValueTransformer.m; sourceTree = "<group>"; };
 		03F7EC0D18F30B4300964BF0 /* INDJSONTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDJSONTableViewController.h; path = Classes/INDJSONTableViewController.h; sourceTree = "<group>"; };
@@ -454,6 +457,8 @@
 			children = (
 				03F7EC0618F3068A00964BF0 /* INDImageNameToImageValueTransformer.h */,
 				03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */,
+				036FBE4A18F647C9002DAAC7 /* INDHTMLToAttributedStringValueTransformer.h */,
+				036FBE4B18F647C9002DAAC7 /* INDHTMLToAttributedStringValueTransformer.m */,
 			);
 			name = "Value Transformers";
 			sourceTree = "<group>";
@@ -710,6 +715,7 @@
 				03F7EC3E18F3846E00964BF0 /* INDSocialButton.m in Sources */,
 				036FBDCB18F61960002DAAC7 /* INDCollectionTextElement.m in Sources */,
 				03F7EC5C18F3928500964BF0 /* MNSTableViewController.m in Sources */,
+				036FBE4C18F647C9002DAAC7 /* INDHTMLToAttributedStringValueTransformer.m in Sources */,
 				03F7EC0F18F30B4300964BF0 /* INDJSONTableViewController.m in Sources */,
 				03F7EC5A18F3928500964BF0 /* MNSMultilineLabel.m in Sources */,
 				036FBDB518F61012002DAAC7 /* INDJSONCollectionViewController.m in Sources */,

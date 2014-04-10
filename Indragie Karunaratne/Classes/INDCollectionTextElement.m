@@ -7,6 +7,7 @@
 //
 
 #import "INDCollectionTextElement.h"
+#import "INDHTMLToAttributedStringValueTransformer.h"
 
 @implementation INDCollectionTextElement
 
@@ -19,15 +20,7 @@
 
 + (NSValueTransformer *)attributedTextJSONTransformer
 {
-	return [MTLValueTransformer transformerWithBlock:^(NSString *html) {
-		NSData *data = [html dataUsingEncoding:NSUTF8StringEncoding];
-		NSError *error = nil;
-		NSAttributedString *attributedText = [[NSAttributedString alloc] initWithData:data options:@{NSDocumentTypeDocumentAttribute : NSHTMLTextDocumentType} documentAttributes:nil error:&error];
-		if (attributedText == nil) {
-			NSLog(@"Error parsing HTML: %@", error);
-		}
-		return attributedText;
-	}];
+	return [NSValueTransformer valueTransformerForName:INDHTMLToAttributedStringValueTransformerName];
 }
 
 @end

@@ -10,6 +10,9 @@
 	},
 	{
 		"className": "INDCollectionTimelineHeaderElement",
+	},
+	{
+		"className": "INDCollectionTimelineMilestoneElement",
 		"imageName": "hypercard"
 	},
 	{
