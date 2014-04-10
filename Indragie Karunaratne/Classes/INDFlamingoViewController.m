@@ -1,19 +1,19 @@
 //
-//  INDAboutViewController.m
+//  INDFlamingoViewController.m
 //  Indragie Karunaratne
 //
-//  Created by Indragie Karunaratne on 2014-04-09.
+//  Created by Indragie Karunaratne on 2014-04-10.
 //  Copyright (c) 2014 Indragie Karunaratne. All rights reserved.
 //
 
-#import "INDAboutViewController.h"
+#import "INDFlamingoViewController.h"
 
-@implementation INDAboutViewController
+@implementation INDFlamingoViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
 	if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-		[self reloadDataWithJSONFileName:@"about"];
+		[self reloadDataWithJSONFileName:@"flamingo"];
 	}
 	return self;
 }
@@ -23,24 +23,23 @@
 	[super viewWillAppear:animated];
 	UINavigationBar *navigationBar = self.navigationController.navigationBar;
 	[UIView animateWithDuration:IND_TRANSITION_ANIMATION_DURATION animations:^{
-		navigationBar.tintColor = nil;
-		navigationBar.barTintColor = nil;
-		navigationBar.barStyle = UIBarStyleDefault;
-		navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : IND_ABOUT_TITLE_COLOR};
+		navigationBar.tintColor = IND_FLAMINGO_TINT_COLOR;
+		navigationBar.barTintColor = IND_FLAMINGO_BAR_TINT_COLOR;
+		navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : IND_FLAMINGO_TINT_COLOR};
 	}];
 }
 
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
-	self.navigationItem.title = @"About Me";
+	self.navigationItem.title = @"Flamingo";
 }
 
 #pragma mark - Accessors
 
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
-    return UIStatusBarStyleDefault;
+    return UIStatusBarStyleLightContent;
 }
 
 @end

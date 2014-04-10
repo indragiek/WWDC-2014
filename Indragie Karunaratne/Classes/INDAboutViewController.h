@@ -6,11 +6,11 @@
 //  Copyright (c) 2014 Indragie Karunaratne. All rights reserved.
 //
 
-#import "INDJSONCollectionViewController.h"
+#import "INDStaticCollectionViewController.h"
 
 /**
  *  View controller for the about view.
  */
-@interface INDAboutViewController : INDJSONCollectionViewController
+@interface INDAboutViewController : INDStaticCollectionViewController
 
 @end

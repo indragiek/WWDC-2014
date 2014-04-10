@@ -18,6 +18,10 @@
 		035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E2A18F2FB33007D9FEC /* INDNavigationController.m */; };
 		035A9E3018F2FEC8007D9FEC /* INDMainViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E2F18F2FEC8007D9FEC /* INDMainViewItem.m */; };
 		035A9E3B18F3021E007D9FEC /* INDJSONModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A9E3A18F3021E007D9FEC /* INDJSONModelAdapter.m */; };
+		035BFFE318F7219C004BFDF7 /* INDFlamingoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BFFE218F7219C004BFDF7 /* INDFlamingoViewController.m */; };
+		035BFFE618F721B1004BFDF7 /* INDFlamingoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035BFFE418F721B1004BFDF7 /* INDFlamingoViewController.xib */; };
+		035BFFE918F721E7004BFDF7 /* INDStaticCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BFFE818F721E7004BFDF7 /* INDStaticCollectionViewController.m */; };
+		035BFFEB18F72428004BFDF7 /* flamingo.json in Resources */ = {isa = PBXBuildFile; fileRef = 035BFFEA18F72428004BFDF7 /* flamingo.json */; };
 		036FBDA218F5C3EB002DAAC7 /* INDMainViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDA118F5C3EB002DAAC7 /* INDMainViewFooterView.m */; };
 		036FBDAA18F5C89F002DAAC7 /* INDAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDA918F5C89F002DAAC7 /* INDAboutViewController.m */; };
 		036FBDAD18F5C8EB002DAAC7 /* INDAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036FBDAB18F5C8EB002DAAC7 /* INDAboutViewController.xib */; };
@@ -135,6 +139,12 @@
 		035A9E2F18F2FEC8007D9FEC /* INDMainViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDMainViewItem.m; path = Classes/INDMainViewItem.m; sourceTree = "<group>"; };
 		035A9E3918F3021E007D9FEC /* INDJSONModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDJSONModelAdapter.h; path = Classes/INDJSONModelAdapter.h; sourceTree = "<group>"; };
 		035A9E3A18F3021E007D9FEC /* INDJSONModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDJSONModelAdapter.m; path = Classes/INDJSONModelAdapter.m; sourceTree = "<group>"; };
+		035BFFE118F7219C004BFDF7 /* INDFlamingoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDFlamingoViewController.h; path = Classes/INDFlamingoViewController.h; sourceTree = "<group>"; };
+		035BFFE218F7219C004BFDF7 /* INDFlamingoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDFlamingoViewController.m; path = Classes/INDFlamingoViewController.m; sourceTree = "<group>"; };
+		035BFFE518F721B1004BFDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDFlamingoViewController.xib; sourceTree = "<group>"; };
+		035BFFE718F721E7004BFDF7 /* INDStaticCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDStaticCollectionViewController.h; path = Classes/INDStaticCollectionViewController.h; sourceTree = "<group>"; };
+		035BFFE818F721E7004BFDF7 /* INDStaticCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDStaticCollectionViewController.m; path = Classes/INDStaticCollectionViewController.m; sourceTree = "<group>"; };
+		035BFFEA18F72428004BFDF7 /* flamingo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flamingo.json; sourceTree = "<group>"; };
 		036FBDA018F5C3EB002DAAC7 /* INDMainViewFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDMainViewFooterView.h; path = Classes/INDMainViewFooterView.h; sourceTree = "<group>"; };
 		036FBDA118F5C3EB002DAAC7 /* INDMainViewFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDMainViewFooterView.m; path = Classes/INDMainViewFooterView.m; sourceTree = "<group>"; };
 		036FBDA818F5C89F002DAAC7 /* INDAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDAboutViewController.h; path = Classes/INDAboutViewController.h; sourceTree = "<group>"; };
@@ -285,7 +295,8 @@
 				03F7EC0518F3067600964BF0 /* Value Transformers */,
 				035A9E3118F2FED7007D9FEC /* Adapters */,
 				035A9E2C18F2FB84007D9FEC /* Main View */,
-				036FBDA718F5C878002DAAC7 /* About */,
+				036FBDA718F5C878002DAAC7 /* About Me */,
+				035BFFE018F7217B004BFDF7 /* Flamingo */,
 				03F7EC3918F380B300964BF0 /* INDAppDelegate.h */,
 				03F7EC3A18F380B300964BF0 /* INDAppDelegate.m */,
 				035A9E0218F2F6C2007D9FEC /* Main.storyboard */,
@@ -335,14 +346,24 @@
 			name = Adapters;
 			sourceTree = "<group>";
 		};
-		036FBDA718F5C878002DAAC7 /* About */ = {
+		035BFFE018F7217B004BFDF7 /* Flamingo */ = {
+			isa = PBXGroup;
+			children = (
+				035BFFE118F7219C004BFDF7 /* INDFlamingoViewController.h */,
+				035BFFE218F7219C004BFDF7 /* INDFlamingoViewController.m */,
+				035BFFE418F721B1004BFDF7 /* INDFlamingoViewController.xib */,
+			);
+			name = Flamingo;
+			sourceTree = "<group>";
+		};
+		036FBDA718F5C878002DAAC7 /* About Me */ = {
 			isa = PBXGroup;
 			children = (
 				036FBDA818F5C89F002DAAC7 /* INDAboutViewController.h */,
 				036FBDA918F5C89F002DAAC7 /* INDAboutViewController.m */,
 				036FBDAB18F5C8EB002DAAC7 /* INDAboutViewController.xib */,
 			);
-			name = About;
+			name = "About Me";
 			sourceTree = "<group>";
 		};
 		036FBDAE18F60E5F002DAAC7 /* Collection VIews */ = {
@@ -353,6 +374,8 @@
 				036FBDB618F61037002DAAC7 /* Image Element */,
 				036FBDB318F61012002DAAC7 /* INDJSONCollectionViewController.h */,
 				036FBDB418F61012002DAAC7 /* INDJSONCollectionViewController.m */,
+				035BFFE718F721E7004BFDF7 /* INDStaticCollectionViewController.h */,
+				035BFFE818F721E7004BFDF7 /* INDStaticCollectionViewController.m */,
 			);
 			name = "Collection VIews";
 			sourceTree = "<group>";
@@ -541,6 +564,7 @@
 		03F7EC2818F377D500964BF0 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				035BFFEA18F72428004BFDF7 /* flamingo.json */,
 				03F7EC2918F377D500964BF0 /* main.json */,
 				036FBDC618F6176D002DAAC7 /* about.json */,
 			);
@@ -715,9 +739,11 @@
 				036FBDC718F6176D002DAAC7 /* about.json in Resources */,
 				036FBE5818F65619002DAAC7 /* INDCollectionTimelineFooterViewController.xib in Resources */,
 				036FBE3918F636D4002DAAC7 /* INDCollectionTimelineHeaderViewController.xib in Resources */,
+				035BFFE618F721B1004BFDF7 /* INDFlamingoViewController.xib in Resources */,
 				036FBDC218F6140F002DAAC7 /* INDCollectionImageCellViewController.xib in Resources */,
 				036FBE4918F63F7D002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.xib in Resources */,
 				036FBE2118F621AF002DAAC7 /* Merriweather-Italic.ttf in Resources */,
+				035BFFEB18F72428004BFDF7 /* flamingo.json in Resources */,
 				035A9E0418F2F6C2007D9FEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -742,6 +768,7 @@
 				03F7EC0F18F30B4300964BF0 /* INDJSONTableViewController.m in Sources */,
 				03F7EC5A18F3928500964BF0 /* MNSMultilineLabel.m in Sources */,
 				036FBDB518F61012002DAAC7 /* INDJSONCollectionViewController.m in Sources */,
+				035BFFE318F7219C004BFDF7 /* INDFlamingoViewController.m in Sources */,
 				03F7EC3B18F380B300964BF0 /* INDAppDelegate.m in Sources */,
 				035A9DFD18F2F6C2007D9FEC /* main.m in Sources */,
 				036FBDB218F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.m in Sources */,
@@ -749,6 +776,7 @@
 				03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */,
 				036FBE4018F63C19002DAAC7 /* INDCollectionTimelineMilestoneCellView.m in Sources */,
 				036FBDAA18F5C89F002DAAC7 /* INDAboutViewController.m in Sources */,
+				035BFFE918F721E7004BFDF7 /* INDStaticCollectionViewController.m in Sources */,
 				036FBE3018F632D5002DAAC7 /* INDCollectionTimelineEndpointMarker.m in Sources */,
 				036FBDC518F6165A002DAAC7 /* INDCollectionImageCellViewController.m in Sources */,
 				03F7EC3518F37CAD00964BF0 /* INDLineSpacingLabel.m in Sources */,
@@ -800,6 +828,14 @@
 				035A9E0318F2F6C2007D9FEC /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		035BFFE418F721B1004BFDF7 /* INDFlamingoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035BFFE518F721B1004BFDF7 /* Base */,
+			);
+			name = INDFlamingoViewController.xib;
 			sourceTree = "<group>";
 		};
 		036FBDAB18F5C8EB002DAAC7 /* INDAboutViewController.xib */ = {

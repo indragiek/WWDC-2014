@@ -31,4 +31,11 @@
 
 #define IND_ABOUT_TITLE_COLOR					[UIColor blackColor]
 
+//////////////////////////////
+// Flamingo view controller //
+//////////////////////////////
+
+#define IND_FLAMINGO_BAR_TINT_COLOR				[UIColor colorWithRed:0.97 green:0.39 blue:0.41 alpha:1.0]
+#define IND_FLAMINGO_TINT_COLOR					[UIColor whiteColor]
+
 #endif

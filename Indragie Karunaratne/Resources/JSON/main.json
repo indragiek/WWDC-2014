@@ -12,7 +12,8 @@
 		"title": "Flamingo",
 		"projectDescription": "A beautifully designed native instant messaging app for OS X with support for Google Hangouts, Facebook, and XMPP chat.",
 		"iconName": "flamingo-icon",
-		"backgroundName": "flamingo-bg"
+		"backgroundName": "flamingo-bg",
+		"vcClassName": "INDFlamingoViewController"
 	},
 	{
 		"className": "INDMainViewItem",
