@@ -14,41 +14,26 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZt-7o-Fl9">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kt6-26-d5J" customClass="INDCollectionButton">
-                            <rect key="frame" x="137" y="0.0" width="47" height="31"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="31" id="ltq-R1-bQr"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
-                            <state key="normal" title="Button">
-                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                        </button>
-                    </subviews>
-                    <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kt6-26-d5J" customClass="INDCollectionButton">
+                    <rect key="frame" x="137" y="0.0" width="47" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <constraints>
-                        <constraint firstAttribute="centerX" secondItem="Kt6-26-d5J" secondAttribute="centerX" id="2bE-PH-d9H"/>
-                        <constraint firstAttribute="bottom" secondItem="Kt6-26-d5J" secondAttribute="bottom" constant="25" id="66A-Be-TGv"/>
-                        <constraint firstItem="Kt6-26-d5J" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="GZt-7o-Fl9" secondAttribute="leading" constant="20" id="EN6-xm-fnf"/>
-                        <constraint firstAttribute="height" constant="56" id="Ers-n2-n1P"/>
-                        <constraint firstItem="Kt6-26-d5J" firstAttribute="top" secondItem="GZt-7o-Fl9" secondAttribute="top" id="NxK-Kr-D8p"/>
-                        <constraint firstAttribute="width" constant="320" id="mkX-Nr-HOy"/>
-                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Kt6-26-d5J" secondAttribute="trailing" constant="20" id="tbh-f3-sUa"/>
+                        <constraint firstAttribute="height" constant="31" id="ltq-R1-bQr"/>
                     </constraints>
-                </view>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="GZt-7o-Fl9" firstAttribute="leading" secondItem="CZK-DK-7Ja" secondAttribute="leading" id="ETt-32-Vx2"/>
-                <constraint firstItem="GZt-7o-Fl9" firstAttribute="top" secondItem="CZK-DK-7Ja" secondAttribute="top" id="LKY-Xp-BWo"/>
-                <constraint firstAttribute="bottom" secondItem="GZt-7o-Fl9" secondAttribute="bottom" id="Ynu-K1-XMQ"/>
-                <constraint firstAttribute="trailing" secondItem="GZt-7o-Fl9" secondAttribute="trailing" id="cga-kD-hT5"/>
+                <constraint firstAttribute="centerX" secondItem="Kt6-26-d5J" secondAttribute="centerX" id="3vb-Cj-h7s"/>
+                <constraint firstItem="Kt6-26-d5J" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="CZK-DK-7Ja" secondAttribute="leading" constant="20" id="5g8-jD-yB2"/>
+                <constraint firstItem="Kt6-26-d5J" firstAttribute="top" secondItem="CZK-DK-7Ja" secondAttribute="top" id="O8H-sN-Tdb"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Kt6-26-d5J" secondAttribute="trailing" constant="20" id="knN-ue-n34"/>
+                <constraint firstAttribute="bottom" secondItem="Kt6-26-d5J" secondAttribute="bottom" constant="25" id="mCu-1q-BfA"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
