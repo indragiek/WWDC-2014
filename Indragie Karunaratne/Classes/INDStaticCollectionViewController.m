@@ -17,6 +17,8 @@
 #import "INDCollectionTimelineFooterViewController.h"
 #import "INDCollectionTimelineMilestoneElement.h"
 #import "INDCollectionTimelineMilestoneCellViewController.h"
+#import "INDCollectionButtonElement.h"
+#import "INDCollectionButtonCellViewController.h"
 #import "MNSViewControllerRegistrar.h"
 
 @implementation INDStaticCollectionViewController
@@ -29,6 +31,7 @@
 		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTimelineHeaderViewController.class forModelClass:INDCollectionTimelineHeaderElement.class];
 		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTimelineFooterViewController.class forModelClass:INDCollectionTimelineFooterElement.class];
 		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTimelineMilestoneCellViewController.class forModelClass:INDCollectionTimelineMilestoneElement.class];
+		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionButtonCellViewController.class forModelClass:INDCollectionButtonElement.class];
 	}
 }
 

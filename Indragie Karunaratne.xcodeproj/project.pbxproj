@@ -22,6 +22,11 @@
 		035BFFE618F721B1004BFDF7 /* INDFlamingoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035BFFE418F721B1004BFDF7 /* INDFlamingoViewController.xib */; };
 		035BFFE918F721E7004BFDF7 /* INDStaticCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BFFE818F721E7004BFDF7 /* INDStaticCollectionViewController.m */; };
 		035BFFEB18F72428004BFDF7 /* flamingo.json in Resources */ = {isa = PBXBuildFile; fileRef = 035BFFEA18F72428004BFDF7 /* flamingo.json */; };
+		035BFFEF18F72B1B004BFDF7 /* INDCollectionButtonElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BFFEE18F72B1B004BFDF7 /* INDCollectionButtonElement.m */; };
+		035BFFF218F72D1C004BFDF7 /* INDCollectionButtonCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BFFF118F72D1C004BFDF7 /* INDCollectionButtonCellView.m */; };
+		035BFFF518F72D7D004BFDF7 /* INDCollectionButtonCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BFFF418F72D7D004BFDF7 /* INDCollectionButtonCellViewController.m */; };
+		035BFFF818F72D8C004BFDF7 /* INDCollectionButtonCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035BFFF618F72D8C004BFDF7 /* INDCollectionButtonCellViewController.xib */; };
+		035BFFFB18F733C8004BFDF7 /* INDCollectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BFFFA18F733C8004BFDF7 /* INDCollectionButton.m */; };
 		036FBDA218F5C3EB002DAAC7 /* INDMainViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDA118F5C3EB002DAAC7 /* INDMainViewFooterView.m */; };
 		036FBDAA18F5C89F002DAAC7 /* INDAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDA918F5C89F002DAAC7 /* INDAboutViewController.m */; };
 		036FBDAD18F5C8EB002DAAC7 /* INDAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036FBDAB18F5C8EB002DAAC7 /* INDAboutViewController.xib */; };
@@ -145,6 +150,15 @@
 		035BFFE718F721E7004BFDF7 /* INDStaticCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDStaticCollectionViewController.h; path = Classes/INDStaticCollectionViewController.h; sourceTree = "<group>"; };
 		035BFFE818F721E7004BFDF7 /* INDStaticCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDStaticCollectionViewController.m; path = Classes/INDStaticCollectionViewController.m; sourceTree = "<group>"; };
 		035BFFEA18F72428004BFDF7 /* flamingo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flamingo.json; sourceTree = "<group>"; };
+		035BFFED18F72B1B004BFDF7 /* INDCollectionButtonElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionButtonElement.h; path = Classes/INDCollectionButtonElement.h; sourceTree = "<group>"; };
+		035BFFEE18F72B1B004BFDF7 /* INDCollectionButtonElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionButtonElement.m; path = Classes/INDCollectionButtonElement.m; sourceTree = "<group>"; };
+		035BFFF018F72D1C004BFDF7 /* INDCollectionButtonCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionButtonCellView.h; path = Classes/INDCollectionButtonCellView.h; sourceTree = "<group>"; };
+		035BFFF118F72D1C004BFDF7 /* INDCollectionButtonCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionButtonCellView.m; path = Classes/INDCollectionButtonCellView.m; sourceTree = "<group>"; };
+		035BFFF318F72D7D004BFDF7 /* INDCollectionButtonCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionButtonCellViewController.h; path = Classes/INDCollectionButtonCellViewController.h; sourceTree = "<group>"; };
+		035BFFF418F72D7D004BFDF7 /* INDCollectionButtonCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionButtonCellViewController.m; path = Classes/INDCollectionButtonCellViewController.m; sourceTree = "<group>"; };
+		035BFFF718F72D8C004BFDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDCollectionButtonCellViewController.xib; sourceTree = "<group>"; };
+		035BFFF918F733C8004BFDF7 /* INDCollectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionButton.h; path = Classes/INDCollectionButton.h; sourceTree = "<group>"; };
+		035BFFFA18F733C8004BFDF7 /* INDCollectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionButton.m; path = Classes/INDCollectionButton.m; sourceTree = "<group>"; };
 		036FBDA018F5C3EB002DAAC7 /* INDMainViewFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDMainViewFooterView.h; path = Classes/INDMainViewFooterView.h; sourceTree = "<group>"; };
 		036FBDA118F5C3EB002DAAC7 /* INDMainViewFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDMainViewFooterView.m; path = Classes/INDMainViewFooterView.m; sourceTree = "<group>"; };
 		036FBDA818F5C89F002DAAC7 /* INDAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDAboutViewController.h; path = Classes/INDAboutViewController.h; sourceTree = "<group>"; };
@@ -356,6 +370,22 @@
 			name = Flamingo;
 			sourceTree = "<group>";
 		};
+		035BFFEC18F72ADA004BFDF7 /* Button Element */ = {
+			isa = PBXGroup;
+			children = (
+				035BFFED18F72B1B004BFDF7 /* INDCollectionButtonElement.h */,
+				035BFFEE18F72B1B004BFDF7 /* INDCollectionButtonElement.m */,
+				035BFFF018F72D1C004BFDF7 /* INDCollectionButtonCellView.h */,
+				035BFFF118F72D1C004BFDF7 /* INDCollectionButtonCellView.m */,
+				035BFFF318F72D7D004BFDF7 /* INDCollectionButtonCellViewController.h */,
+				035BFFF418F72D7D004BFDF7 /* INDCollectionButtonCellViewController.m */,
+				035BFFF618F72D8C004BFDF7 /* INDCollectionButtonCellViewController.xib */,
+				035BFFF918F733C8004BFDF7 /* INDCollectionButton.h */,
+				035BFFFA18F733C8004BFDF7 /* INDCollectionButton.m */,
+			);
+			name = "Button Element";
+			sourceTree = "<group>";
+		};
 		036FBDA718F5C878002DAAC7 /* About Me */ = {
 			isa = PBXGroup;
 			children = (
@@ -369,6 +399,7 @@
 		036FBDAE18F60E5F002DAAC7 /* Collection VIews */ = {
 			isa = PBXGroup;
 			children = (
+				035BFFEC18F72ADA004BFDF7 /* Button Element */,
 				036FBE2818F631F9002DAAC7 /* Timeline */,
 				036FBDC818F61954002DAAC7 /* Text Element */,
 				036FBDB618F61037002DAAC7 /* Image Element */,
@@ -736,6 +767,7 @@
 				036FBE2218F621AF002DAAC7 /* Merriweather-Light.ttf in Resources */,
 				036FBE1818F61D83002DAAC7 /* INDCollectionTextCellViewController.xib in Resources */,
 				036FBE2318F621AF002DAAC7 /* Merriweather-Regular.ttf in Resources */,
+				035BFFF818F72D8C004BFDF7 /* INDCollectionButtonCellViewController.xib in Resources */,
 				036FBDC718F6176D002DAAC7 /* about.json in Resources */,
 				036FBE5818F65619002DAAC7 /* INDCollectionTimelineFooterViewController.xib in Resources */,
 				036FBE3918F636D4002DAAC7 /* INDCollectionTimelineHeaderViewController.xib in Resources */,
@@ -771,6 +803,7 @@
 				035BFFE318F7219C004BFDF7 /* INDFlamingoViewController.m in Sources */,
 				03F7EC3B18F380B300964BF0 /* INDAppDelegate.m in Sources */,
 				035A9DFD18F2F6C2007D9FEC /* main.m in Sources */,
+				035BFFEF18F72B1B004BFDF7 /* INDCollectionButtonElement.m in Sources */,
 				036FBDB218F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.m in Sources */,
 				03F7EC5518F3928500964BF0 /* MNSCollectionViewController.m in Sources */,
 				03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */,
@@ -784,11 +817,13 @@
 				036FBE3D18F63B6E002DAAC7 /* INDCollectionTimelineMilestoneElement.m in Sources */,
 				03F7EC5818F3928500964BF0 /* MNSHostingCollectionViewCell.m in Sources */,
 				03F7EC5E18F3928500964BF0 /* MNSViewHosting.m in Sources */,
+				035BFFF218F72D1C004BFDF7 /* INDCollectionButtonCellView.m in Sources */,
 				03F7EC5B18F3928500964BF0 /* MNSSection.m in Sources */,
 				03F7EC3818F380A800964BF0 /* INDMainViewController.m in Sources */,
 				03F7EC5D18F3928500964BF0 /* MNSViewControllerRegistrar.m in Sources */,
 				03F7EC6218F392F800964BF0 /* AutoLayoutShorthand.m in Sources */,
 				036FBDB918F61049002DAAC7 /* INDCollectionImageElement.m in Sources */,
+				035BFFF518F72D7D004BFDF7 /* INDCollectionButtonCellViewController.m in Sources */,
 				036FBE5518F655FA002DAAC7 /* INDCollectionTimelineFooterViewController.m in Sources */,
 				035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */,
 				036FBE2C18F63222002DAAC7 /* INDCollectionTimelineHeaderElement.m in Sources */,
@@ -799,6 +834,7 @@
 				036FBE0F18F61C4C002DAAC7 /* INDCollectionTextCellView.m in Sources */,
 				03F7EC5718F3928500964BF0 /* MNSHostedViewController.m in Sources */,
 				036FBE4318F63C41002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.m in Sources */,
+				035BFFFB18F733C8004BFDF7 /* INDCollectionButton.m in Sources */,
 				036FBDA218F5C3EB002DAAC7 /* INDMainViewFooterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -836,6 +872,14 @@
 				035BFFE518F721B1004BFDF7 /* Base */,
 			);
 			name = INDFlamingoViewController.xib;
+			sourceTree = "<group>";
+		};
+		035BFFF618F72D8C004BFDF7 /* INDCollectionButtonCellViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035BFFF718F72D8C004BFDF7 /* Base */,
+			);
+			name = INDCollectionButtonCellViewController.xib;
 			sourceTree = "<group>";
 		};
 		036FBDAB18F5C8EB002DAAC7 /* INDAboutViewController.xib */ = {

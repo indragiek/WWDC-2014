@@ -14,6 +14,13 @@
 //////////////
 
 #define IND_TRANSITION_ANIMATION_DURATION		0.25
+#define IND_COLLECTION_BUTTON_BORDER_COLOR		[UIColor colorWithRed:0.59 green:0.59 blue:0.59 alpha:1.0]
+#define IND_COLLECTION_BUTTON_BORDER_RADIUS		5.0
+#define IND_COLLECTION_BUTTON_BORDER_WIDTH		1.0
+#define IND_COLLECTION_BUTTON_BG_COLOR			[UIColor clearColor]
+#define IND_COLLECTION_BUTTON_H_BG_COLOR		[UIColor colorWithRed:0.59 green:0.59 blue:0.59 alpha:1.0]
+#define IND_COLLECTION_BUTTON_TEXT_COLOR		[UIColor blackColor]
+#define IND_COLLECTION_BUTTON_H_TEXT_COLOR		[UIColor whiteColor]
 
 //////////////////////////
 // Main view controller //
