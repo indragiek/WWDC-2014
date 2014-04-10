@@ -6,10 +6,12 @@
 //  Copyright (c) 2014 Indragie Karunaratne. All rights reserved.
 //
 
+#import "INDCollectionTextCellView.h"
+
 /**
  *  Content view for a collection view cell that shows a milestone in a timeline.
  */
-@interface INDCollectionTimelineMilestoneCellView : UIView
+@interface INDCollectionTimelineMilestoneCellView : INDCollectionTextCellView
 
 /**
  *  Image view that shows an image representing the milestone.

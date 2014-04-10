@@ -13,30 +13,44 @@
 	},
 	{
 		"className": "INDCollectionTimelineMilestoneElement",
-		"imageName": "hypercard"
+		"imageName": "hypercard",
+		"html": "<span style='font-family: Merriweather; font-size: 9pt; color: white'><strong>Grade 4 (2004)</strong>: Took my first programming class building software in HyperCard on a Mac Plus</span>",
+		"lineSpacing": 2
 	},
 	{
 		"className": "INDCollectionTimelineMilestoneElement",
-		"imageName": "objc"
+		"imageName": "objc",
+		"html": "<span style='font-family: Merriweather; font-size: 9pt; color: white'><strong>Grade 9 (2009)</strong>: Started learning Objective-C on my new MacBook Pro by reading <em>Cocoa Programming for Mac OS X</em> by Aaron Hillegass</span>",
+		"lineSpacing": 2
 	},
 	{
 		"className": "INDCollectionTimelineMilestoneElement",
-		"imageName": "taskpad"
+		"imageName": "taskpad",
+		"html": "<span style='font-family: Merriweather; font-size: 9pt; color: white'><strong>Grade 10 (2010)</strong>: Built my first big app in Objective-C, a task management app for the first iPad &mdash; unreleased</span>",
+		"lineSpacing": 2
 	},
 	{
 		"className": "INDCollectionTimelineMilestoneElement",
-		"imageName": "sonora"
+		"imageName": "sonora",
+		"html": "<span style='font-family: Merriweather; font-size: 9pt; color: white'><strong>Grade 11 (2011)</strong>: Released Sonora, a beautiful audio player for OS X and my first commercially successful app</span>",
+		"lineSpacing": 2
 	},
 	{
 		"className": "INDCollectionTimelineMilestoneElement",
-		"imageName": "ualberta"
+		"imageName": "ualberta",
+		"html": "<span style='font-family: Merriweather; font-size: 9pt; color: white'><strong>September 2012</strong>: Entered the Computer Engineering program at the University of Alberta in Edmonton, AB</span>",
+		"lineSpacing": 2
 	},
 	{
 		"className": "INDCollectionTimelineMilestoneElement",
-		"imageName": "amazon"
+		"imageName": "amazon",
+		"html": "<span style='font-family: Merriweather; font-size: 9pt; color: white'><strong>Summer 2012</strong>: Interned at Amazon in Seattle, WA. Worked on a complete overhaul of the native Cloud Drive client for OS X</span>",
+		"lineSpacing": 2
 	},
 	{
 		"className": "INDCollectionTimelineMilestoneElement",
-		"imageName": "flamingo-timeline"
+		"imageName": "flamingo-timeline",
+		"html": "<span style='font-family: Merriweather; font-size: 9pt; color: white'><strong>Fall 2013</strong>: Released Flamingo, a modern instant messaging client for OS X designed with fresh ideas from the ground up</span>",
+		"lineSpacing": 2
 	}
 ]

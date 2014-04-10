@@ -14,6 +14,7 @@
 
 - (void)updateView:(INDCollectionTimelineMilestoneCellView *)view withObject:(INDCollectionTimelineMilestoneElement *)element
 {
+	[super updateView:view withObject:element];
 	view.imageView.image = element.image;
 }
 

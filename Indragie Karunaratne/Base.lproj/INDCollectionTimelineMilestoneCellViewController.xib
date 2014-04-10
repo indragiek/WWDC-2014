@@ -44,15 +44,27 @@
                                 <constraint firstAttribute="height" constant="119" id="tlA-xx-dx5"/>
                             </constraints>
                         </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gu1-2a-gRZ" customClass="INDLineSpacingLabel">
+                            <rect key="frame" x="106" y="64" width="180" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="180" id="JkW-Zx-vXb"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="320" id="0PO-Ct-3WT"/>
+                        <constraint firstItem="Gu1-2a-gRZ" firstAttribute="centerY" secondItem="rd9-Lw-62F" secondAttribute="centerY" id="9eT-Lf-R5n"/>
                         <constraint firstItem="tX2-Wd-j4p" firstAttribute="top" secondItem="23y-oQ-Obe" secondAttribute="top" constant="57" id="AgF-e5-Kg9"/>
                         <constraint firstItem="rd9-Lw-62F" firstAttribute="top" secondItem="23y-oQ-Obe" secondAttribute="top" constant="15" id="GCC-HK-R3b"/>
                         <constraint firstAttribute="bottom" secondItem="cim-Cc-JwQ" secondAttribute="bottom" id="Kj3-TY-QZi"/>
                         <constraint firstAttribute="trailing" secondItem="rd9-Lw-62F" secondAttribute="trailing" constant="22" id="RFH-Z2-ZQn"/>
                         <constraint firstAttribute="height" constant="149" id="Y9O-cV-DHW"/>
+                        <constraint firstItem="Gu1-2a-gRZ" firstAttribute="centerX" secondItem="rd9-Lw-62F" secondAttribute="centerX" constant="9" id="cHw-2n-1k4"/>
                         <constraint firstAttribute="bottom" secondItem="tX2-Wd-j4p" secondAttribute="bottom" constant="57" id="cl5-g1-9yB"/>
                         <constraint firstItem="cim-Cc-JwQ" firstAttribute="top" secondItem="23y-oQ-Obe" secondAttribute="top" id="j3X-e8-Yqo"/>
                         <constraint firstItem="tX2-Wd-j4p" firstAttribute="leading" secondItem="23y-oQ-Obe" secondAttribute="leading" constant="20" id="mFu-Tf-0YP"/>
@@ -71,6 +83,7 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="imageView" destination="rd9-Lw-62F" id="Eap-yE-se4"/>
+                <outlet property="label" destination="Gu1-2a-gRZ" id="Fty-21-lmy"/>
             </connections>
         </view>
     </objects>

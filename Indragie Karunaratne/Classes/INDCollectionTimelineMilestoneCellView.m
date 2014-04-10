@@ -10,4 +10,11 @@
 
 @implementation INDCollectionTimelineMilestoneCellView
 
+- (void)awakeFromNib
+{
+	[super awakeFromNib];
+	self.label.numberOfLines = 0;
+	self.label.preferredMaxLayoutWidth = 180.0;
+}
+
 @end

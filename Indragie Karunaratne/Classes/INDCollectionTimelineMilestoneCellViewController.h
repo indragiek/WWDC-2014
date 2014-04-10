@@ -6,11 +6,11 @@
 //  Copyright (c) 2014 Indragie Karunaratne. All rights reserved.
 //
 
-#import "MNSHostedViewController.h"
+#import "INDCollectionTextCellViewController.h"
 
 /**
  *  View controller for timeline milestone cell.
  */
-@interface INDCollectionTimelineMilestoneCellViewController : MNSHostedViewController
+@interface INDCollectionTimelineMilestoneCellViewController : INDCollectionTextCellViewController
 
 @end

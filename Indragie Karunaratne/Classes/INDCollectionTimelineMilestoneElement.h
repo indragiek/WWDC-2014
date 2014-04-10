@@ -6,12 +6,12 @@
 //  Copyright (c) 2014 Indragie Karunaratne. All rights reserved.
 //
 
-#import <Mantle/Mantle.h>
+#import "INDCollectionTextElement.h"
 
 /**
  *  Collection view element model representing a timeline milestone.
  */
-@interface INDCollectionTimelineMilestoneElement : MTLModel <MTLJSONSerializing>
+@interface INDCollectionTimelineMilestoneElement : INDCollectionTextElement <MTLJSONSerializing>
 
 /**
  *  Image representing the milestone.
