@@ -14,7 +14,7 @@
 {
 	[super awakeFromNib];
 	self.label.numberOfLines = 0;
-	self.label.preferredMaxLayoutWidth = 300.0;
+	self.label.preferredMaxLayoutWidth = 280.0;
 }
 
 @end

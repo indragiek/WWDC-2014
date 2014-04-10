@@ -14,7 +14,7 @@
             <rect key="frame" x="0.0" y="0.0" width="92" height="71"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1YI-1A-Wh6" customClass="INDLineSpacingLabel">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1YI-1A-Wh6" customClass="INDLineSpacingLabel">
                     <rect key="frame" x="25" y="25" width="42" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -25,8 +25,8 @@
             <constraints>
                 <constraint firstItem="1YI-1A-Wh6" firstAttribute="top" secondItem="uuo-Kg-NWH" secondAttribute="top" constant="25" id="Mve-Qd-nbM"/>
                 <constraint firstAttribute="bottom" secondItem="1YI-1A-Wh6" secondAttribute="bottom" constant="25" id="STa-bO-OMY"/>
-                <constraint firstItem="1YI-1A-Wh6" firstAttribute="leading" secondItem="uuo-Kg-NWH" secondAttribute="leading" constant="25" id="d97-dT-EmV"/>
-                <constraint firstAttribute="trailing" secondItem="1YI-1A-Wh6" secondAttribute="trailing" constant="25" id="udd-ab-8aa"/>
+                <constraint firstItem="1YI-1A-Wh6" firstAttribute="leading" secondItem="uuo-Kg-NWH" secondAttribute="leading" constant="20" id="d97-dT-EmV"/>
+                <constraint firstAttribute="trailing" secondItem="1YI-1A-Wh6" secondAttribute="trailing" constant="20" id="udd-ab-8aa"/>
             </constraints>
             <connections>
                 <outlet property="label" destination="1YI-1A-Wh6" id="VyN-eT-gBm"/>
