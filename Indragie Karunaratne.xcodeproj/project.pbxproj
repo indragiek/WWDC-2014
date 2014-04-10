@@ -24,10 +24,18 @@
 		036FBDB218F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDB118F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.m */; };
 		036FBDB518F61012002DAAC7 /* INDJSONCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDB418F61012002DAAC7 /* INDJSONCollectionViewController.m */; };
 		036FBDB918F61049002DAAC7 /* INDCollectionImageElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDB818F61049002DAAC7 /* INDCollectionImageElement.m */; };
-		036FBDBC18F6137C002DAAC7 /* INDCollectionImageCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDBB18F6137C002DAAC7 /* INDCollectionImageCellView.m */; };
 		036FBDC218F6140F002DAAC7 /* INDCollectionImageCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036FBDC018F6140F002DAAC7 /* INDCollectionImageCellViewController.xib */; };
 		036FBDC518F6165A002DAAC7 /* INDCollectionImageCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDC418F6165A002DAAC7 /* INDCollectionImageCellViewController.m */; };
 		036FBDC718F6176D002DAAC7 /* about.json in Resources */ = {isa = PBXBuildFile; fileRef = 036FBDC618F6176D002DAAC7 /* about.json */; };
+		036FBDCB18F61960002DAAC7 /* INDCollectionTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDCA18F61960002DAAC7 /* INDCollectionTextElement.m */; };
+		036FBE0F18F61C4C002DAAC7 /* INDCollectionTextCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE0E18F61C4C002DAAC7 /* INDCollectionTextCellView.m */; };
+		036FBE1218F61CEB002DAAC7 /* INDCollectionImageCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE1118F61CEB002DAAC7 /* INDCollectionImageCellView.m */; };
+		036FBE1518F61CFC002DAAC7 /* INDCollectionTextCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE1418F61CFC002DAAC7 /* INDCollectionTextCellViewController.m */; };
+		036FBE1818F61D83002DAAC7 /* INDCollectionTextCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036FBE1618F61D83002DAAC7 /* INDCollectionTextCellViewController.xib */; };
+		036FBE2018F621AF002DAAC7 /* Merriweather-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036FBE1B18F621AF002DAAC7 /* Merriweather-Bold.ttf */; };
+		036FBE2118F621AF002DAAC7 /* Merriweather-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036FBE1C18F621AF002DAAC7 /* Merriweather-Italic.ttf */; };
+		036FBE2218F621AF002DAAC7 /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036FBE1D18F621AF002DAAC7 /* Merriweather-Light.ttf */; };
+		036FBE2318F621AF002DAAC7 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036FBE1E18F621AF002DAAC7 /* Merriweather-Regular.ttf */; };
 		03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */; };
 		03F7EC0F18F30B4300964BF0 /* INDJSONTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0E18F30B4300964BF0 /* INDJSONTableViewController.m */; };
 		03F7EC1418F3192A00964BF0 /* INDMainCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC1318F3192A00964BF0 /* INDMainCellViewController.m */; };
@@ -125,12 +133,23 @@
 		036FBDB418F61012002DAAC7 /* INDJSONCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDJSONCollectionViewController.m; path = Classes/INDJSONCollectionViewController.m; sourceTree = "<group>"; };
 		036FBDB718F61049002DAAC7 /* INDCollectionImageElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionImageElement.h; path = Classes/INDCollectionImageElement.h; sourceTree = "<group>"; };
 		036FBDB818F61049002DAAC7 /* INDCollectionImageElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionImageElement.m; path = Classes/INDCollectionImageElement.m; sourceTree = "<group>"; };
-		036FBDBA18F6137C002DAAC7 /* INDCollectionImageCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDCollectionImageCellView.h; sourceTree = "<group>"; };
-		036FBDBB18F6137C002DAAC7 /* INDCollectionImageCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDCollectionImageCellView.m; sourceTree = "<group>"; };
 		036FBDC118F6140F002DAAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDCollectionImageCellViewController.xib; sourceTree = "<group>"; };
 		036FBDC318F6165A002DAAC7 /* INDCollectionImageCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionImageCellViewController.h; path = Classes/INDCollectionImageCellViewController.h; sourceTree = "<group>"; };
 		036FBDC418F6165A002DAAC7 /* INDCollectionImageCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionImageCellViewController.m; path = Classes/INDCollectionImageCellViewController.m; sourceTree = "<group>"; };
 		036FBDC618F6176D002DAAC7 /* about.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = about.json; sourceTree = "<group>"; };
+		036FBDC918F61960002DAAC7 /* INDCollectionTextElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionTextElement.h; path = Classes/INDCollectionTextElement.h; sourceTree = "<group>"; };
+		036FBDCA18F61960002DAAC7 /* INDCollectionTextElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionTextElement.m; path = Classes/INDCollectionTextElement.m; sourceTree = "<group>"; };
+		036FBE0D18F61C4C002DAAC7 /* INDCollectionTextCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionTextCellView.h; path = Classes/INDCollectionTextCellView.h; sourceTree = "<group>"; };
+		036FBE0E18F61C4C002DAAC7 /* INDCollectionTextCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionTextCellView.m; path = Classes/INDCollectionTextCellView.m; sourceTree = "<group>"; };
+		036FBE1018F61CEB002DAAC7 /* INDCollectionImageCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionImageCellView.h; path = Classes/INDCollectionImageCellView.h; sourceTree = "<group>"; };
+		036FBE1118F61CEB002DAAC7 /* INDCollectionImageCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionImageCellView.m; path = Classes/INDCollectionImageCellView.m; sourceTree = "<group>"; };
+		036FBE1318F61CFC002DAAC7 /* INDCollectionTextCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionTextCellViewController.h; path = Classes/INDCollectionTextCellViewController.h; sourceTree = "<group>"; };
+		036FBE1418F61CFC002DAAC7 /* INDCollectionTextCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionTextCellViewController.m; path = Classes/INDCollectionTextCellViewController.m; sourceTree = "<group>"; };
+		036FBE1718F61D83002DAAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDCollectionTextCellViewController.xib; sourceTree = "<group>"; };
+		036FBE1B18F621AF002DAAC7 /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.ttf"; sourceTree = "<group>"; };
+		036FBE1C18F621AF002DAAC7 /* Merriweather-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Italic.ttf"; sourceTree = "<group>"; };
+		036FBE1D18F621AF002DAAC7 /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.ttf"; sourceTree = "<group>"; };
+		036FBE1E18F621AF002DAAC7 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
 		03F7EC0618F3068A00964BF0 /* INDImageNameToImageValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDImageNameToImageValueTransformer.h; path = Classes/INDImageNameToImageValueTransformer.h; sourceTree = "<group>"; };
 		03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDImageNameToImageValueTransformer.m; path = Classes/INDImageNameToImageValueTransformer.m; sourceTree = "<group>"; };
 		03F7EC0D18F30B4300964BF0 /* INDJSONTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDJSONTableViewController.h; path = Classes/INDJSONTableViewController.h; sourceTree = "<group>"; };
@@ -293,6 +312,7 @@
 		036FBDAE18F60E5F002DAAC7 /* Collection VIews */ = {
 			isa = PBXGroup;
 			children = (
+				036FBDC818F61954002DAAC7 /* Text Element */,
 				036FBDB618F61037002DAAC7 /* Image Element */,
 				036FBDB318F61012002DAAC7 /* INDJSONCollectionViewController.h */,
 				036FBDB418F61012002DAAC7 /* INDJSONCollectionViewController.m */,
@@ -314,13 +334,46 @@
 			children = (
 				036FBDB718F61049002DAAC7 /* INDCollectionImageElement.h */,
 				036FBDB818F61049002DAAC7 /* INDCollectionImageElement.m */,
-				036FBDBA18F6137C002DAAC7 /* INDCollectionImageCellView.h */,
-				036FBDBB18F6137C002DAAC7 /* INDCollectionImageCellView.m */,
+				036FBE1018F61CEB002DAAC7 /* INDCollectionImageCellView.h */,
+				036FBE1118F61CEB002DAAC7 /* INDCollectionImageCellView.m */,
 				036FBDC018F6140F002DAAC7 /* INDCollectionImageCellViewController.xib */,
 				036FBDC318F6165A002DAAC7 /* INDCollectionImageCellViewController.h */,
 				036FBDC418F6165A002DAAC7 /* INDCollectionImageCellViewController.m */,
 			);
 			name = "Image Element";
+			sourceTree = "<group>";
+		};
+		036FBDC818F61954002DAAC7 /* Text Element */ = {
+			isa = PBXGroup;
+			children = (
+				036FBDC918F61960002DAAC7 /* INDCollectionTextElement.h */,
+				036FBDCA18F61960002DAAC7 /* INDCollectionTextElement.m */,
+				036FBE0D18F61C4C002DAAC7 /* INDCollectionTextCellView.h */,
+				036FBE0E18F61C4C002DAAC7 /* INDCollectionTextCellView.m */,
+				036FBE1318F61CFC002DAAC7 /* INDCollectionTextCellViewController.h */,
+				036FBE1418F61CFC002DAAC7 /* INDCollectionTextCellViewController.m */,
+				036FBE1618F61D83002DAAC7 /* INDCollectionTextCellViewController.xib */,
+			);
+			name = "Text Element";
+			sourceTree = "<group>";
+		};
+		036FBE1918F621AF002DAAC7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				036FBE1A18F621AF002DAAC7 /* Merriweather */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		036FBE1A18F621AF002DAAC7 /* Merriweather */ = {
+			isa = PBXGroup;
+			children = (
+				036FBE1B18F621AF002DAAC7 /* Merriweather-Bold.ttf */,
+				036FBE1C18F621AF002DAAC7 /* Merriweather-Italic.ttf */,
+				036FBE1D18F621AF002DAAC7 /* Merriweather-Light.ttf */,
+				036FBE1E18F621AF002DAAC7 /* Merriweather-Regular.ttf */,
+			);
+			path = Merriweather;
 			sourceTree = "<group>";
 		};
 		03F7EC0518F3067600964BF0 /* Value Transformers */ = {
@@ -380,6 +433,7 @@
 		03F7EC2018F377D500964BF0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				036FBE1918F621AF002DAAC7 /* Fonts */,
 				03F7EC2818F377D500964BF0 /* JSON */,
 			);
 			path = Resources;
@@ -552,11 +606,16 @@
 			files = (
 				03F7EC2F18F377D500964BF0 /* main.json in Resources */,
 				035A9E0C18F2F6C2007D9FEC /* Images.xcassets in Resources */,
+				036FBE2018F621AF002DAAC7 /* Merriweather-Bold.ttf in Resources */,
 				03F7EC1A18F3195800964BF0 /* INDMainCellViewController.xib in Resources */,
 				035A9DFB18F2F6C2007D9FEC /* InfoPlist.strings in Resources */,
 				036FBDAD18F5C8EB002DAAC7 /* INDAboutViewController.xib in Resources */,
+				036FBE2218F621AF002DAAC7 /* Merriweather-Light.ttf in Resources */,
+				036FBE1818F61D83002DAAC7 /* INDCollectionTextCellViewController.xib in Resources */,
+				036FBE2318F621AF002DAAC7 /* Merriweather-Regular.ttf in Resources */,
 				036FBDC718F6176D002DAAC7 /* about.json in Resources */,
 				036FBDC218F6140F002DAAC7 /* INDCollectionImageCellViewController.xib in Resources */,
+				036FBE2118F621AF002DAAC7 /* Merriweather-Italic.ttf in Resources */,
 				035A9E0418F2F6C2007D9FEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -571,7 +630,9 @@
 				03F7EC1718F3194400964BF0 /* INDMainCellView.m in Sources */,
 				03F7EC5918F3928500964BF0 /* MNSHostingTableViewCell.m in Sources */,
 				035A9E3018F2FEC8007D9FEC /* INDMainViewItem.m in Sources */,
+				036FBE1518F61CFC002DAAC7 /* INDCollectionTextCellViewController.m in Sources */,
 				03F7EC3E18F3846E00964BF0 /* INDSocialButton.m in Sources */,
+				036FBDCB18F61960002DAAC7 /* INDCollectionTextElement.m in Sources */,
 				03F7EC5C18F3928500964BF0 /* MNSTableViewController.m in Sources */,
 				03F7EC0F18F30B4300964BF0 /* INDJSONTableViewController.m in Sources */,
 				03F7EC5A18F3928500964BF0 /* MNSMultilineLabel.m in Sources */,
@@ -587,7 +648,6 @@
 				03F7EC5618F3928500964BF0 /* MNSDataMediator.m in Sources */,
 				03F7EC5818F3928500964BF0 /* MNSHostingCollectionViewCell.m in Sources */,
 				03F7EC5E18F3928500964BF0 /* MNSViewHosting.m in Sources */,
-				036FBDBC18F6137C002DAAC7 /* INDCollectionImageCellView.m in Sources */,
 				03F7EC5B18F3928500964BF0 /* MNSSection.m in Sources */,
 				03F7EC3818F380A800964BF0 /* INDMainViewController.m in Sources */,
 				03F7EC5D18F3928500964BF0 /* MNSViewControllerRegistrar.m in Sources */,
@@ -596,6 +656,8 @@
 				035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */,
 				035A9E3B18F3021E007D9FEC /* INDJSONModelAdapter.m in Sources */,
 				03F7EC1418F3192A00964BF0 /* INDMainCellViewController.m in Sources */,
+				036FBE1218F61CEB002DAAC7 /* INDCollectionImageCellView.m in Sources */,
+				036FBE0F18F61C4C002DAAC7 /* INDCollectionTextCellView.m in Sources */,
 				03F7EC5718F3928500964BF0 /* MNSHostedViewController.m in Sources */,
 				036FBDA218F5C3EB002DAAC7 /* INDMainViewFooterView.m in Sources */,
 			);
@@ -642,6 +704,14 @@
 				036FBDC118F6140F002DAAC7 /* Base */,
 			);
 			name = INDCollectionImageCellViewController.xib;
+			sourceTree = "<group>";
+		};
+		036FBE1618F61D83002DAAC7 /* INDCollectionTextCellViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036FBE1718F61D83002DAAC7 /* Base */,
+			);
+			name = INDCollectionTextCellViewController.xib;
 			sourceTree = "<group>";
 		};
 		03F7EC1818F3195800964BF0 /* INDMainCellViewController.xib */ = {

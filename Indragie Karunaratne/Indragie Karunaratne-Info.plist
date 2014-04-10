@@ -32,6 +32,13 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Merriweather-Regular.ttf</string>
+		<string>Merriweather-Light.ttf</string>
+		<string>Merriweather-Italic.ttf</string>
+		<string>Merriweather-Bold.ttf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

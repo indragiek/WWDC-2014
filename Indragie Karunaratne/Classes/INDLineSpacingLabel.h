@@ -10,7 +10,7 @@
 /**
  *  UILabel subclass with adjustable line spacing.
  */
-@interface INDLineSpacingLabel : MNSMultilineLabel
+@interface INDLineSpacingLabel : UILabel
 
 /**
  *  Line spacing. 

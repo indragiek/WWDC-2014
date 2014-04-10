@@ -2,5 +2,10 @@
 	{
 		"className": "INDCollectionImageElement",
 		"imageName": "me-banner"
+	},
+	{
+		"className": "INDCollectionTextElement",
+		"html": "<div style='font-family: Merriweather; font-size: 13pt; text-align: center'>I'm <strong>Indragie Karunaratne</strong><br /><br /><span style='font-size: 10pt'>I've been fascinated by technology and electronics since early childhood. This is the timeline of the milestones in my life that have lead me to where I am today.</span></div>",
+		"lineSpacing": 3
 	}
 ]

@@ -13,6 +13,7 @@
 - (void)awakeFromNib
 {
 	[super awakeFromNib];
+	self.descriptionLabel.numberOfLines = 0;
 	self.descriptionLabel.ind_lineSpacing = IND_MAIN_DESCRIPTION_LINE_SPACING;
 }
 

@@ -9,6 +9,8 @@
 #import "INDAboutViewController.h"
 #import "INDCollectionImageElement.h"
 #import "INDCollectionImageCellViewController.h"
+#import "INDCollectionTextElement.h"
+#import "INDCollectionTextCellViewController.h"
 #import "MNSViewControllerRegistrar.h"
 
 @implementation INDAboutViewController
@@ -25,6 +27,7 @@
 {
 	if (self == INDAboutViewController.class) {
 		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionImageCellViewController.class forModelClass:INDCollectionImageElement.class];
+		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTextCellViewController.class forModelClass:INDCollectionTextElement.class];
 	}
 }
 
