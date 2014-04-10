@@ -18,37 +18,46 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="149"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cim-Cc-JwQ">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cim-Cc-JwQ">
                             <rect key="frame" x="35" y="0.0" width="5" height="149"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="5" id="xGE-lG-8Yw"/>
-                                <constraint firstAttribute="height" constant="149" id="zsx-mx-zfS"/>
+                                <constraint firstAttribute="height" constant="149" id="HiU-o9-boT"/>
+                                <constraint firstAttribute="width" constant="5" id="bfx-J3-PYw"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tX2-Wd-j4p" customClass="INDCollectionTimelineMilestoneMarker">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tX2-Wd-j4p" customClass="INDCollectionTimelineMilestoneMarker">
                             <rect key="frame" x="20" y="57" width="35" height="35"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="35" id="92g-95-c6f"/>
-                                <constraint firstAttribute="width" constant="35" id="xih-rx-4f0"/>
+                                <constraint firstAttribute="width" constant="35" id="qj5-HM-TAZ"/>
+                                <constraint firstAttribute="height" constant="35" id="xd0-oI-ecr"/>
                             </constraints>
                         </view>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rd9-Lw-62F">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rd9-Lw-62F">
                             <rect key="frame" x="75" y="15" width="223" height="119"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="119" id="5Ua-VV-gSE"/>
-                                <constraint firstAttribute="width" constant="223" id="pYC-Ik-MCm"/>
+                                <constraint firstAttribute="width" constant="223" id="aB1-9t-DJk"/>
+                                <constraint firstAttribute="height" constant="119" id="tlA-xx-dx5"/>
                             </constraints>
                         </imageView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="320" id="0PO-Ct-3WT"/>
+                        <constraint firstItem="tX2-Wd-j4p" firstAttribute="top" secondItem="23y-oQ-Obe" secondAttribute="top" constant="57" id="AgF-e5-Kg9"/>
+                        <constraint firstItem="rd9-Lw-62F" firstAttribute="top" secondItem="23y-oQ-Obe" secondAttribute="top" constant="15" id="GCC-HK-R3b"/>
+                        <constraint firstAttribute="bottom" secondItem="cim-Cc-JwQ" secondAttribute="bottom" id="Kj3-TY-QZi"/>
+                        <constraint firstAttribute="trailing" secondItem="rd9-Lw-62F" secondAttribute="trailing" constant="22" id="RFH-Z2-ZQn"/>
                         <constraint firstAttribute="height" constant="149" id="Y9O-cV-DHW"/>
+                        <constraint firstAttribute="bottom" secondItem="tX2-Wd-j4p" secondAttribute="bottom" constant="57" id="cl5-g1-9yB"/>
+                        <constraint firstItem="cim-Cc-JwQ" firstAttribute="top" secondItem="23y-oQ-Obe" secondAttribute="top" id="j3X-e8-Yqo"/>
+                        <constraint firstItem="tX2-Wd-j4p" firstAttribute="leading" secondItem="23y-oQ-Obe" secondAttribute="leading" constant="20" id="mFu-Tf-0YP"/>
+                        <constraint firstAttribute="bottom" secondItem="rd9-Lw-62F" secondAttribute="bottom" constant="15" id="ujO-W2-NRa"/>
+                        <constraint firstItem="cim-Cc-JwQ" firstAttribute="leading" secondItem="23y-oQ-Obe" secondAttribute="leading" constant="35" id="w9R-Oo-Ayf"/>
                     </constraints>
                 </view>
             </subviews>
