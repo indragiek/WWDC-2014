@@ -10,4 +10,16 @@
 
 @implementation INDCollectionButtonCellView
 
+- (void)awakeFromNib
+{
+	[super awakeFromNib];
+	[self.button addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)buttonPressed:(id)sender
+{
+	if (self.url == nil) return;
+	[UIApplication.sharedApplication openURL:self.url];
+}
+
 @end

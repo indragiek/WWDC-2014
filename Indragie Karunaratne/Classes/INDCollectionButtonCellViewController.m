@@ -15,6 +15,7 @@
 - (void)updateView:(INDCollectionButtonCellView *)view withObject:(INDCollectionButtonElement *)element
 {
 	[view.button setTitle:element.title forState:UIControlStateNormal];
+	view.url = element.url;
 }
 
 

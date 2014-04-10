@@ -13,4 +13,9 @@
 
 @property (nonatomic, weak) IBOutlet UIButton *button;
 
+/**
+ *  URL to open when the button is tapped.
+ */
+@property (nonatomic, strong) NSURL *url;
+
 @end

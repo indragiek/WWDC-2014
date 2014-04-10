@@ -10,7 +10,8 @@
 	},
 	{
 		"className": "INDCollectionButtonElement",
-		"title": "View Product Website"
+		"title": "View Product Website",
+		"url" : "http://flamingo.im"
 	},
 	{
 		"className": "INDCollectionImageElement",
