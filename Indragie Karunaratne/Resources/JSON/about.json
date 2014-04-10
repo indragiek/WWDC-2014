@@ -54,8 +54,11 @@
 		"lineSpacing": 2
 	},
 	{
+		"className": "INDCollectionTimelineFooterElement",
+	},
+	{
 		"className": "INDCollectionTextElement",
 		"html": "<div style='font-family: Merriweather; font-size: 10pt; text-align: center'>I'm currently a full-time student, but in my free time I work on Flamingo. It ranked #1 in Top Paid Social Networking in many countries at its peak and I'm very excited for its future. I also have many other app ideas that I'd like to work on eventually.<br /><br />Attending WWDC for the first time would be an incredible experience and a great chance to further advance my skills.<br /><br /><span style='font-size: 12pt'>Thanks for your time and consideration.</span></div>",
 		"lineSpacing": 3
-	}
+	},
 ]

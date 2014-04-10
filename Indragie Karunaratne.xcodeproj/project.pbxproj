@@ -46,6 +46,9 @@
 		036FBE4618F63E41002DAAC7 /* INDCollectionTimelineMilestoneMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE4518F63E41002DAAC7 /* INDCollectionTimelineMilestoneMarker.m */; };
 		036FBE4918F63F7D002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036FBE4718F63F7D002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.xib */; };
 		036FBE4C18F647C9002DAAC7 /* INDHTMLToAttributedStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE4B18F647C9002DAAC7 /* INDHTMLToAttributedStringValueTransformer.m */; };
+		036FBE5218F655DF002DAAC7 /* INDCollectionTimelineFooterElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE5118F655DF002DAAC7 /* INDCollectionTimelineFooterElement.m */; };
+		036FBE5518F655FA002DAAC7 /* INDCollectionTimelineFooterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE5418F655FA002DAAC7 /* INDCollectionTimelineFooterViewController.m */; };
+		036FBE5818F65619002DAAC7 /* INDCollectionTimelineFooterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036FBE5618F65619002DAAC7 /* INDCollectionTimelineFooterViewController.xib */; };
 		03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */; };
 		03F7EC0F18F30B4300964BF0 /* INDJSONTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0E18F30B4300964BF0 /* INDJSONTableViewController.m */; };
 		03F7EC1418F3192A00964BF0 /* INDMainCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC1318F3192A00964BF0 /* INDMainCellViewController.m */; };
@@ -178,6 +181,11 @@
 		036FBE4818F63F7D002DAAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDCollectionTimelineMilestoneCellViewController.xib; sourceTree = "<group>"; };
 		036FBE4A18F647C9002DAAC7 /* INDHTMLToAttributedStringValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDHTMLToAttributedStringValueTransformer.h; path = Classes/INDHTMLToAttributedStringValueTransformer.h; sourceTree = "<group>"; };
 		036FBE4B18F647C9002DAAC7 /* INDHTMLToAttributedStringValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDHTMLToAttributedStringValueTransformer.m; path = Classes/INDHTMLToAttributedStringValueTransformer.m; sourceTree = "<group>"; };
+		036FBE5018F655DF002DAAC7 /* INDCollectionTimelineFooterElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionTimelineFooterElement.h; path = Classes/INDCollectionTimelineFooterElement.h; sourceTree = "<group>"; };
+		036FBE5118F655DF002DAAC7 /* INDCollectionTimelineFooterElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionTimelineFooterElement.m; path = Classes/INDCollectionTimelineFooterElement.m; sourceTree = "<group>"; };
+		036FBE5318F655FA002DAAC7 /* INDCollectionTimelineFooterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionTimelineFooterViewController.h; path = Classes/INDCollectionTimelineFooterViewController.h; sourceTree = "<group>"; };
+		036FBE5418F655FA002DAAC7 /* INDCollectionTimelineFooterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionTimelineFooterViewController.m; path = Classes/INDCollectionTimelineFooterViewController.m; sourceTree = "<group>"; };
+		036FBE5718F65619002DAAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDCollectionTimelineFooterViewController.xib; sourceTree = "<group>"; };
 		03F7EC0618F3068A00964BF0 /* INDImageNameToImageValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDImageNameToImageValueTransformer.h; path = Classes/INDImageNameToImageValueTransformer.h; sourceTree = "<group>"; };
 		03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDImageNameToImageValueTransformer.m; path = Classes/INDImageNameToImageValueTransformer.m; sourceTree = "<group>"; };
 		03F7EC0D18F30B4300964BF0 /* INDJSONTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDJSONTableViewController.h; path = Classes/INDJSONTableViewController.h; sourceTree = "<group>"; };
@@ -408,6 +416,7 @@
 		036FBE2818F631F9002DAAC7 /* Timeline */ = {
 			isa = PBXGroup;
 			children = (
+				036FBE4F18F655CB002DAAC7 /* Footer */,
 				036FBE3A18F63B09002DAAC7 /* Milestone */,
 				036FBE2D18F632B4002DAAC7 /* Common */,
 				036FBE2918F63212002DAAC7 /* Header */,
@@ -450,6 +459,18 @@
 				036FBE4718F63F7D002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.xib */,
 			);
 			name = Milestone;
+			sourceTree = "<group>";
+		};
+		036FBE4F18F655CB002DAAC7 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				036FBE5018F655DF002DAAC7 /* INDCollectionTimelineFooterElement.h */,
+				036FBE5118F655DF002DAAC7 /* INDCollectionTimelineFooterElement.m */,
+				036FBE5318F655FA002DAAC7 /* INDCollectionTimelineFooterViewController.h */,
+				036FBE5418F655FA002DAAC7 /* INDCollectionTimelineFooterViewController.m */,
+				036FBE5618F65619002DAAC7 /* INDCollectionTimelineFooterViewController.xib */,
+			);
+			name = Footer;
 			sourceTree = "<group>";
 		};
 		03F7EC0518F3067600964BF0 /* Value Transformers */ = {
@@ -692,6 +713,7 @@
 				036FBE1818F61D83002DAAC7 /* INDCollectionTextCellViewController.xib in Resources */,
 				036FBE2318F621AF002DAAC7 /* Merriweather-Regular.ttf in Resources */,
 				036FBDC718F6176D002DAAC7 /* about.json in Resources */,
+				036FBE5818F65619002DAAC7 /* INDCollectionTimelineFooterViewController.xib in Resources */,
 				036FBE3918F636D4002DAAC7 /* INDCollectionTimelineHeaderViewController.xib in Resources */,
 				036FBDC218F6140F002DAAC7 /* INDCollectionImageCellViewController.xib in Resources */,
 				036FBE4918F63F7D002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.xib in Resources */,
@@ -707,6 +729,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036FBE5218F655DF002DAAC7 /* INDCollectionTimelineFooterElement.m in Sources */,
 				036FBE3618F63663002DAAC7 /* INDCollectionTimelineHeaderViewController.m in Sources */,
 				03F7EC1718F3194400964BF0 /* INDMainCellView.m in Sources */,
 				03F7EC5918F3928500964BF0 /* MNSHostingTableViewCell.m in Sources */,
@@ -738,6 +761,7 @@
 				03F7EC5D18F3928500964BF0 /* MNSViewControllerRegistrar.m in Sources */,
 				03F7EC6218F392F800964BF0 /* AutoLayoutShorthand.m in Sources */,
 				036FBDB918F61049002DAAC7 /* INDCollectionImageElement.m in Sources */,
+				036FBE5518F655FA002DAAC7 /* INDCollectionTimelineFooterViewController.m in Sources */,
 				035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */,
 				036FBE2C18F63222002DAAC7 /* INDCollectionTimelineHeaderElement.m in Sources */,
 				035A9E3B18F3021E007D9FEC /* INDJSONModelAdapter.m in Sources */,
@@ -816,6 +840,14 @@
 				036FBE4818F63F7D002DAAC7 /* Base */,
 			);
 			name = INDCollectionTimelineMilestoneCellViewController.xib;
+			sourceTree = "<group>";
+		};
+		036FBE5618F65619002DAAC7 /* INDCollectionTimelineFooterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036FBE5718F65619002DAAC7 /* Base */,
+			);
+			name = INDCollectionTimelineFooterViewController.xib;
 			sourceTree = "<group>";
 		};
 		03F7EC1818F3195800964BF0 /* INDMainCellViewController.xib */ = {
