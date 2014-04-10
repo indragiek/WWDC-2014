@@ -7,8 +7,26 @@
 //
 
 #import "INDAboutViewController.h"
+#import "INDCollectionImageElement.h"
+#import "INDCollectionImageCellViewController.h"
+#import "MNSViewControllerRegistrar.h"
 
 @implementation INDAboutViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+	if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
+		[self reloadDataWithJSONFileName:@"about"];
+	}
+	return self;
+}
+
++ (void)initialize
+{
+	if (self == INDAboutViewController.class) {
+		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionImageCellViewController.class forModelClass:INDCollectionImageElement.class];
+	}
+}
 
 - (void)viewWillAppear:(BOOL)animated
 {

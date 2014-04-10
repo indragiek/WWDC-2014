@@ -6,8 +6,11 @@
 //  Copyright (c) 2014 Indragie Karunaratne. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "INDJSONCollectionViewController.h"
 
-@interface INDAboutViewController : UICollectionViewController
+/**
+ *  View controller for the about view.
+ */
+@interface INDAboutViewController : INDJSONCollectionViewController
 
 @end

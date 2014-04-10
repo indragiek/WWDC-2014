@@ -24,6 +24,10 @@
 		036FBDB218F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDB118F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.m */; };
 		036FBDB518F61012002DAAC7 /* INDJSONCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDB418F61012002DAAC7 /* INDJSONCollectionViewController.m */; };
 		036FBDB918F61049002DAAC7 /* INDCollectionImageElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDB818F61049002DAAC7 /* INDCollectionImageElement.m */; };
+		036FBDBC18F6137C002DAAC7 /* INDCollectionImageCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDBB18F6137C002DAAC7 /* INDCollectionImageCellView.m */; };
+		036FBDC218F6140F002DAAC7 /* INDCollectionImageCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036FBDC018F6140F002DAAC7 /* INDCollectionImageCellViewController.xib */; };
+		036FBDC518F6165A002DAAC7 /* INDCollectionImageCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBDC418F6165A002DAAC7 /* INDCollectionImageCellViewController.m */; };
+		036FBDC718F6176D002DAAC7 /* about.json in Resources */ = {isa = PBXBuildFile; fileRef = 036FBDC618F6176D002DAAC7 /* about.json */; };
 		03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */; };
 		03F7EC0F18F30B4300964BF0 /* INDJSONTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0E18F30B4300964BF0 /* INDJSONTableViewController.m */; };
 		03F7EC1418F3192A00964BF0 /* INDMainCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC1318F3192A00964BF0 /* INDMainCellViewController.m */; };
@@ -121,6 +125,12 @@
 		036FBDB418F61012002DAAC7 /* INDJSONCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDJSONCollectionViewController.m; path = Classes/INDJSONCollectionViewController.m; sourceTree = "<group>"; };
 		036FBDB718F61049002DAAC7 /* INDCollectionImageElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionImageElement.h; path = Classes/INDCollectionImageElement.h; sourceTree = "<group>"; };
 		036FBDB818F61049002DAAC7 /* INDCollectionImageElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionImageElement.m; path = Classes/INDCollectionImageElement.m; sourceTree = "<group>"; };
+		036FBDBA18F6137C002DAAC7 /* INDCollectionImageCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDCollectionImageCellView.h; sourceTree = "<group>"; };
+		036FBDBB18F6137C002DAAC7 /* INDCollectionImageCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDCollectionImageCellView.m; sourceTree = "<group>"; };
+		036FBDC118F6140F002DAAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDCollectionImageCellViewController.xib; sourceTree = "<group>"; };
+		036FBDC318F6165A002DAAC7 /* INDCollectionImageCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionImageCellViewController.h; path = Classes/INDCollectionImageCellViewController.h; sourceTree = "<group>"; };
+		036FBDC418F6165A002DAAC7 /* INDCollectionImageCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionImageCellViewController.m; path = Classes/INDCollectionImageCellViewController.m; sourceTree = "<group>"; };
+		036FBDC618F6176D002DAAC7 /* about.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = about.json; sourceTree = "<group>"; };
 		03F7EC0618F3068A00964BF0 /* INDImageNameToImageValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDImageNameToImageValueTransformer.h; path = Classes/INDImageNameToImageValueTransformer.h; sourceTree = "<group>"; };
 		03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDImageNameToImageValueTransformer.m; path = Classes/INDImageNameToImageValueTransformer.m; sourceTree = "<group>"; };
 		03F7EC0D18F30B4300964BF0 /* INDJSONTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDJSONTableViewController.h; path = Classes/INDJSONTableViewController.h; sourceTree = "<group>"; };
@@ -304,6 +314,11 @@
 			children = (
 				036FBDB718F61049002DAAC7 /* INDCollectionImageElement.h */,
 				036FBDB818F61049002DAAC7 /* INDCollectionImageElement.m */,
+				036FBDBA18F6137C002DAAC7 /* INDCollectionImageCellView.h */,
+				036FBDBB18F6137C002DAAC7 /* INDCollectionImageCellView.m */,
+				036FBDC018F6140F002DAAC7 /* INDCollectionImageCellViewController.xib */,
+				036FBDC318F6165A002DAAC7 /* INDCollectionImageCellViewController.h */,
+				036FBDC418F6165A002DAAC7 /* INDCollectionImageCellViewController.m */,
 			);
 			name = "Image Element";
 			sourceTree = "<group>";
@@ -374,6 +389,7 @@
 			isa = PBXGroup;
 			children = (
 				03F7EC2918F377D500964BF0 /* main.json */,
+				036FBDC618F6176D002DAAC7 /* about.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -539,6 +555,8 @@
 				03F7EC1A18F3195800964BF0 /* INDMainCellViewController.xib in Resources */,
 				035A9DFB18F2F6C2007D9FEC /* InfoPlist.strings in Resources */,
 				036FBDAD18F5C8EB002DAAC7 /* INDAboutViewController.xib in Resources */,
+				036FBDC718F6176D002DAAC7 /* about.json in Resources */,
+				036FBDC218F6140F002DAAC7 /* INDCollectionImageCellViewController.xib in Resources */,
 				035A9E0418F2F6C2007D9FEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,10 +582,12 @@
 				03F7EC5518F3928500964BF0 /* MNSCollectionViewController.m in Sources */,
 				03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */,
 				036FBDAA18F5C89F002DAAC7 /* INDAboutViewController.m in Sources */,
+				036FBDC518F6165A002DAAC7 /* INDCollectionImageCellViewController.m in Sources */,
 				03F7EC3518F37CAD00964BF0 /* INDLineSpacingLabel.m in Sources */,
 				03F7EC5618F3928500964BF0 /* MNSDataMediator.m in Sources */,
 				03F7EC5818F3928500964BF0 /* MNSHostingCollectionViewCell.m in Sources */,
 				03F7EC5E18F3928500964BF0 /* MNSViewHosting.m in Sources */,
+				036FBDBC18F6137C002DAAC7 /* INDCollectionImageCellView.m in Sources */,
 				03F7EC5B18F3928500964BF0 /* MNSSection.m in Sources */,
 				03F7EC3818F380A800964BF0 /* INDMainViewController.m in Sources */,
 				03F7EC5D18F3928500964BF0 /* MNSViewControllerRegistrar.m in Sources */,
@@ -614,6 +634,14 @@
 				036FBDAC18F5C8EB002DAAC7 /* Base */,
 			);
 			name = INDAboutViewController.xib;
+			sourceTree = "<group>";
+		};
+		036FBDC018F6140F002DAAC7 /* INDCollectionImageCellViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036FBDC118F6140F002DAAC7 /* Base */,
+			);
+			name = INDCollectionImageCellViewController.xib;
 			sourceTree = "<group>";
 		};
 		03F7EC1818F3195800964BF0 /* INDMainCellViewController.xib */ = {

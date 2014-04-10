@@ -12,4 +12,7 @@
  *  Collection view element model representing image content.
  */
 @interface INDCollectionImageElement : MTLModel <MTLJSONSerializing>
+
+@property (nonatomic, strong, readonly) UIImage *image;
+
 @end

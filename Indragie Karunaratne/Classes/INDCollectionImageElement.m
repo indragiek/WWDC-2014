@@ -7,7 +7,20 @@
 //
 
 #import "INDCollectionImageElement.h"
+#import "INDImageNameToImageValueTransformer.h"
 
 @implementation INDCollectionImageElement
+
+#pragma mark - MTLModel
+
++ (NSDictionary *)JSONKeyPathsByPropertyKey
+{
+	return @{@"image" : @"imageName"};
+}
+
++ (NSValueTransformer *)imageJSONTransformer
+{
+	return [NSValueTransformer valueTransformerForName:INDImageNameToImageValueTransformerName];
+}
 
 @end
