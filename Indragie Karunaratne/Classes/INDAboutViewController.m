@@ -11,6 +11,11 @@
 #import "INDCollectionImageCellViewController.h"
 #import "INDCollectionTextElement.h"
 #import "INDCollectionTextCellViewController.h"
+#import "INDCollectionTimelineHeaderElement.h"
+#import "INDCollectionTimelineHeaderViewController.h"
+#import "INDCollectionTimelineMilestoneElement.h"
+#import "INDCollectionTimelineMilestoneCellViewController.h"
+
 #import "MNSViewControllerRegistrar.h"
 
 @implementation INDAboutViewController
@@ -28,6 +33,8 @@
 	if (self == INDAboutViewController.class) {
 		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionImageCellViewController.class forModelClass:INDCollectionImageElement.class];
 		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTextCellViewController.class forModelClass:INDCollectionTextElement.class];
+		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTimelineHeaderViewController.class forModelClass:INDCollectionTimelineHeaderElement.class];
+		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTimelineMilestoneCellViewController.class forModelClass:INDCollectionTimelineMilestoneElement.class];
 	}
 }
 

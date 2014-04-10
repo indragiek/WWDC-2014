@@ -36,6 +36,15 @@
 		036FBE2118F621AF002DAAC7 /* Merriweather-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036FBE1C18F621AF002DAAC7 /* Merriweather-Italic.ttf */; };
 		036FBE2218F621AF002DAAC7 /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036FBE1D18F621AF002DAAC7 /* Merriweather-Light.ttf */; };
 		036FBE2318F621AF002DAAC7 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036FBE1E18F621AF002DAAC7 /* Merriweather-Regular.ttf */; };
+		036FBE2C18F63222002DAAC7 /* INDCollectionTimelineHeaderElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE2B18F63222002DAAC7 /* INDCollectionTimelineHeaderElement.m */; };
+		036FBE3018F632D5002DAAC7 /* INDCollectionTimelineEndpointMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE2F18F632D5002DAAC7 /* INDCollectionTimelineEndpointMarker.m */; };
+		036FBE3618F63663002DAAC7 /* INDCollectionTimelineHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE3518F63663002DAAC7 /* INDCollectionTimelineHeaderViewController.m */; };
+		036FBE3918F636D4002DAAC7 /* INDCollectionTimelineHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036FBE3718F636D4002DAAC7 /* INDCollectionTimelineHeaderViewController.xib */; };
+		036FBE3D18F63B6E002DAAC7 /* INDCollectionTimelineMilestoneElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE3C18F63B6E002DAAC7 /* INDCollectionTimelineMilestoneElement.m */; };
+		036FBE4018F63C19002DAAC7 /* INDCollectionTimelineMilestoneCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE3F18F63C19002DAAC7 /* INDCollectionTimelineMilestoneCellView.m */; };
+		036FBE4318F63C41002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE4218F63C41002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.m */; };
+		036FBE4618F63E41002DAAC7 /* INDCollectionTimelineMilestoneMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FBE4518F63E41002DAAC7 /* INDCollectionTimelineMilestoneMarker.m */; };
+		036FBE4918F63F7D002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036FBE4718F63F7D002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.xib */; };
 		03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */; };
 		03F7EC0F18F30B4300964BF0 /* INDJSONTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC0E18F30B4300964BF0 /* INDJSONTableViewController.m */; };
 		03F7EC1418F3192A00964BF0 /* INDMainCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7EC1318F3192A00964BF0 /* INDMainCellViewController.m */; };
@@ -150,6 +159,22 @@
 		036FBE1C18F621AF002DAAC7 /* Merriweather-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Italic.ttf"; sourceTree = "<group>"; };
 		036FBE1D18F621AF002DAAC7 /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.ttf"; sourceTree = "<group>"; };
 		036FBE1E18F621AF002DAAC7 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		036FBE2A18F63222002DAAC7 /* INDCollectionTimelineHeaderElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionTimelineHeaderElement.h; path = Classes/INDCollectionTimelineHeaderElement.h; sourceTree = "<group>"; };
+		036FBE2B18F63222002DAAC7 /* INDCollectionTimelineHeaderElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionTimelineHeaderElement.m; path = Classes/INDCollectionTimelineHeaderElement.m; sourceTree = "<group>"; };
+		036FBE2E18F632D5002DAAC7 /* INDCollectionTimelineEndpointMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionTimelineEndpointMarker.h; path = Classes/INDCollectionTimelineEndpointMarker.h; sourceTree = "<group>"; };
+		036FBE2F18F632D5002DAAC7 /* INDCollectionTimelineEndpointMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionTimelineEndpointMarker.m; path = Classes/INDCollectionTimelineEndpointMarker.m; sourceTree = "<group>"; };
+		036FBE3418F63663002DAAC7 /* INDCollectionTimelineHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionTimelineHeaderViewController.h; path = Classes/INDCollectionTimelineHeaderViewController.h; sourceTree = "<group>"; };
+		036FBE3518F63663002DAAC7 /* INDCollectionTimelineHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionTimelineHeaderViewController.m; path = Classes/INDCollectionTimelineHeaderViewController.m; sourceTree = "<group>"; };
+		036FBE3818F636D4002DAAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDCollectionTimelineHeaderViewController.xib; sourceTree = "<group>"; };
+		036FBE3B18F63B6E002DAAC7 /* INDCollectionTimelineMilestoneElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionTimelineMilestoneElement.h; path = Classes/INDCollectionTimelineMilestoneElement.h; sourceTree = "<group>"; };
+		036FBE3C18F63B6E002DAAC7 /* INDCollectionTimelineMilestoneElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionTimelineMilestoneElement.m; path = Classes/INDCollectionTimelineMilestoneElement.m; sourceTree = "<group>"; };
+		036FBE3E18F63C19002DAAC7 /* INDCollectionTimelineMilestoneCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionTimelineMilestoneCellView.h; path = Classes/INDCollectionTimelineMilestoneCellView.h; sourceTree = "<group>"; };
+		036FBE3F18F63C19002DAAC7 /* INDCollectionTimelineMilestoneCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionTimelineMilestoneCellView.m; path = Classes/INDCollectionTimelineMilestoneCellView.m; sourceTree = "<group>"; };
+		036FBE4118F63C41002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionTimelineMilestoneCellViewController.h; path = Classes/INDCollectionTimelineMilestoneCellViewController.h; sourceTree = "<group>"; };
+		036FBE4218F63C41002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionTimelineMilestoneCellViewController.m; path = Classes/INDCollectionTimelineMilestoneCellViewController.m; sourceTree = "<group>"; };
+		036FBE4418F63E41002DAAC7 /* INDCollectionTimelineMilestoneMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionTimelineMilestoneMarker.h; path = Classes/INDCollectionTimelineMilestoneMarker.h; sourceTree = "<group>"; };
+		036FBE4518F63E41002DAAC7 /* INDCollectionTimelineMilestoneMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionTimelineMilestoneMarker.m; path = Classes/INDCollectionTimelineMilestoneMarker.m; sourceTree = "<group>"; };
+		036FBE4818F63F7D002DAAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDCollectionTimelineMilestoneCellViewController.xib; sourceTree = "<group>"; };
 		03F7EC0618F3068A00964BF0 /* INDImageNameToImageValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDImageNameToImageValueTransformer.h; path = Classes/INDImageNameToImageValueTransformer.h; sourceTree = "<group>"; };
 		03F7EC0718F3068A00964BF0 /* INDImageNameToImageValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDImageNameToImageValueTransformer.m; path = Classes/INDImageNameToImageValueTransformer.m; sourceTree = "<group>"; };
 		03F7EC0D18F30B4300964BF0 /* INDJSONTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDJSONTableViewController.h; path = Classes/INDJSONTableViewController.h; sourceTree = "<group>"; };
@@ -312,6 +337,7 @@
 		036FBDAE18F60E5F002DAAC7 /* Collection VIews */ = {
 			isa = PBXGroup;
 			children = (
+				036FBE2818F631F9002DAAC7 /* Timeline */,
 				036FBDC818F61954002DAAC7 /* Text Element */,
 				036FBDB618F61037002DAAC7 /* Image Element */,
 				036FBDB318F61012002DAAC7 /* INDJSONCollectionViewController.h */,
@@ -374,6 +400,53 @@
 				036FBE1E18F621AF002DAAC7 /* Merriweather-Regular.ttf */,
 			);
 			path = Merriweather;
+			sourceTree = "<group>";
+		};
+		036FBE2818F631F9002DAAC7 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				036FBE3A18F63B09002DAAC7 /* Milestone */,
+				036FBE2D18F632B4002DAAC7 /* Common */,
+				036FBE2918F63212002DAAC7 /* Header */,
+			);
+			name = Timeline;
+			sourceTree = "<group>";
+		};
+		036FBE2918F63212002DAAC7 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				036FBE2A18F63222002DAAC7 /* INDCollectionTimelineHeaderElement.h */,
+				036FBE2B18F63222002DAAC7 /* INDCollectionTimelineHeaderElement.m */,
+				036FBE3418F63663002DAAC7 /* INDCollectionTimelineHeaderViewController.h */,
+				036FBE3518F63663002DAAC7 /* INDCollectionTimelineHeaderViewController.m */,
+				036FBE3718F636D4002DAAC7 /* INDCollectionTimelineHeaderViewController.xib */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		036FBE2D18F632B4002DAAC7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				036FBE2E18F632D5002DAAC7 /* INDCollectionTimelineEndpointMarker.h */,
+				036FBE2F18F632D5002DAAC7 /* INDCollectionTimelineEndpointMarker.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		036FBE3A18F63B09002DAAC7 /* Milestone */ = {
+			isa = PBXGroup;
+			children = (
+				036FBE3B18F63B6E002DAAC7 /* INDCollectionTimelineMilestoneElement.h */,
+				036FBE3C18F63B6E002DAAC7 /* INDCollectionTimelineMilestoneElement.m */,
+				036FBE3E18F63C19002DAAC7 /* INDCollectionTimelineMilestoneCellView.h */,
+				036FBE3F18F63C19002DAAC7 /* INDCollectionTimelineMilestoneCellView.m */,
+				036FBE4118F63C41002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.h */,
+				036FBE4218F63C41002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.m */,
+				036FBE4418F63E41002DAAC7 /* INDCollectionTimelineMilestoneMarker.h */,
+				036FBE4518F63E41002DAAC7 /* INDCollectionTimelineMilestoneMarker.m */,
+				036FBE4718F63F7D002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.xib */,
+			);
+			name = Milestone;
 			sourceTree = "<group>";
 		};
 		03F7EC0518F3067600964BF0 /* Value Transformers */ = {
@@ -614,7 +687,9 @@
 				036FBE1818F61D83002DAAC7 /* INDCollectionTextCellViewController.xib in Resources */,
 				036FBE2318F621AF002DAAC7 /* Merriweather-Regular.ttf in Resources */,
 				036FBDC718F6176D002DAAC7 /* about.json in Resources */,
+				036FBE3918F636D4002DAAC7 /* INDCollectionTimelineHeaderViewController.xib in Resources */,
 				036FBDC218F6140F002DAAC7 /* INDCollectionImageCellViewController.xib in Resources */,
+				036FBE4918F63F7D002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.xib in Resources */,
 				036FBE2118F621AF002DAAC7 /* Merriweather-Italic.ttf in Resources */,
 				035A9E0418F2F6C2007D9FEC /* Main.storyboard in Resources */,
 			);
@@ -627,6 +702,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036FBE3618F63663002DAAC7 /* INDCollectionTimelineHeaderViewController.m in Sources */,
 				03F7EC1718F3194400964BF0 /* INDMainCellView.m in Sources */,
 				03F7EC5918F3928500964BF0 /* MNSHostingTableViewCell.m in Sources */,
 				035A9E3018F2FEC8007D9FEC /* INDMainViewItem.m in Sources */,
@@ -642,10 +718,13 @@
 				036FBDB218F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.m in Sources */,
 				03F7EC5518F3928500964BF0 /* MNSCollectionViewController.m in Sources */,
 				03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */,
+				036FBE4018F63C19002DAAC7 /* INDCollectionTimelineMilestoneCellView.m in Sources */,
 				036FBDAA18F5C89F002DAAC7 /* INDAboutViewController.m in Sources */,
+				036FBE3018F632D5002DAAC7 /* INDCollectionTimelineEndpointMarker.m in Sources */,
 				036FBDC518F6165A002DAAC7 /* INDCollectionImageCellViewController.m in Sources */,
 				03F7EC3518F37CAD00964BF0 /* INDLineSpacingLabel.m in Sources */,
 				03F7EC5618F3928500964BF0 /* MNSDataMediator.m in Sources */,
+				036FBE3D18F63B6E002DAAC7 /* INDCollectionTimelineMilestoneElement.m in Sources */,
 				03F7EC5818F3928500964BF0 /* MNSHostingCollectionViewCell.m in Sources */,
 				03F7EC5E18F3928500964BF0 /* MNSViewHosting.m in Sources */,
 				03F7EC5B18F3928500964BF0 /* MNSSection.m in Sources */,
@@ -654,11 +733,14 @@
 				03F7EC6218F392F800964BF0 /* AutoLayoutShorthand.m in Sources */,
 				036FBDB918F61049002DAAC7 /* INDCollectionImageElement.m in Sources */,
 				035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */,
+				036FBE2C18F63222002DAAC7 /* INDCollectionTimelineHeaderElement.m in Sources */,
 				035A9E3B18F3021E007D9FEC /* INDJSONModelAdapter.m in Sources */,
+				036FBE4618F63E41002DAAC7 /* INDCollectionTimelineMilestoneMarker.m in Sources */,
 				03F7EC1418F3192A00964BF0 /* INDMainCellViewController.m in Sources */,
 				036FBE1218F61CEB002DAAC7 /* INDCollectionImageCellView.m in Sources */,
 				036FBE0F18F61C4C002DAAC7 /* INDCollectionTextCellView.m in Sources */,
 				03F7EC5718F3928500964BF0 /* MNSHostedViewController.m in Sources */,
+				036FBE4318F63C41002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.m in Sources */,
 				036FBDA218F5C3EB002DAAC7 /* INDMainViewFooterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -712,6 +794,22 @@
 				036FBE1718F61D83002DAAC7 /* Base */,
 			);
 			name = INDCollectionTextCellViewController.xib;
+			sourceTree = "<group>";
+		};
+		036FBE3718F636D4002DAAC7 /* INDCollectionTimelineHeaderViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036FBE3818F636D4002DAAC7 /* Base */,
+			);
+			name = INDCollectionTimelineHeaderViewController.xib;
+			sourceTree = "<group>";
+		};
+		036FBE4718F63F7D002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036FBE4818F63F7D002DAAC7 /* Base */,
+			);
+			name = INDCollectionTimelineMilestoneCellViewController.xib;
 			sourceTree = "<group>";
 		};
 		03F7EC1818F3195800964BF0 /* INDMainCellViewController.xib */ = {
