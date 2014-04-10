@@ -22,9 +22,6 @@ static void CommonInit(INDCollectionButton *self)
 	self.backgroundColor = IND_COLLECTION_BUTTON_BG_COLOR;
 	self.titleEdgeInsets = UIEdgeInsetsMake(0.0, INDCollectionButtonXInset, 0, INDCollectionButtonXInset);
 	self.translatesAutoresizingMaskIntoConstraints = NO;
-	
-	[self addTarget:self action:@selector(touchDownEvent:) forControlEvents:UIControlEventTouchDown];
-	[self addTarget:self action:@selector(touchUpEvent:) forControlEvents:UIControlEventTouchUpInside | UIControlEventTouchUpOutside];
 }
 
 - (id)initWithFrame:(CGRect)frame
@@ -54,14 +51,10 @@ static void CommonInit(INDCollectionButton *self)
 
 #pragma mark - Touch Events
 
-- (void)touchDownEvent:(id)sender
+- (void)setHighlighted:(BOOL)highlighted
 {
-	self.backgroundColor = IND_COLLECTION_BUTTON_H_BG_COLOR;
-}
-
-- (void)touchUpEvent:(id)sender
-{
-	self.backgroundColor = IND_COLLECTION_BUTTON_BG_COLOR;
+	[super setHighlighted:highlighted];
+	self.backgroundColor = highlighted ? IND_COLLECTION_BUTTON_H_BG_COLOR : IND_COLLECTION_BUTTON_BG_COLOR;
 }
 
 @end

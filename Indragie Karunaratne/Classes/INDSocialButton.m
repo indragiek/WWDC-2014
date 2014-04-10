@@ -38,9 +38,6 @@ static void CommonInit(INDSocialButton *self)
 	self.overlayView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.3];
 	self.overlayView.hidden = YES;
 	[self addSubview:self.overlayView];
-	
-	[self addTarget:self action:@selector(touchDownEvent:) forControlEvents:UIControlEventTouchDown];
-	[self addTarget:self action:@selector(touchUpEvent:) forControlEvents:UIControlEventTouchUpInside | UIControlEventTouchUpOutside];
 }
 
 - (id)initWithFrame:(CGRect)frame
@@ -61,14 +58,10 @@ static void CommonInit(INDSocialButton *self)
 
 #pragma mark - Touch Events
 
-- (void)touchDownEvent:(id)sender
+- (void)setHighlighted:(BOOL)highlighted
 {
-	self.overlayView.hidden = NO;
-}
-
-- (void)touchUpEvent:(id)sender
-{
-	self.overlayView.hidden = YES;
+	[super setHighlighted:highlighted];
+	self.overlayView.hidden = !highlighted;
 }
 
 @end
