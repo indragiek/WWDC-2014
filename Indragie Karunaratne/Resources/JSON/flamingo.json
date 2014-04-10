@@ -5,7 +5,7 @@
 	},
 	{
 		"className": "INDCollectionTextElement",
-		"html": "<div style='font-family: Merriweather; font-size: 13pt; text-align: center'><strong>Instant messaging</strong> on the desktop has seen no significant improvement for <em>the last decade</em>.<br /><br /><span style='font-size: 11pt'>Designer <strong>Christian Dalonzo</strong> and I set out to change that by building Flamingo, a beautifully modern instant messaging app for OS X.</span></div>",
+		"html": "<div style='font-family: Merriweather; font-size: 13pt; text-align: center;'><strong>Instant messaging</strong> on the desktop has seen no significant improvement for <em>the last decade</em>.<br /><br /><span style='font-size: 11pt;'>Designer <strong>Christian Dalonzo</strong> and I set out to change that by building Flamingo, a beautifully modern instant messaging app for OS X.</span></div>",
 		"lineSpacing": 3
 	}
 ]
