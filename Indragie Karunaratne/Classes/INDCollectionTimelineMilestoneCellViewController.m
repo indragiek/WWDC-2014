@@ -7,7 +7,14 @@
 //
 
 #import "INDCollectionTimelineMilestoneCellViewController.h"
+#import "INDCollectionTimelineMilestoneElement.h"
+#import "INDCollectionTimelineMilestoneCellView.h"
 
 @implementation INDCollectionTimelineMilestoneCellViewController
+
+- (void)updateView:(INDCollectionTimelineMilestoneCellView *)view withObject:(INDCollectionTimelineMilestoneElement *)element
+{
+	view.imageView.image = element.image;
+}
 
 @end

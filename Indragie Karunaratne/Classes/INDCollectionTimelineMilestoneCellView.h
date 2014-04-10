@@ -11,4 +11,9 @@
  */
 @interface INDCollectionTimelineMilestoneCellView : UIView
 
+/**
+ *  Image view that shows an image representing the milestone.
+ */
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
+
 @end

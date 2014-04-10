@@ -13,4 +13,9 @@
  */
 @interface INDCollectionTimelineMilestoneElement : MTLModel <MTLJSONSerializing>
 
+/**
+ *  Image representing the milestone.
+ */
+@property (nonatomic, strong, readonly) UIImage *image;
+
 @end

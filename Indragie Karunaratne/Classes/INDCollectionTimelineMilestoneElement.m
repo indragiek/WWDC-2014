@@ -7,6 +7,7 @@
 //
 
 #import "INDCollectionTimelineMilestoneElement.h"
+#import "INDImageNameToImageValueTransformer.h"
 
 @implementation INDCollectionTimelineMilestoneElement
 
@@ -14,7 +15,12 @@
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey
 {
-	return @{};
+	return @{@"image" : @"imageName"};
+}
+
++ (NSValueTransformer *)imageJSONTransformer
+{
+	return [NSValueTransformer valueTransformerForName:INDImageNameToImageValueTransformerName];
 }
 
 @end

@@ -9,27 +9,31 @@
 		"lineSpacing": 3
 	},
 	{
-		"className": "INDCollectionTimelineHeaderElement"
+		"className": "INDCollectionTimelineHeaderElement",
+		"imageName": "hypercard"
 	},
 	{
-		"className": "INDCollectionTimelineMilestoneElement"
+		"className": "INDCollectionTimelineMilestoneElement",
+		"imageName": "objc"
 	},
 	{
-		"className": "INDCollectionTimelineMilestoneElement"
+		"className": "INDCollectionTimelineMilestoneElement",
+		"imageName": "taskpad"
 	},
 	{
-		"className": "INDCollectionTimelineMilestoneElement"
+		"className": "INDCollectionTimelineMilestoneElement",
+		"imageName": "sonora"
 	},
 	{
-		"className": "INDCollectionTimelineMilestoneElement"
+		"className": "INDCollectionTimelineMilestoneElement",
+		"imageName": "ualberta"
 	},
 	{
-		"className": "INDCollectionTimelineMilestoneElement"
+		"className": "INDCollectionTimelineMilestoneElement",
+		"imageName": "amazon"
 	},
 	{
-		"className": "INDCollectionTimelineMilestoneElement"
-	},
-	{
-		"className": "INDCollectionTimelineMilestoneElement"
+		"className": "INDCollectionTimelineMilestoneElement",
+		"imageName": "flamingo-timeline"
 	}
 ]
