@@ -1,9 +1,6 @@
 [submodule "External/AutoLayoutShorthand"]
 	path = External/AutoLayoutShorthand
 	url = https://github.com/rentzsch/AutoLayoutShorthand.git
-[submodule "External/Mensa"]
-	path = External/Mensa
-	url = https://github.com/jordanekay/Mensa.git
 [submodule "External/Mantle"]
 	path = External/Mantle
 	url = https://github.com/MantleFramework/Mantle.git
