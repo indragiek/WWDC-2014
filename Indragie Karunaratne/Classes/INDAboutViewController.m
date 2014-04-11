@@ -7,8 +7,24 @@
 //
 
 #import "INDAboutViewController.h"
+#import "INDCollectionTimelineHeaderElement.h"
+#import "INDCollectionTimelineHeaderViewController.h"
+#import "INDCollectionTimelineFooterElement.h"
+#import "INDCollectionTimelineFooterViewController.h"
+#import "INDCollectionTimelineMilestoneElement.h"
+#import "INDCollectionTimelineMilestoneCellViewController.h"
 
 @implementation INDAboutViewController
+
++ (void)initialize
+{
+	if (self == INDAboutViewController.class) {
+		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTextCellViewController.class forModelClass:INDCollectionTextElement.class];
+		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTimelineHeaderViewController.class forModelClass:INDCollectionTimelineHeaderElement.class];
+		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTimelineFooterViewController.class forModelClass:INDCollectionTimelineFooterElement.class];
+		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTimelineMilestoneCellViewController.class forModelClass:INDCollectionTimelineMilestoneElement.class];
+	}
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

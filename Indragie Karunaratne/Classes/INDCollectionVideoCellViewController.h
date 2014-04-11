@@ -8,6 +8,9 @@
 
 #import "MNSHostedViewController.h"
 
+/**
+ *  View controller for collection view video cell.
+ */
 @interface INDCollectionVideoCellViewController : MNSHostedViewController
 
 @end

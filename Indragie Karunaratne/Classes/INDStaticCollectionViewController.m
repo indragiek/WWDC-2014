@@ -11,12 +11,6 @@
 #import "INDCollectionImageCellViewController.h"
 #import "INDCollectionTextElement.h"
 #import "INDCollectionTextCellViewController.h"
-#import "INDCollectionTimelineHeaderElement.h"
-#import "INDCollectionTimelineHeaderViewController.h"
-#import "INDCollectionTimelineFooterElement.h"
-#import "INDCollectionTimelineFooterViewController.h"
-#import "INDCollectionTimelineMilestoneElement.h"
-#import "INDCollectionTimelineMilestoneCellViewController.h"
 #import "INDCollectionButtonElement.h"
 #import "INDCollectionButtonCellViewController.h"
 #import "INDCollectionVideoElement.h"
@@ -30,9 +24,6 @@
 	if (self == INDStaticCollectionViewController.class) {
 		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionImageCellViewController.class forModelClass:INDCollectionImageElement.class];
 		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTextCellViewController.class forModelClass:INDCollectionTextElement.class];
-		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTimelineHeaderViewController.class forModelClass:INDCollectionTimelineHeaderElement.class];
-		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTimelineFooterViewController.class forModelClass:INDCollectionTimelineFooterElement.class];
-		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionTimelineMilestoneCellViewController.class forModelClass:INDCollectionTimelineMilestoneElement.class];
 		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionButtonCellViewController.class forModelClass:INDCollectionButtonElement.class];
 		[MNSViewControllerRegistrar registerViewControllerClass:INDCollectionVideoCellViewController.class forModelClass:INDCollectionVideoElement.class];
 	}
