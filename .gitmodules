@@ -7,3 +7,6 @@
 [submodule "External/JTSImageViewController"]
 	path = External/JTSImageViewController
 	url = https://github.com/jaredsinclair/JTSImageViewController.git
+[submodule "External/Mensa"]
+	path = External/Mensa
+	url = https://github.com/indragiek/Mensa.git
