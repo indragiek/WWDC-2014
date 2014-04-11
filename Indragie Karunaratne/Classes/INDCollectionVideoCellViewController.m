@@ -14,7 +14,8 @@
 
 - (void)updateView:(INDCollectionVideoCellView *)view withObject:(INDCollectionVideoElement *)element
 {
-	AVPlayer *player = [AVPlayer playerWithURL:element.url];;
+	AVPlayer *player = [AVPlayer playerWithURL:element.url];
+	player.muted = YES;
 	view.playerView.player = player;
 	[player play];
 }
