@@ -11,7 +11,7 @@
 	},
 	{
 		"className": "INDCollectionButtonElement",
-		"title": "View Product Website",
+		"title": "flamingo.im",
 		"url" : "http://flamingo.im"
 	},
 	{
@@ -57,9 +57,5 @@
 		"className": "INDCollectionTextElement",
 		"html": "<div style='font-family: Merriweather; font-size: 10pt; text-align: center;'>The development process of Flamingo also introduced me to <strong>functional reactive programming</strong>, which emphasizes declarative programming, functional composition, and the reduction of state by explicitly modeling time. The particular implementation I used was the popular <strong>ReactiveCocoa</strong> project.<br /><br />The fundamental building block of ReactiveCocoa is a <em>signal</em>, which represents a stream of values changing over time. Flamingo uses signals for everything, from communication with XMPP servers to handling the roster model and even UI related things like layout and animations.</div>",
 		"lineSpacing": 3
-	},
-	{
-		"className": "INDCollectionImageElement",
-		"imageName": "separator"
 	},
 ]

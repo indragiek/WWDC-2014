@@ -11,7 +11,7 @@
 	},
 	{
 		"className": "INDCollectionButtonElement",
-		"title": "View Product Website",
+		"title": "getsonora.com",
 		"url" : "http://getsonora.com"
 	},
 	{
@@ -39,5 +39,19 @@
 		"className": "INDCollectionTextElement",
 		"html": "<div style='font-family: Merriweather; font-size: 12pt; text-align: center;'>&ldquo;Sonora isn't just a barebones music player. It's thoughtful, elegant, and minimalistic.&rdquo;<br /><br /><span style='font-size: 10pt; color: #7e7e7e;'>&mdash; Scott Danielson, Mac.AppStorm</span></div>",
 		"lineSpacing": 3
+	},
+	{
+		"className": "INDCollectionImageElement",
+		"imageName": "separator"
+	},
+	{
+		"className": "INDCollectionTextElement",
+		"html": "<div style='font-family: Merriweather; font-size: 13pt; text-align: center;'>The end of the road.<br /><br /><span style='font-size: 10pt;'>All good things must come to and end, and Tyler and I were too busy with our lives to continue working on Sonora. The good news is that Sonora is now an open source project so that someone else can hopefully continue building on what we started.</span></div>",
+		"lineSpacing": 3
+	},
+	{
+		"className": "INDCollectionButtonElement",
+		"title": "Sonora on GitHub",
+		"url" : "https://github.com/sonoramac/Sonora"
 	}
 ]
