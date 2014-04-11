@@ -21,6 +21,10 @@
 		033F8AA218F7AFBB00ED2E04 /* JTSSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 033F8A9A18F7AFBB00ED2E04 /* JTSSimpleImageDownloader.m */; };
 		033F8AA318F7AFBB00ED2E04 /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033F8A9C18F7AFBB00ED2E04 /* UIApplication+JTSImageViewController.m */; };
 		033F8AA418F7AFBB00ED2E04 /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 033F8A9E18F7AFBB00ED2E04 /* UIImage+JTSImageEffects.m */; };
+		033F8AB618F7D52400ED2E04 /* sonora.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 033F8AB518F7D52400ED2E04 /* sonora.mp4 */; };
+		033F8ABA18F7D54F00ED2E04 /* INDSonoraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033F8AB918F7D54F00ED2E04 /* INDSonoraViewController.m */; };
+		033F8ABF18F7D56C00ED2E04 /* INDSonoraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033F8ABD18F7D56C00ED2E04 /* INDSonoraViewController.xib */; };
+		033F8AC118F7D61700ED2E04 /* sonora.json in Resources */ = {isa = PBXBuildFile; fileRef = 033F8AC018F7D61700ED2E04 /* sonora.json */; };
 		035A9DF118F2F6C2007D9FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF018F2F6C2007D9FEC /* Foundation.framework */; };
 		035A9DF318F2F6C2007D9FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF218F2F6C2007D9FEC /* CoreGraphics.framework */; };
 		035A9DF518F2F6C2007D9FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF418F2F6C2007D9FEC /* UIKit.framework */; };
@@ -163,6 +167,11 @@
 		033F8A9C18F7AFBB00ED2E04 /* UIApplication+JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+JTSImageViewController.m"; path = "External/JTSImageViewController/Source/UIApplication+JTSImageViewController.m"; sourceTree = "<group>"; };
 		033F8A9D18F7AFBB00ED2E04 /* UIImage+JTSImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+JTSImageEffects.h"; path = "External/JTSImageViewController/Source/UIImage+JTSImageEffects.h"; sourceTree = "<group>"; };
 		033F8A9E18F7AFBB00ED2E04 /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+JTSImageEffects.m"; path = "External/JTSImageViewController/Source/UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
+		033F8AB518F7D52400ED2E04 /* sonora.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sonora.mp4; sourceTree = "<group>"; };
+		033F8AB818F7D54F00ED2E04 /* INDSonoraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDSonoraViewController.h; path = Classes/INDSonoraViewController.h; sourceTree = "<group>"; };
+		033F8AB918F7D54F00ED2E04 /* INDSonoraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDSonoraViewController.m; path = Classes/INDSonoraViewController.m; sourceTree = "<group>"; };
+		033F8ABE18F7D56C00ED2E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDSonoraViewController.xib; sourceTree = "<group>"; };
+		033F8AC018F7D61700ED2E04 /* sonora.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sonora.json; sourceTree = "<group>"; };
 		035A9DED18F2F6C2007D9FEC /* Indragie Karunaratne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indragie Karunaratne.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		035A9DF018F2F6C2007D9FEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		035A9DF218F2F6C2007D9FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -325,6 +334,7 @@
 		03365ED018F7609C00CEBB08 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
+				033F8AB518F7D52400ED2E04 /* sonora.mp4 */,
 				03365ED118F7609C00CEBB08 /* flamingo.mp4 */,
 			);
 			path = Videos;
@@ -347,6 +357,16 @@
 				033F8A9E18F7AFBB00ED2E04 /* UIImage+JTSImageEffects.m */,
 			);
 			name = JTSImageViewController;
+			sourceTree = "<group>";
+		};
+		033F8AB718F7D53200ED2E04 /* Sonora */ = {
+			isa = PBXGroup;
+			children = (
+				033F8AB818F7D54F00ED2E04 /* INDSonoraViewController.h */,
+				033F8AB918F7D54F00ED2E04 /* INDSonoraViewController.m */,
+				033F8ABD18F7D56C00ED2E04 /* INDSonoraViewController.xib */,
+			);
+			name = Sonora;
 			sourceTree = "<group>";
 		};
 		035A9DE418F2F6C2007D9FEC = {
@@ -392,6 +412,7 @@
 				035A9E2C18F2FB84007D9FEC /* Main View */,
 				036FBDA718F5C878002DAAC7 /* About Me */,
 				035BFFE018F7217B004BFDF7 /* Flamingo */,
+				033F8AB718F7D53200ED2E04 /* Sonora */,
 				03F7EC3918F380B300964BF0 /* INDAppDelegate.h */,
 				03F7EC3A18F380B300964BF0 /* INDAppDelegate.m */,
 				035A9E0218F2F6C2007D9FEC /* Main.storyboard */,
@@ -681,6 +702,7 @@
 				035BFFEA18F72428004BFDF7 /* flamingo.json */,
 				03F7EC2918F377D500964BF0 /* main.json */,
 				036FBDC618F6176D002DAAC7 /* about.json */,
+				033F8AC018F7D61700ED2E04 /* sonora.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -842,10 +864,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033F8ABF18F7D56C00ED2E04 /* INDSonoraViewController.xib in Resources */,
 				03F7EC2F18F377D500964BF0 /* main.json in Resources */,
 				035A9E0C18F2F6C2007D9FEC /* Images.xcassets in Resources */,
 				036FBE2018F621AF002DAAC7 /* Merriweather-Bold.ttf in Resources */,
 				03F7EC1A18F3195800964BF0 /* INDMainCellViewController.xib in Resources */,
+				033F8AC118F7D61700ED2E04 /* sonora.json in Resources */,
 				03365ED818F760D900CEBB08 /* INDCollectionVideoCellViewController.xib in Resources */,
 				03365ED218F7609C00CEBB08 /* flamingo.mp4 in Resources */,
 				035A9DFB18F2F6C2007D9FEC /* InfoPlist.strings in Resources */,
@@ -853,6 +877,7 @@
 				036FBE2218F621AF002DAAC7 /* Merriweather-Light.ttf in Resources */,
 				036FBE1818F61D83002DAAC7 /* INDCollectionTextCellViewController.xib in Resources */,
 				036FBE2318F621AF002DAAC7 /* Merriweather-Regular.ttf in Resources */,
+				033F8AB618F7D52400ED2E04 /* sonora.mp4 in Resources */,
 				035BFFF818F72D8C004BFDF7 /* INDCollectionButtonCellViewController.xib in Resources */,
 				036FBDC718F6176D002DAAC7 /* about.json in Resources */,
 				036FBE5818F65619002DAAC7 /* INDCollectionTimelineFooterViewController.xib in Resources */,
@@ -873,6 +898,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033F8ABA18F7D54F00ED2E04 /* INDSonoraViewController.m in Sources */,
 				036FBE5218F655DF002DAAC7 /* INDCollectionTimelineFooterElement.m in Sources */,
 				036FBE3618F63663002DAAC7 /* INDCollectionTimelineHeaderViewController.m in Sources */,
 				03F7EC1718F3194400964BF0 /* INDMainCellView.m in Sources */,
@@ -952,6 +978,14 @@
 				03365ED718F760D900CEBB08 /* Base */,
 			);
 			name = INDCollectionVideoCellViewController.xib;
+			sourceTree = "<group>";
+		};
+		033F8ABD18F7D56C00ED2E04 /* INDSonoraViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033F8ABE18F7D56C00ED2E04 /* Base */,
+			);
+			name = INDSonoraViewController.xib;
 			sourceTree = "<group>";
 		};
 		035A9DF918F2F6C2007D9FEC /* InfoPlist.strings */ = {

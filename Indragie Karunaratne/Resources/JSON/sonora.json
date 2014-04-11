@@ -1,0 +1,43 @@
+[
+	{
+		"className": "INDCollectionImageElement",
+		"imageName": "sonora-hero",
+		"bigImageName": "sonora-big"
+	},
+	{
+		"className": "INDCollectionTextElement",
+		"html": "<div style='font-family: Merriweather; font-size: 13pt; text-align: center;'>Just you and your <strong>music</strong>.<br /><br /><span style='font-size: 10pt;'>There's no reason why your music player also has to do 10 other things. Why not just focus on one thing and do it well? Designer <strong>Tyler Murphy</strong> and I built Sonora on that philosophy.</span></div>",
+		"lineSpacing": 3
+	},
+	{
+		"className": "INDCollectionButtonElement",
+		"title": "View Product Website",
+		"url" : "http://getsonora.com"
+	},
+	{
+		"className": "INDCollectionImageElement",
+		"imageName": "separator"
+	},
+	{
+		"className": "INDCollectionImageElement",
+		"imageName": "sonora-feature"
+	},
+	{
+		"className": "INDCollectionImageElement",
+		"imageName": "separator"
+	},
+	{
+		"className": "INDCollectionTextElement",
+		"html": "<div style='font-family: Merriweather; font-size: 13pt; text-align: center;'>Simplicity is the ultimate sophistication.<br /><br /><span style='font-size: 10pt;'>Sonora is where I learned that less is truly more. By removing everything that was not an integral part of experiencing music, we ended up with a product that felt far more refined. Reducing complexity allowed us to focus on the key elements that truly mattered.<br /><br />The two main focuses were the album grid and the centralized queue. The grid was the Core Animation-backed crown jewel of the app. Lots of performance optimization went into ensuring that it scrolled smoothly.<br /><br />The queue challenged us to build a centralized control for controlling playback while keeping with our philosophy of minimalism. So many little interactions and gestures were implemented to make it simple yet powerful.</span></div>",
+		"lineSpacing": 3
+	},
+	{
+		"className": "INDCollectionVideoElement",
+		"videoFilename": "sonora.mp4"
+	},
+	{
+		"className": "INDCollectionTextElement",
+		"html": "<div style='font-family: Merriweather; font-size: 12pt; text-align: center;'>&ldquo;Sonora isn't just a barebones music player. It's thoughtful, elegant, and minimalistic.&rdquo;<br /><br /><span style='font-size: 10pt; color: #7e7e7e;'>&mdash; Scott Danielson, Mac.AppStorm</span></div>",
+		"lineSpacing": 3
+	}
+]

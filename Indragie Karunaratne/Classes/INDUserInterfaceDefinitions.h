@@ -45,4 +45,11 @@
 #define IND_FLAMINGO_BAR_TINT_COLOR				[UIColor colorWithRed:0.97 green:0.39 blue:0.41 alpha:1.0]
 #define IND_FLAMINGO_TINT_COLOR					[UIColor whiteColor]
 
+////////////////////////////
+// Sonora view controller //
+////////////////////////////
+
+#define IND_SONORA_BAR_TINT_COLOR				[UIColor colorWithRed:0.38 green:0.35 blue:0.80 alpha:1.0]
+#define IND_SONORA_TINT_COLOR					[UIColor whiteColor]
+
 #endif

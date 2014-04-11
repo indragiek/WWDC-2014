@@ -20,6 +20,7 @@
 		"title": "Sonora",
 		"projectDescription": "A minimal audio player for OS X with a strong focus on visual music browsing and a powerful centralized playback queue.",
 		"iconName": "sonora-icon",
-		"backgroundName": "sonora-bg"
+		"backgroundName": "sonora-bg",
+		"vcClassName": "INDSonoraViewController"
 	}
 ]
