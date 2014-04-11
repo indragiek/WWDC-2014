@@ -25,5 +25,10 @@
 	{
 		"className": "INDCollectionVideoElement",
 		"videoFilename": "flamingo.mp4"
-	}
+	},
+	{
+		"className": "INDCollectionTextElement",
+		"html": "<div style='font-family: Merriweather; font-size: 12pt; text-align: center;'>&ldquo;Not only is Flamingo intricately designed with modern interface elements and superb use of colors, it also features some fantastically executed animations and transitions that make it an absolutely delight to use.&rdquo;<br /><br /><span style='font-size: 10pt; color: #7e7e7e;'>&mdash; Preshit Deorukhkar, Beautiful Pixels</span></div>",
+		"lineSpacing": 3
+	},
 ]
