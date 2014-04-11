@@ -15,6 +15,12 @@
 		03365ED218F7609C00CEBB08 /* flamingo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03365ED118F7609C00CEBB08 /* flamingo.mp4 */; };
 		03365ED518F760CA00CEBB08 /* INDCollectionVideoCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03365ED418F760CA00CEBB08 /* INDCollectionVideoCellViewController.m */; };
 		03365ED818F760D900CEBB08 /* INDCollectionVideoCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03365ED618F760D900CEBB08 /* INDCollectionVideoCellViewController.xib */; };
+		033F8A9F18F7AFBB00ED2E04 /* JTSAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 033F8A9418F7AFBB00ED2E04 /* JTSAnimatedGIFUtility.m */; };
+		033F8AA018F7AFBB00ED2E04 /* JTSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 033F8A9618F7AFBB00ED2E04 /* JTSImageInfo.m */; };
+		033F8AA118F7AFBB00ED2E04 /* JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033F8A9818F7AFBB00ED2E04 /* JTSImageViewController.m */; };
+		033F8AA218F7AFBB00ED2E04 /* JTSSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 033F8A9A18F7AFBB00ED2E04 /* JTSSimpleImageDownloader.m */; };
+		033F8AA318F7AFBB00ED2E04 /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033F8A9C18F7AFBB00ED2E04 /* UIApplication+JTSImageViewController.m */; };
+		033F8AA418F7AFBB00ED2E04 /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 033F8A9E18F7AFBB00ED2E04 /* UIImage+JTSImageEffects.m */; };
 		035A9DF118F2F6C2007D9FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF018F2F6C2007D9FEC /* Foundation.framework */; };
 		035A9DF318F2F6C2007D9FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF218F2F6C2007D9FEC /* CoreGraphics.framework */; };
 		035A9DF518F2F6C2007D9FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF418F2F6C2007D9FEC /* UIKit.framework */; };
@@ -145,6 +151,18 @@
 		03365ED318F760CA00CEBB08 /* INDCollectionVideoCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionVideoCellViewController.h; path = Classes/INDCollectionVideoCellViewController.h; sourceTree = "<group>"; };
 		03365ED418F760CA00CEBB08 /* INDCollectionVideoCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionVideoCellViewController.m; path = Classes/INDCollectionVideoCellViewController.m; sourceTree = "<group>"; };
 		03365ED718F760D900CEBB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDCollectionVideoCellViewController.xib; sourceTree = "<group>"; };
+		033F8A9318F7AFBB00ED2E04 /* JTSAnimatedGIFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTSAnimatedGIFUtility.h; path = External/JTSImageViewController/Source/JTSAnimatedGIFUtility.h; sourceTree = "<group>"; };
+		033F8A9418F7AFBB00ED2E04 /* JTSAnimatedGIFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTSAnimatedGIFUtility.m; path = External/JTSImageViewController/Source/JTSAnimatedGIFUtility.m; sourceTree = "<group>"; };
+		033F8A9518F7AFBB00ED2E04 /* JTSImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTSImageInfo.h; path = External/JTSImageViewController/Source/JTSImageInfo.h; sourceTree = "<group>"; };
+		033F8A9618F7AFBB00ED2E04 /* JTSImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTSImageInfo.m; path = External/JTSImageViewController/Source/JTSImageInfo.m; sourceTree = "<group>"; };
+		033F8A9718F7AFBB00ED2E04 /* JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTSImageViewController.h; path = External/JTSImageViewController/Source/JTSImageViewController.h; sourceTree = "<group>"; };
+		033F8A9818F7AFBB00ED2E04 /* JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTSImageViewController.m; path = External/JTSImageViewController/Source/JTSImageViewController.m; sourceTree = "<group>"; };
+		033F8A9918F7AFBB00ED2E04 /* JTSSimpleImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTSSimpleImageDownloader.h; path = External/JTSImageViewController/Source/JTSSimpleImageDownloader.h; sourceTree = "<group>"; };
+		033F8A9A18F7AFBB00ED2E04 /* JTSSimpleImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTSSimpleImageDownloader.m; path = External/JTSImageViewController/Source/JTSSimpleImageDownloader.m; sourceTree = "<group>"; };
+		033F8A9B18F7AFBB00ED2E04 /* UIApplication+JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+JTSImageViewController.h"; path = "External/JTSImageViewController/Source/UIApplication+JTSImageViewController.h"; sourceTree = "<group>"; };
+		033F8A9C18F7AFBB00ED2E04 /* UIApplication+JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+JTSImageViewController.m"; path = "External/JTSImageViewController/Source/UIApplication+JTSImageViewController.m"; sourceTree = "<group>"; };
+		033F8A9D18F7AFBB00ED2E04 /* UIImage+JTSImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+JTSImageEffects.h"; path = "External/JTSImageViewController/Source/UIImage+JTSImageEffects.h"; sourceTree = "<group>"; };
+		033F8A9E18F7AFBB00ED2E04 /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+JTSImageEffects.m"; path = "External/JTSImageViewController/Source/UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
 		035A9DED18F2F6C2007D9FEC /* Indragie Karunaratne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indragie Karunaratne.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		035A9DF018F2F6C2007D9FEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		035A9DF218F2F6C2007D9FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -315,6 +333,18 @@
 		033F8A8D18F7AD4700ED2E04 /* JTSImageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				033F8A9318F7AFBB00ED2E04 /* JTSAnimatedGIFUtility.h */,
+				033F8A9418F7AFBB00ED2E04 /* JTSAnimatedGIFUtility.m */,
+				033F8A9518F7AFBB00ED2E04 /* JTSImageInfo.h */,
+				033F8A9618F7AFBB00ED2E04 /* JTSImageInfo.m */,
+				033F8A9718F7AFBB00ED2E04 /* JTSImageViewController.h */,
+				033F8A9818F7AFBB00ED2E04 /* JTSImageViewController.m */,
+				033F8A9918F7AFBB00ED2E04 /* JTSSimpleImageDownloader.h */,
+				033F8A9A18F7AFBB00ED2E04 /* JTSSimpleImageDownloader.m */,
+				033F8A9B18F7AFBB00ED2E04 /* UIApplication+JTSImageViewController.h */,
+				033F8A9C18F7AFBB00ED2E04 /* UIApplication+JTSImageViewController.m */,
+				033F8A9D18F7AFBB00ED2E04 /* UIImage+JTSImageEffects.h */,
+				033F8A9E18F7AFBB00ED2E04 /* UIImage+JTSImageEffects.m */,
 			);
 			name = JTSImageViewController;
 			sourceTree = "<group>";
@@ -849,13 +879,16 @@
 				03365ECD18F75DC000CEBB08 /* INDCollectionVideoPlayerView.m in Sources */,
 				03F7EC5918F3928500964BF0 /* MNSHostingTableViewCell.m in Sources */,
 				035A9E3018F2FEC8007D9FEC /* INDMainViewItem.m in Sources */,
+				033F8AA118F7AFBB00ED2E04 /* JTSImageViewController.m in Sources */,
 				036FBE1518F61CFC002DAAC7 /* INDCollectionTextCellViewController.m in Sources */,
 				03365EC718F75D7B00CEBB08 /* INDCollectionVideoElement.m in Sources */,
+				033F8A9F18F7AFBB00ED2E04 /* JTSAnimatedGIFUtility.m in Sources */,
 				03F7EC3E18F3846E00964BF0 /* INDSocialButton.m in Sources */,
 				036FBDCB18F61960002DAAC7 /* INDCollectionTextElement.m in Sources */,
 				03F7EC5C18F3928500964BF0 /* MNSTableViewController.m in Sources */,
 				036FBE4C18F647C9002DAAC7 /* INDHTMLToAttributedStringValueTransformer.m in Sources */,
 				03F7EC0F18F30B4300964BF0 /* INDJSONTableViewController.m in Sources */,
+				033F8AA318F7AFBB00ED2E04 /* UIApplication+JTSImageViewController.m in Sources */,
 				03F7EC5A18F3928500964BF0 /* MNSMultilineLabel.m in Sources */,
 				036FBDB518F61012002DAAC7 /* INDJSONCollectionViewController.m in Sources */,
 				035BFFE318F7219C004BFDF7 /* INDFlamingoViewController.m in Sources */,
@@ -887,10 +920,13 @@
 				035A9E2B18F2FB33007D9FEC /* INDNavigationController.m in Sources */,
 				036FBE2C18F63222002DAAC7 /* INDCollectionTimelineHeaderElement.m in Sources */,
 				035A9E3B18F3021E007D9FEC /* INDJSONModelAdapter.m in Sources */,
+				033F8AA018F7AFBB00ED2E04 /* JTSImageInfo.m in Sources */,
+				033F8AA218F7AFBB00ED2E04 /* JTSSimpleImageDownloader.m in Sources */,
 				036FBE4618F63E41002DAAC7 /* INDCollectionTimelineMilestoneMarker.m in Sources */,
 				03F7EC1418F3192A00964BF0 /* INDMainCellViewController.m in Sources */,
 				036FBE1218F61CEB002DAAC7 /* INDCollectionImageCellView.m in Sources */,
 				036FBE0F18F61C4C002DAAC7 /* INDCollectionTextCellView.m in Sources */,
+				033F8AA418F7AFBB00ED2E04 /* UIImage+JTSImageEffects.m in Sources */,
 				03F7EC5718F3928500964BF0 /* MNSHostedViewController.m in Sources */,
 				03365ECA18F75DA100CEBB08 /* INDCollectionVideoCellView.m in Sources */,
 				036FBE4318F63C41002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.m in Sources */,

@@ -12,5 +12,15 @@
  *  Content view for a collection view cell that displays an image.
  */
 @interface INDCollectionImageCellView : UIView
+
+/**
+ *  Image view used to display the image inline.
+ */
 @property (nonatomic, weak) IBOutlet UIImageView *imageView;
+
+/**
+ *  Name of a big image to open on tap.
+ */
+@property (nonatomic, copy) NSString *bigImageName;
+
 @end

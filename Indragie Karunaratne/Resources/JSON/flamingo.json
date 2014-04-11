@@ -1,7 +1,8 @@
 [
 	{
 		"className": "INDCollectionImageElement",
-		"imageName": "flamingo-hero"
+		"imageName": "flamingo-hero",
+		"bigImageName": "flamingo-big"
 	},
 	{
 		"className": "INDCollectionTextElement",

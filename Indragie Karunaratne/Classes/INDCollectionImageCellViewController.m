@@ -15,6 +15,7 @@
 - (void)updateView:(INDCollectionImageCellView *)view withObject:(INDCollectionImageElement *)element
 {
 	view.imageView.image = [UIImage imageNamed:element.imageName];
+	view.bigImageName = element.bigImageName;
 }
 
 @end

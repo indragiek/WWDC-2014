@@ -13,6 +13,14 @@
  */
 @interface INDCollectionImageElement : MTLModel <MTLJSONSerializing>
 
+/**
+ *  Image name of the standard (small) image.
+ */
 @property (nonatomic, copy, readonly) NSString *imageName;
+
+/**
+ *  Image name of the full image.
+ */
+@property (nonatomic, copy, readonly) NSString *bigImageName;
 
 @end
