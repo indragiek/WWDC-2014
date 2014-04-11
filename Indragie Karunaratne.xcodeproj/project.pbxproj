@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0312368518F3936B00D13900 /* libMantle-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F7EC7018F3931800964BF0 /* libMantle-iOS.a */; };
+		03365EC718F75D7B00CEBB08 /* INDCollectionVideoElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 03365EC618F75D7B00CEBB08 /* INDCollectionVideoElement.m */; };
+		03365ECA18F75DA100CEBB08 /* INDCollectionVideoCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03365EC918F75DA100CEBB08 /* INDCollectionVideoCellView.m */; };
+		03365ECD18F75DC000CEBB08 /* INDCollectionVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03365ECC18F75DC000CEBB08 /* INDCollectionVideoPlayerView.m */; };
+		03365ECF18F75DDE00CEBB08 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03365ECE18F75DDE00CEBB08 /* AVFoundation.framework */; };
+		03365ED218F7609C00CEBB08 /* flamingo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03365ED118F7609C00CEBB08 /* flamingo.mp4 */; };
+		03365ED518F760CA00CEBB08 /* INDCollectionVideoCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03365ED418F760CA00CEBB08 /* INDCollectionVideoCellViewController.m */; };
+		03365ED818F760D900CEBB08 /* INDCollectionVideoCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03365ED618F760D900CEBB08 /* INDCollectionVideoCellViewController.xib */; };
 		035A9DF118F2F6C2007D9FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF018F2F6C2007D9FEC /* Foundation.framework */; };
 		035A9DF318F2F6C2007D9FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF218F2F6C2007D9FEC /* CoreGraphics.framework */; };
 		035A9DF518F2F6C2007D9FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A9DF418F2F6C2007D9FEC /* UIKit.framework */; };
@@ -127,6 +134,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03365EC518F75D7B00CEBB08 /* INDCollectionVideoElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionVideoElement.h; path = Classes/INDCollectionVideoElement.h; sourceTree = "<group>"; };
+		03365EC618F75D7B00CEBB08 /* INDCollectionVideoElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionVideoElement.m; path = Classes/INDCollectionVideoElement.m; sourceTree = "<group>"; };
+		03365EC818F75DA100CEBB08 /* INDCollectionVideoCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionVideoCellView.h; path = Classes/INDCollectionVideoCellView.h; sourceTree = "<group>"; };
+		03365EC918F75DA100CEBB08 /* INDCollectionVideoCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionVideoCellView.m; path = Classes/INDCollectionVideoCellView.m; sourceTree = "<group>"; };
+		03365ECB18F75DC000CEBB08 /* INDCollectionVideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionVideoPlayerView.h; path = Classes/INDCollectionVideoPlayerView.h; sourceTree = "<group>"; };
+		03365ECC18F75DC000CEBB08 /* INDCollectionVideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionVideoPlayerView.m; path = Classes/INDCollectionVideoPlayerView.m; sourceTree = "<group>"; };
+		03365ECE18F75DDE00CEBB08 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		03365ED118F7609C00CEBB08 /* flamingo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = flamingo.mp4; sourceTree = "<group>"; };
+		03365ED318F760CA00CEBB08 /* INDCollectionVideoCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INDCollectionVideoCellViewController.h; path = Classes/INDCollectionVideoCellViewController.h; sourceTree = "<group>"; };
+		03365ED418F760CA00CEBB08 /* INDCollectionVideoCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INDCollectionVideoCellViewController.m; path = Classes/INDCollectionVideoCellViewController.m; sourceTree = "<group>"; };
+		03365ED718F760D900CEBB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/INDCollectionVideoCellViewController.xib; sourceTree = "<group>"; };
 		035A9DED18F2F6C2007D9FEC /* Indragie Karunaratne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indragie Karunaratne.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		035A9DF018F2F6C2007D9FEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		035A9DF218F2F6C2007D9FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -259,6 +277,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03365ECF18F75DDE00CEBB08 /* AVFoundation.framework in Frameworks */,
 				0312368518F3936B00D13900 /* libMantle-iOS.a in Frameworks */,
 				035A9DF318F2F6C2007D9FEC /* CoreGraphics.framework in Frameworks */,
 				035A9DF518F2F6C2007D9FEC /* UIKit.framework in Frameworks */,
@@ -269,6 +288,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03365EC118F75C4900CEBB08 /* Video Element */ = {
+			isa = PBXGroup;
+			children = (
+				03365EC518F75D7B00CEBB08 /* INDCollectionVideoElement.h */,
+				03365EC618F75D7B00CEBB08 /* INDCollectionVideoElement.m */,
+				03365EC818F75DA100CEBB08 /* INDCollectionVideoCellView.h */,
+				03365EC918F75DA100CEBB08 /* INDCollectionVideoCellView.m */,
+				03365ECB18F75DC000CEBB08 /* INDCollectionVideoPlayerView.h */,
+				03365ECC18F75DC000CEBB08 /* INDCollectionVideoPlayerView.m */,
+				03365ED318F760CA00CEBB08 /* INDCollectionVideoCellViewController.h */,
+				03365ED418F760CA00CEBB08 /* INDCollectionVideoCellViewController.m */,
+				03365ED618F760D900CEBB08 /* INDCollectionVideoCellViewController.xib */,
+			);
+			name = "Video Element";
+			sourceTree = "<group>";
+		};
+		03365ED018F7609C00CEBB08 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				03365ED118F7609C00CEBB08 /* flamingo.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
 		035A9DE418F2F6C2007D9FEC = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +333,7 @@
 		035A9DEF18F2F6C2007D9FEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				03365ECE18F75DDE00CEBB08 /* AVFoundation.framework */,
 				035A9DF018F2F6C2007D9FEC /* Foundation.framework */,
 				035A9DF218F2F6C2007D9FEC /* CoreGraphics.framework */,
 				035A9DF418F2F6C2007D9FEC /* UIKit.framework */,
@@ -399,6 +443,7 @@
 		036FBDAE18F60E5F002DAAC7 /* Collection VIews */ = {
 			isa = PBXGroup;
 			children = (
+				03365EC118F75C4900CEBB08 /* Video Element */,
 				035BFFEC18F72ADA004BFDF7 /* Button Element */,
 				036FBE2818F631F9002DAAC7 /* Timeline */,
 				036FBDC818F61954002DAAC7 /* Text Element */,
@@ -586,6 +631,7 @@
 		03F7EC2018F377D500964BF0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				03365ED018F7609C00CEBB08 /* Videos */,
 				036FBE1918F621AF002DAAC7 /* Fonts */,
 				03F7EC2818F377D500964BF0 /* JSON */,
 			);
@@ -762,6 +808,8 @@
 				035A9E0C18F2F6C2007D9FEC /* Images.xcassets in Resources */,
 				036FBE2018F621AF002DAAC7 /* Merriweather-Bold.ttf in Resources */,
 				03F7EC1A18F3195800964BF0 /* INDMainCellViewController.xib in Resources */,
+				03365ED818F760D900CEBB08 /* INDCollectionVideoCellViewController.xib in Resources */,
+				03365ED218F7609C00CEBB08 /* flamingo.mp4 in Resources */,
 				035A9DFB18F2F6C2007D9FEC /* InfoPlist.strings in Resources */,
 				036FBDAD18F5C8EB002DAAC7 /* INDAboutViewController.xib in Resources */,
 				036FBE2218F621AF002DAAC7 /* Merriweather-Light.ttf in Resources */,
@@ -790,9 +838,11 @@
 				036FBE5218F655DF002DAAC7 /* INDCollectionTimelineFooterElement.m in Sources */,
 				036FBE3618F63663002DAAC7 /* INDCollectionTimelineHeaderViewController.m in Sources */,
 				03F7EC1718F3194400964BF0 /* INDMainCellView.m in Sources */,
+				03365ECD18F75DC000CEBB08 /* INDCollectionVideoPlayerView.m in Sources */,
 				03F7EC5918F3928500964BF0 /* MNSHostingTableViewCell.m in Sources */,
 				035A9E3018F2FEC8007D9FEC /* INDMainViewItem.m in Sources */,
 				036FBE1518F61CFC002DAAC7 /* INDCollectionTextCellViewController.m in Sources */,
+				03365EC718F75D7B00CEBB08 /* INDCollectionVideoElement.m in Sources */,
 				03F7EC3E18F3846E00964BF0 /* INDSocialButton.m in Sources */,
 				036FBDCB18F61960002DAAC7 /* INDCollectionTextElement.m in Sources */,
 				03F7EC5C18F3928500964BF0 /* MNSTableViewController.m in Sources */,
@@ -804,6 +854,7 @@
 				03F7EC3B18F380B300964BF0 /* INDAppDelegate.m in Sources */,
 				035A9DFD18F2F6C2007D9FEC /* main.m in Sources */,
 				035BFFEF18F72B1B004BFDF7 /* INDCollectionButtonElement.m in Sources */,
+				03365ED518F760CA00CEBB08 /* INDCollectionVideoCellViewController.m in Sources */,
 				036FBDB218F60EEF002DAAC7 /* NSJSONSerialization+INDAdditions.m in Sources */,
 				03F7EC5518F3928500964BF0 /* MNSCollectionViewController.m in Sources */,
 				03F7EC0818F3068A00964BF0 /* INDImageNameToImageValueTransformer.m in Sources */,
@@ -833,6 +884,7 @@
 				036FBE1218F61CEB002DAAC7 /* INDCollectionImageCellView.m in Sources */,
 				036FBE0F18F61C4C002DAAC7 /* INDCollectionTextCellView.m in Sources */,
 				03F7EC5718F3928500964BF0 /* MNSHostedViewController.m in Sources */,
+				03365ECA18F75DA100CEBB08 /* INDCollectionVideoCellView.m in Sources */,
 				036FBE4318F63C41002DAAC7 /* INDCollectionTimelineMilestoneCellViewController.m in Sources */,
 				035BFFFB18F733C8004BFDF7 /* INDCollectionButton.m in Sources */,
 				036FBDA218F5C3EB002DAAC7 /* INDMainViewFooterView.m in Sources */,
@@ -850,6 +902,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		03365ED618F760D900CEBB08 /* INDCollectionVideoCellViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03365ED718F760D900CEBB08 /* Base */,
+			);
+			name = INDCollectionVideoCellViewController.xib;
+			sourceTree = "<group>";
+		};
 		035A9DF918F2F6C2007D9FEC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

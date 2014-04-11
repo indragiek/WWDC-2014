@@ -22,4 +22,8 @@
 		"html": "<div style='font-family: Merriweather; font-size: 13pt; text-align: center;'>It's all about <em>attention to detail</em>.<br /><br /><span style='font-size: 10pt;'>When I started building Flamingo, I didn't have the tools I needed to build the interactions and fluid UI that we were trying to achieve. So I built them.<br /><br />A friend and I collaborated on <strong>Butter</strong>, a framework that implemented CALayer-backed versions of many AppKit controls. Flamingo is the first production application with a UI implemented largely on Butter.<br /><br />Butter gave me a solid foundation to work with, but Flamingo's entirely custom UI was a massive undertaking on its own. Every control was designed and implemented meticulously. Even things like preferences switches.</span></div>",
 		"lineSpacing": 3
 	},
+	{
+		"className": "INDCollectionVideoElement",
+		"videoFilename": "flamingo.mp4"
+	}
 ]

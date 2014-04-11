@@ -18,5 +18,4 @@
 	view.url = element.url;
 }
 
-
 @end

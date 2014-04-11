@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="5053"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="INDCollectionVideoCellViewController">
+            <connections>
+                <outlet property="view" destination="HBf-VL-Mkm" id="8Pc-MS-PxW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="HBf-VL-Mkm" customClass="INDCollectionVideoCellView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hPM-vI-IEj" customClass="INDCollectionVideoPlayerView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="87E-8f-zw0"/>
+                        <constraint firstAttribute="height" constant="320" id="ObH-DG-B5N"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hPM-vI-IEj" secondAttribute="trailing" id="47h-5R-Hce"/>
+                <constraint firstItem="hPM-vI-IEj" firstAttribute="leading" secondItem="HBf-VL-Mkm" secondAttribute="leading" id="CZX-ra-n5W"/>
+                <constraint firstItem="hPM-vI-IEj" firstAttribute="top" secondItem="HBf-VL-Mkm" secondAttribute="top" id="hVO-WW-cuG"/>
+                <constraint firstAttribute="bottom" secondItem="hPM-vI-IEj" secondAttribute="bottom" id="zjm-26-kcX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="playerView" destination="hPM-vI-IEj" id="dVS-cS-icl"/>
+            </connections>
+        </view>
+    </objects>
+</document>
