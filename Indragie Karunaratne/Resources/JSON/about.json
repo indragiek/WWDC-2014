@@ -54,6 +54,12 @@
 		"lineSpacing": 2
 	},
 	{
+		"className": "INDCollectionTimelineMilestoneElement",
+		"imageName": "facebook",
+		"html": "<span style='font-family: Merriweather; font-size: 9pt; color: white;'><strong>Summer 2014</strong>: Interning as an iOS Engineer at Facebook</span>",
+		"lineSpacing": 2
+	},
+	{
 		"className": "INDCollectionTimelineFooterElement",
 	},
 	{
