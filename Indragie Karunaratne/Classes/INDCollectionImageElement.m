@@ -15,12 +15,7 @@
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey
 {
-	return @{@"image" : @"imageName"};
-}
-
-+ (NSValueTransformer *)imageJSONTransformer
-{
-	return [NSValueTransformer valueTransformerForName:INDImageNameToImageValueTransformerName];
+	return @{};
 }
 
 @end

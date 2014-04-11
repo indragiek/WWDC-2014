@@ -13,6 +13,6 @@
  */
 @interface INDCollectionImageElement : MTLModel <MTLJSONSerializing>
 
-@property (nonatomic, strong, readonly) UIImage *image;
+@property (nonatomic, copy, readonly) NSString *imageName;
 
 @end
