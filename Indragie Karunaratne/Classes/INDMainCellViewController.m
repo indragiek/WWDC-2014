@@ -20,9 +20,10 @@
 	view.descriptionLabel.text = item.projectDescription;
 }
 
-- (void)selectObject:(INDMainViewItem *)item
+- (void)setViewHighlighted:(BOOL)highlighted forObject:(id)object
 {
-	
+	INDMainCellView *view = (INDMainCellView *)self.view;
+	view.highlightOverlayView.hidden = !highlighted;
 }
 
 @end

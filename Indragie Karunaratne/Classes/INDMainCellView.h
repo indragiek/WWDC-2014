@@ -33,4 +33,9 @@
  */
 @property (nonatomic, weak) IBOutlet INDLineSpacingLabel *descriptionLabel;
 
+/**
+ *  View shown when the cell is highlighted.
+ */
+@property (nonatomic, weak) IBOutlet UIView *highlightOverlayView;
+
 @end

@@ -81,6 +81,13 @@ static NSString * const INDMainViewTwitterURL = @"https://twitter.com/indragie";
 	[tableView deselectRowAtIndexPath:indexPath animated:NO];
 }
 
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	UITableViewCell *cell = [super tableView:tableView cellForRowAtIndexPath:indexPath];
+	cell.selectionStyle = UITableViewCellSelectionStyleNone;
+	return cell;
+}
+
 #pragma mark - Accessors
 
 - (UIStatusBarStyle)preferredStatusBarStyle
