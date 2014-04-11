@@ -7,3 +7,6 @@
 [submodule "External/Mantle"]
 	path = External/Mantle
 	url = https://github.com/MantleFramework/Mantle.git
+[submodule "External/JTSImageViewController"]
+	path = External/JTSImageViewController
+	url = https://github.com/jaredsinclair/JTSImageViewController.git

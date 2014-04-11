@@ -312,6 +312,13 @@
 			path = Videos;
 			sourceTree = "<group>";
 		};
+		033F8A8D18F7AD4700ED2E04 /* JTSImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JTSImageViewController;
+			sourceTree = "<group>";
+		};
 		035A9DE418F2F6C2007D9FEC = {
 			isa = PBXGroup;
 			children = (
@@ -651,6 +658,7 @@
 		03F7EC3F18F3926000964BF0 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				033F8A8D18F7AD4700ED2E04 /* JTSImageViewController */,
 				03F7EC6318F3931800964BF0 /* Mantle.xcodeproj */,
 				03F7EC5F18F392AC00964BF0 /* AutoLayoutShorthand */,
 				03F7EC4018F3926C00964BF0 /* Mensa */,
