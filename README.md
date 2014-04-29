@@ -11,3 +11,14 @@ This was my submission for the WWDC 2014 Student Scholarship, which I ended up w
 
 ![Screenshot1](https://raw.githubusercontent.com/indragiek/WWDC-2014/master/screenshot1.png)
 ![Screenshot2](https://raw.githubusercontent.com/indragiek/WWDC-2014/master/screenshot2.png)
+
+
+### Contact
+
+* Indragie Karunaratne
+* [@indragie](http://twitter.com/indragie)
+* [http://indragie.com](http://indragie.com)
+
+### License
+
+The code is licensed under the MIT license, but all design assets are unlicensed for commercial or non-commercial use.
