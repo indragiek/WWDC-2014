@@ -9,8 +9,8 @@ This was my submission for the WWDC 2014 Student Scholarship, which I ended up w
 * It's the first app I've "designed" (if you can call it that) by myself! Shout out to [Sketch](http://bohemiancoding.com/sketch/) for making that easy.
 
 
-![Screenshot1](https://raw.githubusercontent.com/indragiek/WWDC-2014/master/screenshot1.png)
 ![Screenshot2](https://raw.githubusercontent.com/indragiek/WWDC-2014/master/screenshot2.png)
+![Screenshot1](https://raw.githubusercontent.com/indragiek/WWDC-2014/master/screenshot1.png)
 
 
 ### Contact
